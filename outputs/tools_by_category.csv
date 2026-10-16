@@ -1,0 +1,12 @@
+category,primary_category_tools,tools_any_category,commercial,open-source,freeware,unknown
+high-level-synthesis,2,5,1,0,0,1
+synthesis,5,11,4,1,0,0
+simulation,39,72,24,15,0,0
+verification,10,17,4,2,0,4
+place-and-route,4,11,3,1,0,0
+timing-signoff,3,4,3,0,0,0
+layout-physical-verification,8,17,2,3,0,3
+analog-mixed-signal,22,49,6,9,7,0
+pcb-design,27,32,19,7,0,1
+fpga-toolchain,6,9,1,4,0,1
+unknown,5,,0,2,0,3

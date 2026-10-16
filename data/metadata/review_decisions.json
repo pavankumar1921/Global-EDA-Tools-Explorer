@@ -1,0 +1,25 @@
+{
+  "_comment": [
+    "Human review decisions for data/processed/review_queue.json items of type same_name_different_vendor.",
+    "A decision only ALLOWS a merge that the automatic vendor rule held back; it never adds or changes a value.",
+    "Every decision must say what evidence was checked."
+  ],
+  "same_tool": [
+    {
+      "tool_name": "GHDL",
+      "vendors": [
+        "Tristan Gingold",
+        "ghdl"
+      ],
+      "reason": "Wikipedia's List of HDL simulators names the author (Tristan Gingold); GitHub names the organisation (ghdl). The list row links ghdl.free.fr, and the GitHub repository ghdl/ghdl is the same VHDL simulator."
+    },
+    {
+      "tool_name": "Xyce",
+      "vendors": [
+        "Sandia National Laboratories",
+        "Xyce"
+      ],
+      "reason": "Wikipedia names the developer (Sandia National Laboratories); GitHub names the organisation account (Xyce). github.com/Xyce/Xyce is Sandia's official Xyce repository, the same SPICE-compatible simulator."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/JLCPCB", "status": 404, "error": "HTTP 404", "kind": "fetch_failed", "time": "2026-10-15T12:07:20+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Laurence_W._Nagel", "headquarters": "", "kind": "no_country", "time": "2026-10-15T12:07:32+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Ngspice", "headquarters": "", "kind": "no_country", "time": "2026-10-15T12:07:52+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Novarm", "headquarters": "", "kind": "no_country", "time": "2026-10-15T12:07:56+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Qorvo", "headquarters": "Greensboro", "kind": "no_country", "time": "2026-10-15T12:08:04+00:00"}
+{"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-15T12:12:58+00:00"}

@@ -1,0 +1,39 @@
+{
+  "active_environment": "eda-data",
+  "environments": [
+    {
+      "name": "eda-data",
+      "stack": "default",
+      "tools": [
+        {
+          "artifact_id": null,
+          "checksum": null,
+          "enabled": true,
+          "name": "jupyterlab",
+          "platform": "windows-x86_64",
+          "source": "pip",
+          "version": "4.6.4"
+        },
+        {
+          "artifact_id": null,
+          "checksum": null,
+          "enabled": true,
+          "name": "matplotlib",
+          "platform": "windows-x86_64",
+          "source": "pip",
+          "version": "3.11.2"
+        },
+        {
+          "artifact_id": null,
+          "checksum": null,
+          "enabled": true,
+          "name": "numpy",
+          "platform": "windows-x86_64",
+          "source": "pip",
+          "version": "2.5.4"
+        }
+      ]
+    }
+  ],
+  "schema_version": 1
+}

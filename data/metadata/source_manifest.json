@@ -1,0 +1,55 @@
+{
+  "project": "Global EDA Tools Explorer",
+  "politeness": "robots.txt is checked before every HTML page; >= 1.5 s between page requests and >= 1.0 s between API requests; descriptive User-Agent with a contact (EDA_CONTACT); public pages only, no login, no paywalled content.",
+  "robots_decisions": {
+    "en.wikipedia.org/wiki/*": "allowed -> used",
+    "en.wikipedia.org/w/api.php and /api/rest_v1/*": "disallowed for crawlers -> NOT used",
+    "query.wikidata.org/sparql": "disallowed (Disallow: /sparql) -> NOT used, although it would have been the richest structured source",
+    "www.wikidata.org/wiki/Special:EntityData/*": "disallowed -> NOT used",
+    "api.github.com": "no robots.txt (404) -> allowed; documented REST API with a published rate limit"
+  },
+  "sources": [
+    {
+      "source_type": "published_list",
+      "script": "scripts/collect_published_lists.py",
+      "urls": ["https://en.wikipedia.org/wiki/Comparison_of_EDA_software",
+               "https://en.wikipedia.org/wiki/List_of_HDL_simulators",
+               "https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators"],
+      "fields": ["tool_name", "vendor_maintainer", "category (from the table's section heading)", "license_model", "license",
+                 "supported_platforms", "latest_version", "latest_release_date/year", "languages_formats", "wikipedia_url"]
+    },
+    {
+      "source_type": "wikipedia_article",
+      "script": "scripts/collect_wikipedia_articles.py",
+      "urls": "the English Wikipedia article of each tool (linked from the lists or the seed)",
+      "fields": ["vendor_maintainer", "first_release_year", "latest_version", "latest_release_date", "supported_platforms",
+                 "license", "license_model", "website_url", "repository_url", "category (from 'Type')"]
+    },
+    {
+      "source_type": "vendor_origin",
+      "script": "scripts/collect_vendor_origin.py",
+      "urls": "the English Wikipedia article of each tool's developer organisation",
+      "fields": ["country_region (from 'Headquarters')"]
+    },
+    {
+      "source_type": "vendor_site",
+      "script": "scripts/collect_vendor_sites.py",
+      "urls": "official product pages listed in data/metadata/seed_tools.json",
+      "fields": ["vendor_maintainer (og:site_name / title)", "category (title + meta description)", "license_model (sales evidence)",
+                 "languages_formats", "website_url"]
+    },
+    {
+      "source_type": "public_repository",
+      "script": "scripts/collect_public_repositories.py",
+      "urls": "https://api.github.com/repos/{owner}/{repo}, /releases/latest, /tags",
+      "fields": ["vendor_maintainer (owner)", "license (SPDX)", "license_model", "repository_url", "website_url",
+                 "latest_version", "latest_release_date"]
+    },
+    {
+      "source_type": "documentation",
+      "script": "scripts/collect_documentation.py",
+      "urls": "official documentation landing pages listed in the seed (docs_url)",
+      "fields": ["supported_platforms (installation context only)", "languages_formats (unambiguous names only)"]
+    }
+  ]
+}

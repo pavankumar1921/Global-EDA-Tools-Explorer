@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.token
+.venv/
+# Never commit credentials (GITHUB_TOKEN is read from the environment only).
+# DO commit: crucible.toml + crucible.lock (together), data/raw/* (dated snapshot), data/processed/*, outputs/*

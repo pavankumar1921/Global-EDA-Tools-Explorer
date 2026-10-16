@@ -1,0 +1,74 @@
+{
+  "by_category_any": {
+    "analog-mixed-signal": 49,
+    "fpga-toolchain": 9,
+    "high-level-synthesis": 5,
+    "layout-physical-verification": 17,
+    "pcb-design": 32,
+    "place-and-route": 11,
+    "simulation": 72,
+    "synthesis": 11,
+    "timing-signoff": 4,
+    "verification": 17
+  },
+  "by_category_primary": {
+    "analog-mixed-signal": 22,
+    "fpga-toolchain": 6,
+    "high-level-synthesis": 2,
+    "layout-physical-verification": 8,
+    "pcb-design": 27,
+    "place-and-route": 4,
+    "simulation": 39,
+    "synthesis": 5,
+    "timing-signoff": 3,
+    "unknown": 5,
+    "verification": 10
+  },
+  "by_country": {
+    "Australia": 2,
+    "China": 1,
+    "France": 1,
+    "Germany": 2,
+    "Italy": 1,
+    "Japan": 3,
+    "United Kingdom": 1,
+    "United States": 49
+  },
+  "by_license_model": {
+    "commercial": 67,
+    "freeware": 7,
+    "open-source": 44,
+    "unknown": 13
+  },
+  "by_region": {
+    "Asia": 4,
+    "Europe": 5,
+    "North America": 49,
+    "Oceania": 2
+  },
+  "dedup": {
+    "canonical_tools": 131,
+    "duplicates_merged": 17,
+    "multi_source_tools": 89,
+    "review_items": 1,
+    "source_records": 268
+  },
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.4",
+  "percent_filled": {
+    "category": 96.2,
+    "country_region": 45.8,
+    "first_release_year": 22.9,
+    "languages_formats": 59.5,
+    "latest_release_year": 44.3,
+    "latest_version": 41.2,
+    "license": 49.6,
+    "license_model": 90.1,
+    "repository_url": 22.9,
+    "supported_platforms": 37.4,
+    "vendor_maintainer": 95.4,
+    "website_url": 67.2
+  },
+  "snapshot_date": "2026-10-15",
+  "total_tools": 131
+}

@@ -1,0 +1,10 @@
+[workspace]
+name = "eda-data-science"
+id = "eda-data-science-11557f48"
+environment = "eda-data"
+environments = [ "eda-data",]
+
+[workspace.metadata]
+managed = false
+created_at = "2026-10-15T10:14:03.644333+00:00"
+created_by = "crucible-core"

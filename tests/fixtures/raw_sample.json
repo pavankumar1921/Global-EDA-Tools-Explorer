@@ -1,0 +1,19 @@
+[
+  {"tool_name": "Example  Sim", "vendor_maintainer": "", "category": "simulation", "additional_categories": "verification",
+   "license_model": "", "website_url": "https://example.org/sim/", "repository_url": "https://github.com/example-org/example-sim",
+   "supported_platforms": "Linux; Windows; macOS", "languages_formats": "Verilog; SystemVerilog",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_example_tools#Simulators", "source_type": "published_list",
+   "date_collected": "2026-01-01", "fetch_status": 200},
+  {"tool_name": "Example Forge", "vendor_maintainer": "Example Vendor A Inc.", "category": "place-and-route",
+   "license_model": "commercial", "website_url": "https://vendor-a.example/forge", "supported_platforms": "Linux",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_example_tools#Implementation", "source_type": "published_list",
+   "date_collected": "2026-01-01", "fetch_status": 200},
+  {"tool_name": "Example Sim Pro", "vendor_maintainer": "Example Vendor A", "category": "bogus category",
+   "license_model": "commercial", "website_url": "not a url", "first_release_year": "1850",
+   "latest_release_date": "2026-13-45", "source_url": "https://vendor-a.example/sim-pro", "source_type": "vendor_site",
+   "date_collected": "2026-01-01", "fetch_status": 404},
+  {"tool_name": "example forge", "vendor_maintainer": "Example Vendor B", "category": "place-and-route",
+   "license_model": "freeware", "website_url": "https://vendor-b.example/forge",
+   "source_url": "https://vendor-b.example/forge", "source_type": "published_list",
+   "date_collected": "2026-01-01", "fetch_status": 200}
+]

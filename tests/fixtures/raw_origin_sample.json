@@ -1,0 +1,5 @@
+[
+  {"tool_name": "Example Forge", "country_region": "United States",
+   "source_url": "https://en.wikipedia.org/wiki/Example_Vendor_A", "source_type": "vendor_origin",
+   "date_collected": "2026-01-01", "fetch_status": 200}
+]

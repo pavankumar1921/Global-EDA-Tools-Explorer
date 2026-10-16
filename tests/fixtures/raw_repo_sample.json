@@ -1,0 +1,7 @@
+[
+  {"tool_name": "Example Sim", "vendor_maintainer": "example-org", "license_model": "open-source",
+   "license": "MIT", "repository_url": "https://github.com/example-org/example-sim",
+   "latest_version": "v1.2.0", "latest_release_date": "2025-03-02", "latest_release_year": "2025",
+   "source_url": "https://api.github.com/repos/example-org/example-sim", "source_type": "public_repository",
+   "date_collected": "2026-01-01", "fetch_status": 200}
+]
