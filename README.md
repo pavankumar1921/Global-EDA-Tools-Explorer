@@ -1,14 +1,14 @@
-# Global EDA Tools Explorer - a worldwide EDA tool dataset, built on Crucible
+Global EDA Tools Explorer - a worldwide EDA tool dataset, built on Crucible
 
 A data-science project that collects public information about Electronic Design Automation (EDA) tools
-from around the world (commercial, open-source and freeware; every flow stage; every region), cleans it
-into **one row per tool** with a source URL and collection date on every row, analyses it, and plots the
-results. **Everything runs through Crucible (`igny`)**: the environment, every library, every script.
+from around the world commercial, open-source and freeware, every flow stage, every region, cleans it
+into one row per tool with a source URL and collection date on every row, analyses it, and plots the
+results. **Everything runs through Crucible `igny` the environment, every library, every script.
 
 Crucible is where the project *runs*, not what it *studies*: the dataset covers tools Crucible cannot
-install (Synopsys, Cadence, Siemens, Zuken, …).
+install Synopsys, Cadence, Siemens, Zuken.
 
-## Reproduce it (exact steps)
+Reproduce 
 
 Prerequisite: the Crucible CLI `igny` (tested with foundation package 3.12.10.0, `igny --version` = `dev`).
 Nothing else is installed: no system `pip`, no package manager, no PATH edits.
@@ -17,44 +17,40 @@ Nothing else is installed: no system `pip`, no package manager, no PATH edits.
 git clone <this-repo> global-eda-tools-explorer
 cd global-eda-tools-explorer
 
-# 1. recreate the environment exactly as locked (creates env 'eda-data', installs numpy, matplotlib, jupyterlab)
+recreate the environment exactly as locked (creates env 'eda-data', installs numpy, matplotlib, jupyterlab)
 igny workspace sync
-igny status                                   # Workspace eda-data-science | Bound env eda-data | Lock present
+igny status                                   Workspace eda-data-science | Bound env eda-data | Lock present
 
-# 2. prove the run is isolated inside Crucible
+prove the run is isolated inside Crucible
 igny run script ./scripts/check_environment.py
 
-# 3a. rebuild dataset + plots from the COMMITTED snapshot (offline, deterministic -> same plots as the report)
+rebuild dataset + plots from the COMMITTED snapshot (offline, deterministic -> same plots as the report)
 igny run script ./scripts/pipeline.py
 
-# 3b. OR collect a FRESH dataset from the live sources (≈ 10 min at polite request rates)
-#     optional: EDA_CONTACT=<your email> for the User-Agent, GITHUB_TOKEN=<token> for >60 GitHub calls/hour
-igny run script ./scripts/pipeline.py -- --collect
+OR collect a FRESH dataset from the live sources (≈ 10 min at polite request rates)
 
-# 4. tests (offline fixture test)
+tests (offline fixture test)
 igny run script ./tests/test_pipeline.py
 
-# 5. notebook (same plots, plus row tracing)
+notebook (same plots, plus row tracing)
 igny run jupyter lab notebooks/analysis.ipynb
-igny run jupyter nbconvert --to notebook --execute --inplace notebooks/analysis.ipynb   # headless
-```
+igny run jupyter nbconvert to notebook execute inplace notebooks/analysis.ipynb 
 
 Each step can also be run on its own, e.g. `igny run script ./scripts/collect_published_lists.py --log`.
 Set `EDA_SNAPSHOT_DATE=YYYY-MM-DD` to process an older snapshot.
 
-### How the workspace was created (already done; recorded for completeness)
+How the workspace was created 
 
-```bash
 igny env create eda-data
 igny workspace create eda-data-science --path . --env eda-data
-igny catalog --view full                      # checked which libraries exist -> requirements-notes.md
+igny catalog --view full                      
 igny tool install numpy matplotlib jupyterlab
-igny workspace lock                           # writes crucible.lock; commit it together with crucible.toml
-```
+igny workspace lock                           
 
-## Pipeline
 
-```
+Pipeline :
+
+
 seed_tools.json (discovery URLs only)      Wikipedia list pages
             │                                     │
             ▼                                     ▼
@@ -70,7 +66,7 @@ seed_tools.json (discovery URLs only)      Wikipedia list pages
                        validate_dataset.py  (schema, traceability, coverage)
                                       │
                        run_analysis.py / notebooks/analysis.ipynb  -> outputs/*.png, *.csv, findings.md
-```
+
 
 | Collector (one per source type) | Source | Gives |
 |---|---|---|
@@ -81,7 +77,7 @@ seed_tools.json (discovery URLs only)      Wikipedia list pages
 | `collect_public_repositories.py` | GitHub REST API | SPDX licence, owner, latest release tag + date |
 | `collect_documentation.py` | official docs pages (seed) | platform / language mentions (weak evidence) |
 
-## Repository layout
+Repository layout:
 
 | Path | Purpose |
 |---|---|
@@ -101,9 +97,9 @@ seed_tools.json (discovery URLs only)      Wikipedia list pages
 | `tests/` | offline fixture test |
 | `archive/legacy_v1/` | the retired first version (hand-imported data), kept for reference only |
 
-## Data model (`eda_tools_clean.csv`)
+Data model (`eda_tools_clean.csv`):
 
-One row per tool. **Unknown values stay empty; nothing is guessed.** Multi-valued fields are sorted and
+One row per tool. **Unknown values stay empty; nothing is guessed.Multi-valued fields are sorted and
 joined with `"; "`.
 
 | Field | Meaning |
@@ -121,16 +117,5 @@ joined with `"; "`.
 | `languages_formats` | HDLs and design file formats (Verilog, VHDL, GDSII, Gerber, …) |
 | `source_url`, `source_types`, `source_count`, `date_collected`, `source_verified` | provenance; every contributing source returned HTTP 200 |
 
-**Trace any row:** `source_url` is the primary page; `provenance.csv` lists every page (filter by `tool_id`).
+Trace any row: `source_url` is the primary page; `provenance.csv` lists every page (filter by `tool_id`).
 
-## Rules that keep the data honest
-
-- Every value is read from a fetched public page; failed pages are logged and their records excluded.
-- robots.txt is obeyed - which is why Wikipedia's API and the Wikidata SPARQL endpoint are *not* used.
-- Category and licence model are **derived by written keyword rules** (`common.CATEGORY_RULES`,
-  `common.license_model_from`) from what the source says - not typed in by hand.
-- Dedup merges on same GitHub repo, same Wikipedia article, or same name + compatible vendor; anything
-  ambiguous goes to `review_queue.json` instead of being merged.
-- Raw snapshots are dated and never edited, so the analysis of a committed snapshot is reproducible.
-
-See `reports/project_report.md` for findings, coverage gaps and where Crucible fell short.
