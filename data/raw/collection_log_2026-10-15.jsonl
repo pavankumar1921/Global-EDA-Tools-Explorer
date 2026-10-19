@@ -4,3 +4,4 @@
 {"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Novarm", "headquarters": "", "kind": "no_country", "time": "2026-10-15T12:07:56+00:00"}
 {"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Qorvo", "headquarters": "Greensboro", "kind": "no_country", "time": "2026-10-15T12:08:04+00:00"}
 {"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-15T12:12:58+00:00"}
+{"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-19T13:31:47+00:00"}

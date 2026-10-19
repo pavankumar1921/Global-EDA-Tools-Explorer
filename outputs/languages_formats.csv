@@ -1,8 +1,8 @@
 language_or_format,tools
 Verilog,37
 Gerber,26
+SPICE,18
 VHDL,17
-SPICE,17
 DXF,15
 SystemVerilog,14
 ODB++,12

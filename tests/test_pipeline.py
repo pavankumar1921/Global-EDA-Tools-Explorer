@@ -42,6 +42,18 @@ def unit_checks():
     assert categorize("Comparison of proprietary software for PCB design")[0] == "pcb-design"
     assert categorize("Design Compiler offers best-in-class RTL synthesis ... high test coverage",
                       by_position=True) == ["synthesis", "verification"]
+    from collect_vendor_sites import definition_sentence, vendor_from
+    assert vendor_from({"site_name": "", "title": "PRIMARIUS - NanoSpice"}, "Primarius NanoSpice") == "PRIMARIUS"
+    assert vendor_from({"site_name": "", "title": "Empyrean Aether™ – Layout Design_Product Portfolio_Empyrean "
+                        "Technology Co., Ltd"}, "Empyrean Aether") == "Empyrean Technology Co., Ltd"
+    assert vendor_from({"site_name": "", "title": "PrimeTime Static Timing Analysis | Synopsys"},
+                       "Synopsys PrimeTime") == "Synopsys"
+    assert categorize(definition_sentence("NanoSpice X; NanoSpice is a new generation of parallel SPICE simulator. "
+                                          "Designed for", "Primarius NanoSpice"))[0] == "analog-mixed-signal"
+    from collect_public_repositories import readme_summary
+    assert readme_summary("# Parallax Static Timing Analyzer\n\n[![b](x)](y)\nOpenSTA is a gate level static timing "
+                          "verifier.\nAs a stand-alone\n\n* Verilog netlist") == \
+        "Parallax Static Timing Analyzer. OpenSTA is a gate level static timing verifier. As a stand-alone"
     from deduplicate_data import vendors_compatible
     assert vendors_compatible("Cadence", "Cadence Design Systems")
     assert vendors_compatible("Autodesk (previously CadSoft Computer)", "Autodesk / CadSoft Computer (discontinued)")

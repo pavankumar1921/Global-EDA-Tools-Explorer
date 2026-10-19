@@ -3,24 +3,44 @@
 Source type: public_repository. Repositories come from the seed ('repository': 'owner/name') first, then
 from GitHub links found by the other collectors in this snapshot.
 
-Per repository: GET /repos/{r} (licence SPDX id, owner, homepage, description + topics -> category), then GET /repos/{r}/releases/latest
+Per repository: GET /repos/{r} (licence SPDX id, owner, homepage, description + topics -> category; if they hold no
+category keyword, GET /repos/{r}/readme and use its title + first paragraph), then GET /repos/{r}/releases/latest
 (tag + publication date). If the project publishes no GitHub releases, GET /repos/{r}/tags?per_page=1
 gives the newest tag name only (no date: a tag's date would need another call per tag).
 first_release_year is NOT inferred from the repository creation date (a repo can be created long after
 the tool first shipped, e.g. a migration from SourceForge).
 
-Rate limit: 60 requests/hour without a token. The collector reads X-RateLimit-Remaining and stops
-cleanly when it runs out, logging every repository it could not reach. Set GITHUB_TOKEN (never commit
-it) for 5,000 requests/hour.
+Rate limit: 60 requests/hour without a token. The collector reads X-RateLimit-Remaining / -Reset and,
+without a token, waits for the hourly reset (at most 1 hour); with a token it stops cleanly when it runs
+out, logging every repository it could not reach. Set GITHUB_TOKEN (never commit it) for 5,000 requests/hour.
 """
+import base64
 import json
 import os
+import re
+import time
 
-from common import (categorize, empty_raw_record, join_multi, ensure_dirs, github_repo_key, license_model_from, load_seed,
-                    log_event, norm_license, polite_get, raw_path, read_json, today, write_json)
+from common import (categorize, clean_text, empty_raw_record, join_multi, ensure_dirs, github_repo_key,
+                    license_model_from, load_seed, log_event, norm_license, polite_get, raw_path, read_json, today,
+                    write_json)
 
 API = "https://api.github.com/repos/%s"
 SKIP_SPDX = {"NOASSERTION", "OTHER"}
+
+
+def readme_summary(md):
+    """Title + first prose paragraph of a Markdown README (badges, images, HTML, lists, code skipped)."""
+    title, para = "", []
+    for line in md.splitlines():
+        s = line.strip()
+        if not title and not para and s.startswith("#"):
+            title = s.lstrip("#").strip()
+        elif not s or s.startswith(("#", "<", "[", "!", "|", "`", "*", "-", ">", "=")):
+            if para:
+                break
+        else:
+            para.append(s)
+    return clean_text(re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", "%s. %s" % (title, " ".join(para))))[:400]
 
 
 def repo_list():
@@ -44,19 +64,27 @@ def main():
     headers = {"X-GitHub-Api-Version": "2022-11-28"}
     if os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
-    records, remaining = [], None
+    records, remaining, reset = [], None, None
     repos = repo_list()
 
     def get(url):
-        nonlocal remaining
+        nonlocal remaining, reset
         status, body, err, hdrs = polite_get(url, accept="application/vnd.github+json", delay=1.0, headers=headers)
-        rl = {k.lower(): v for k, v in hdrs.items()}.get("x-ratelimit-remaining")
-        if rl is not None:
-            remaining = int(rl)
+        hdrs = {k.lower(): v for k, v in hdrs.items()}
+        if hdrs.get("x-ratelimit-remaining") is not None:
+            remaining = int(hdrs["x-ratelimit-remaining"])
+        if hdrs.get("x-ratelimit-reset") is not None:
+            reset = int(hdrs["x-ratelimit-reset"])
         return status, body, err
 
     for i, (tool, repo) in enumerate(repos):
-        if remaining is not None and remaining < 3:
+        # up to 4 calls per repository; without a token, wait for the hourly reset rather than skip the rest
+        wait = (reset or 0) - time.time() + 5
+        if remaining is not None and remaining < 5 and not headers.get("Authorization") and 0 < wait <= 3600:
+            print("GitHub rate limit reached: waiting %d min for the hourly reset" % (wait // 60 + 1), flush=True)
+            time.sleep(wait)
+            remaining = None
+        if remaining is not None and remaining < 5:
             for _, r in repos[i:]:
                 log_event("skipped_rate_limit", collector="public_repositories", repo=r)
             print("GitHub rate limit reached: %d repositories skipped (set GITHUB_TOKEN)" % (len(repos) - i))
@@ -78,6 +106,12 @@ def main():
         # category from the maintainers' own one-line description and topics (earliest keyword wins)
         desc = meta.get("description") or ""
         cats = categorize(desc, by_position=True) or categorize(" ".join(meta.get("topics") or []), by_position=True)
+        if not cats:
+            # no keyword there: the README's title and first paragraph, the maintainers' own summary
+            st, rb, _ = get(API % repo + "/readme")
+            if st == 200:
+                desc = readme_summary(base64.b64decode(json.loads(rb).get("content", "")).decode("utf-8", "replace"))
+                cats = categorize(desc, by_position=True)
         spdx = (meta.get("license") or {}).get("spdx_id") or ""
         lic = "" if spdx in SKIP_SPDX else norm_license(spdx)
         records.append(empty_raw_record(

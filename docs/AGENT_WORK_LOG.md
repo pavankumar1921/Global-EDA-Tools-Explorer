@@ -127,9 +127,9 @@ IC-implementation tools (synthesis, P&R, sign-off), so a discovery seed of offic
 |---|---|
 | Dataset | `data/processed/eda_tools_clean.csv`: **131 tools**, 23 columns, from **268** source records (89 tools combine 2-6 sources) |
 | Licence model | commercial 67 · open-source 44 · freeware 7 · not stated 13 |
-| Categories | all 10 covered (primary: simulation 39, PCB 27, analog 22, verification 10, layout/PV 8, FPGA 6, synthesis 5, P&R 4, sign-off 3, HLS 2) |
+| Categories | all 10 covered (primary: simulation 39, PCB 27, analog 23, verification 10, layout/PV 9, FPGA 6, synthesis 5, P&R 4, sign-off 4, HLS 2), after the 2026-10-19 refresh |
 | Regions | North America 49 · Europe 5 · Asia 4 · Oceania 2 (60 tools with a documented vendor country) |
-| Validation | 0 errors, 5 warnings (tools whose sources state no category) |
+| Validation | 0 errors, 2 warnings (Defacto SoC Compiler, sv2v: no source states a category); 5 warnings before the 2026-10-19 refresh |
 | Collection failures (logged) | Keysight page 403; JLCPCB article 404; 4 developer articles without a usable HQ |
 | Review queue | 1 open item (SapWin freeware vs open-source); 2 resolved decisions (GHDL, Xyce) |
 | Lock | `crucible.lock`: numpy 2.5.4, matplotlib 3.11.2, jupyterlab 4.6.4 (env `eda-data`) |

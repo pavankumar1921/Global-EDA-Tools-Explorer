@@ -14,29 +14,29 @@ altium-designer,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_s
 altium-designer,vendor_origin,https://en.wikipedia.org/wiki/Altium,2026-10-15,200,country_region
 altium-designer,wikipedia_article,https://en.wikipedia.org/wiki/Altium_Designer,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 atopile,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
-bambu,public_repository,https://api.github.com/repos/ferrandi/PandA-bambu,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+bambu,public_repository,https://api.github.com/repos/ferrandi/PandA-bambu,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 cadence-allegro-x,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-allegro-x,vendor_site,https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-design-platform.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-allegro-x,vendor_site,https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-design-platform.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-conformal,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-conformal,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/conformal-technologies.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-conformal,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/conformal-technologies.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-genus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-genus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/genus-synthesis-solution.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-genus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/genus-synthesis-solution.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-innovus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-innovus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/innovus-plus-synthesis-implementation-system.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-innovus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/innovus-plus-synthesis-implementation-system.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-jasper,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-jasper,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-jasper,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-pegasus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-pegasus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-pegasus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-spectre,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-spectre,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-spectre,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-stratus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-stratus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-stratus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-tempus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-tempus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/tempus-timing-signoff-solution.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-tempus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/tempus-timing-signoff-solution.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-virtuoso,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-virtuoso,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-virtuoso,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadence-xcelium,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
-cadence-xcelium,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html,2026-10-15,200,vendor_maintainer; category; license_model
+cadence-xcelium,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html,2026-10-19,200,vendor_maintainer; category; license_model
 cadstar,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
 cadstar,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-15,200,country_region
 cadstar,wikipedia_article,https://en.wikipedia.org/wiki/CADSTAR,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
@@ -47,15 +47,15 @@ circuitmaker,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_soft
 circuitmaker,vendor_origin,https://en.wikipedia.org/wiki/Altium,2026-10-15,200,country_region
 circuitmaker,wikipedia_article,https://en.wikipedia.org/wiki/CircuitMaker,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 cocotb,documentation,https://docs.cocotb.org/en/stable/,2026-10-15,200,languages_formats
-cocotb,public_repository,https://api.github.com/repos/cocotb/cocotb,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+cocotb,public_repository,https://api.github.com/repos/cocotb/cocotb,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 cr-5000,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
 cr-5000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-15,200,country_region
 cr-8000,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
 cr-8000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-15,200,country_region
 cr-8000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-15,200,country_region
-cr-8000,vendor_site,https://www.zuken.com/en/product/cr-8000/,2026-10-15,200,vendor_maintainer; category; license_model
+cr-8000,vendor_site,https://www.zuken.com/en/product/cr-8000/,2026-10-19,200,vendor_maintainer; category; license_model
 cvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
-defacto-soc-compiler,vendor_site,https://defactotech.com/,2026-10-15,200,
+defacto-soc-compiler,vendor_site,https://defactotech.com/,2026-10-19,200,
 designspark-pcb,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
 designspark-pcb,vendor_origin,https://en.wikipedia.org/wiki/RS_Components,2026-10-15,200,country_region
 designspark-pcb,wikipedia_article,https://en.wikipedia.org/wiki/DesignSpark_PCB,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
@@ -66,30 +66,30 @@ eagle,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-15,200,countr
 eagle,wikipedia_article,https://en.wikipedia.org/wiki/EAGLE_(program),2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 easyeda,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,category; license_model; latest_version; supported_platforms; languages_formats
 easyeda,wikipedia_article,https://en.wikipedia.org/wiki/EasyEDA,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-efinix-efinity,vendor_site,https://www.efinixinc.com/products-efinity.html,2026-10-15,200,vendor_maintainer; category
+efinix-efinity,vendor_site,https://www.efinixinc.com/products-efinity.html,2026-10-19,200,vendor_maintainer; category
 electric,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_IC_physical_synthesis_and_layout,2026-10-15,200,category; license_model; license; supported_platforms
 electric,wikipedia_article,https://en.wikipedia.org/wiki/Electric_(software),2026-10-15,200,category; license_model; license; first_release_year; latest_version; supported_platforms
 empyrean-aether,vendor_origin,https://en.wikipedia.org/wiki/Empyrean_Technology,2026-10-15,200,country_region
-empyrean-aether,vendor_site,https://www.empyrean.com.cn/,2026-10-15,200,vendor_maintainer
+empyrean-aether,vendor_site,https://www.empyrean-tech.com/products/eda/analog-design-solution/schematic-and-layout-editor.html,2026-10-19,200,vendor_maintainer; category
 flux-ai,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,category; license_model; latest_version; languages_formats
 freehdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 freepcb,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 freepcb,wikipedia_article,https://en.wikipedia.org/wiki/FreePCB,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-fritzing,public_repository,https://api.github.com/repos/fritzing/fritzing-app,2026-10-15,200,vendor_maintainer; latest_version
+fritzing,public_repository,https://api.github.com/repos/fritzing/fritzing-app,2026-10-19,200,vendor_maintainer; category; latest_version
 fritzing,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 fritzing,wikipedia_article,https://en.wikipedia.org/wiki/Fritzing,2026-10-15,200,vendor_maintainer; license_model; license; latest_version; supported_platforms
 geda,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 geda,wikipedia_article,https://en.wikipedia.org/wiki/GEDA,2026-10-15,200,vendor_maintainer; license_model; license; first_release_year; latest_version; supported_platforms
 ghdl,documentation,https://ghdl.github.io/ghdl/,2026-10-15,200,supported_platforms; languages_formats
-ghdl,public_repository,https://api.github.com/repos/ghdl/ghdl,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+ghdl,public_repository,https://api.github.com/repos/ghdl/ghdl,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 ghdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 gnucap,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license; supported_platforms
 gnucap,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,category; license_model; supported_platforms; languages_formats
 gnucap,wikipedia_article,https://en.wikipedia.org/wiki/Gnucap,2026-10-15,200,vendor_maintainer; category; license_model; license
-gowin-eda,vendor_site,https://www.gowinsemi.com/en/support/home/,2026-10-15,200,vendor_maintainer; category
+gowin-eda,vendor_site,https://www.gowinsemi.com/en/support/home/,2026-10-19,200,vendor_maintainer; category
 gpl-cver,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 hilo,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model
-icarus-verilog,public_repository,https://api.github.com/repos/steveicarus/iverilog,2026-10-15,200,vendor_maintainer; license_model; license; latest_version
+icarus-verilog,public_repository,https://api.github.com/repos/steveicarus/iverilog,2026-10-19,200,vendor_maintainer; license_model; license; latest_version
 icarus-verilog,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 icarus-verilog,wikipedia_article,https://en.wikipedia.org/wiki/Icarus_Verilog,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 incisive-enterprise-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
@@ -103,12 +103,12 @@ isotel-mixed-signal-domain-simulation,published_list,https://en.wikipedia.org/wi
 kicad,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 kicad,wikipedia_article,https://en.wikipedia.org/wiki/KiCad,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 klayout,documentation,https://www.klayout.de/doc.html,2026-10-15,200,category
-klayout,public_repository,https://api.github.com/repos/KLayout/klayout,2026-10-15,200,vendor_maintainer; license_model; license; latest_version
+klayout,public_repository,https://api.github.com/repos/KLayout/klayout,2026-10-19,200,vendor_maintainer; license_model; license; latest_version
 ktechlab,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license; supported_platforms
 ktechlab,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,category; license_model; supported_platforms
 ktechlab,wikipedia_article,https://en.wikipedia.org/wiki/KTechLab,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 lattice-radiant,vendor_origin,https://en.wikipedia.org/wiki/Lattice_Semiconductor,2026-10-15,200,country_region
-lattice-radiant,vendor_site,https://www.latticesemi.com/LatticeRadiant,2026-10-15,200,vendor_maintainer; category; license_model
+lattice-radiant,vendor_site,https://www.latticesemi.com/LatticeRadiant,2026-10-19,200,vendor_maintainer; category; license_model
 lifting,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 logisim-evolution,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
 ltspice,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms
@@ -116,7 +116,7 @@ ltspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_ci
 ltspice,vendor_origin,https://en.wikipedia.org/wiki/Analog_Devices,2026-10-15,200,country_region
 ltspice,vendor_origin,https://en.wikipedia.org/wiki/Linear_Technology,2026-10-15,200,country_region
 ltspice,wikipedia_article,https://en.wikipedia.org/wiki/LTspice,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-magic,public_repository,https://api.github.com/repos/RTimothyEdwards/magic,2026-10-15,200,vendor_maintainer; category; latest_version
+magic,public_repository,https://api.github.com/repos/RTimothyEdwards/magic,2026-10-19,200,vendor_maintainer; category; latest_version
 magic,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_IC_physical_synthesis_and_layout,2026-10-15,200,category; license_model; license; supported_platforms
 magic,wikipedia_article,https://en.wikipedia.org/wiki/Magic_(software),2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 metrics-cloud-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
@@ -127,8 +127,8 @@ micro-cap,wikipedia_article,https://en.wikipedia.org/wiki/Micro-Cap,2026-10-15,2
 modelsim-questa,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 modelsim-questa,vendor_origin,https://en.wikipedia.org/wiki/Mentor_Graphics,2026-10-15,200,country_region
 mpsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
-netgen,public_repository,https://api.github.com/repos/RTimothyEdwards/netgen,2026-10-15,200,vendor_maintainer; category; latest_version
-nextpnr,public_repository,https://api.github.com/repos/YosysHQ/nextpnr,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+netgen,public_repository,https://api.github.com/repos/RTimothyEdwards/netgen,2026-10-19,200,vendor_maintainer; category; latest_version
+nextpnr,public_repository,https://api.github.com/repos/YosysHQ/nextpnr,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 ngspice,documentation,https://ngspice.sourceforge.io/docs.html,2026-10-15,200,category; languages_formats
 ngspice,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license; supported_platforms
 ngspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,category; license_model; supported_platforms
@@ -138,20 +138,20 @@ ni-ultiboard,vendor_origin,https://en.wikipedia.org/wiki/National_Instruments,20
 ni-ultiboard,vendor_origin,https://en.wikipedia.org/wiki/National_Instruments_Electronics_Workbench_Group,2026-10-15,200,country_region
 ni-ultiboard,wikipedia_article,https://en.wikipedia.org/wiki/NI_Ultiboard,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 nvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
-openfpgaloader,public_repository,https://api.github.com/repos/trabucayre/openFPGALoader,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+openfpgaloader,public_repository,https://api.github.com/repos/trabucayre/openFPGALoader,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 openroad,documentation,https://openroad.readthedocs.io/en/latest/,2026-10-15,200,supported_platforms; languages_formats
-openroad,public_repository,https://api.github.com/repos/The-OpenROAD-Project/OpenROAD,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
-opensta,public_repository,https://api.github.com/repos/parallaxsw/OpenSTA,2026-10-15,200,vendor_maintainer; license_model; license
+openroad,public_repository,https://api.github.com/repos/The-OpenROAD-Project/OpenROAD,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
+opensta,public_repository,https://api.github.com/repos/parallaxsw/OpenSTA,2026-10-19,200,vendor_maintainer; category; license_model; license
 orcad,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,category; license_model; latest_version; supported_platforms; languages_formats
 orcad,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-15,200,country_region
 orcad,wikipedia_article,https://en.wikipedia.org/wiki/OrCAD,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-oregano,public_repository,https://api.github.com/repos/drahnr/oregano,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+oregano,public_repository,https://api.github.com/repos/drahnr/oregano,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 oregano,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license
 oregano,wikipedia_article,https://en.wikipedia.org/wiki/Oregano_(software),2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 oss-cvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 pcb-rnd,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 pcb-rnd,wikipedia_article,https://en.wikipedia.org/wiki/Pcb-rnd,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-primarius-nanospice,vendor_site,https://www.primarius-tech.com/,2026-10-15,200,vendor_maintainer
+primarius-nanospice,vendor_site,https://www.primarius-tech.com/en/products/analog_design_eda/NanoSpiceen.html,2026-10-19,200,vendor_maintainer; category; languages_formats
 proteus,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
 proteus,wikipedia_article,https://en.wikipedia.org/wiki/Proteus_Design_Suite,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 pspice-for-ti,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
@@ -163,7 +163,7 @@ purespeed,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Pr
 qspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
 quartus-ii-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 quartus-ii-simulator,vendor_origin,https://en.wikipedia.org/wiki/Altera,2026-10-15,200,country_region
-quite-universal-circuit-simulator,public_repository,https://api.github.com/repos/qucs/qucs,2026-10-15,200,vendor_maintainer; latest_version
+quite-universal-circuit-simulator,public_repository,https://api.github.com/repos/qucs/qucs,2026-10-19,200,vendor_maintainer; latest_version
 quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license; supported_platforms
 quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,category; license_model; supported_platforms; languages_formats
 quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
@@ -174,21 +174,21 @@ sapwin,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_cir
 sapwin,vendor_origin,https://en.wikipedia.org/wiki/University_of_Florence,2026-10-15,200,country_region
 sapwin,wikipedia_article,https://en.wikipedia.org/wiki/SapWin,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 siemens-aprisa,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-15,200,country_region
-siemens-aprisa,vendor_site,https://www.siemens.com/en-us/products/ic/ic-design/aprisa/,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
+siemens-aprisa,vendor_site,https://www.siemens.com/en-us/products/ic/ic-design/aprisa/,2026-10-19,200,vendor_maintainer; category; license_model; languages_formats
 siemens-calibre,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-15,200,country_region
-siemens-calibre,vendor_site,https://www.siemens.com/en-us/products/ic/calibre-design/,2026-10-15,200,vendor_maintainer; category
+siemens-calibre,vendor_site,https://www.siemens.com/en-us/products/ic/calibre-design/,2026-10-19,200,vendor_maintainer; category
 siemens-catapult,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-15,200,country_region
-siemens-catapult,vendor_site,https://www.siemens.com/en-us/products/ic/catapult-high-level-synthesis/,2026-10-15,200,vendor_maintainer; category
+siemens-catapult,vendor_site,https://www.siemens.com/en-us/products/ic/catapult-high-level-synthesis/,2026-10-19,200,vendor_maintainer; category
 siemens-questa,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-15,200,country_region
-siemens-questa,vendor_site,https://www.siemens.com/en-us/products/ic/questa-one/,2026-10-15,200,vendor_maintainer; category
+siemens-questa,vendor_site,https://www.siemens.com/en-us/products/ic/questa-one/,2026-10-19,200,vendor_maintainer; category
 siemens-xpedition,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-15,200,country_region
-siemens-xpedition,vendor_site,https://www.siemens.com/en-us/products/pcb/xpedition/enterprise/,2026-10-15,200,vendor_maintainer; category
-sigasi,vendor_site,https://www.sigasi.com/,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
-siliconcompiler,public_repository,https://api.github.com/repos/siliconcompiler/siliconcompiler,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+siemens-xpedition,vendor_site,https://www.siemens.com/en-us/products/pcb/xpedition/enterprise/,2026-10-19,200,vendor_maintainer; category
+sigasi,vendor_site,https://www.sigasi.com/,2026-10-19,200,vendor_maintainer; category; license_model; languages_formats
+siliconcompiler,public_repository,https://api.github.com/repos/siliconcompiler/siliconcompiler,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 silos,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 silos,vendor_origin,https://en.wikipedia.org/wiki/Silvaco,2026-10-15,200,country_region
 silvaco-smartspice,vendor_origin,https://en.wikipedia.org/wiki/Silvaco,2026-10-15,200,country_region
-silvaco-smartspice,vendor_site,https://silvaco.com/,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
+silvaco-smartspice,vendor_site,https://silvaco.com/,2026-10-19,200,vendor_maintainer; category; license_model; languages_formats
 simili-vhdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 smash,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 smash,vendor_origin,https://en.wikipedia.org/wiki/Dolphin_Integration,2026-10-15,200,country_region
@@ -198,27 +198,27 @@ spice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circ
 spice,vendor_origin,"https://en.wikipedia.org/wiki/University_of_California,_Berkeley",2026-10-15,200,country_region
 spice,wikipedia_article,https://en.wikipedia.org/wiki/SPICE,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year
 super-finsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
-surelog,public_repository,https://api.github.com/repos/chipsalliance/Surelog,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
-sv2v,public_repository,https://api.github.com/repos/zachjs/sv2v,2026-10-15,200,vendor_maintainer; license_model; license; latest_version
-symbiyosys,public_repository,https://api.github.com/repos/YosysHQ/sby,2026-10-15,200,vendor_maintainer; category
+surelog,public_repository,https://api.github.com/repos/chipsalliance/Surelog,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
+sv2v,public_repository,https://api.github.com/repos/zachjs/sv2v,2026-10-19,200,vendor_maintainer; license_model; license; latest_version
+symbiyosys,public_repository,https://api.github.com/repos/YosysHQ/sby,2026-10-19,200,vendor_maintainer; category; latest_version
 synopsys-custom-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-custom-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-custom-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html,2026-10-19,200,vendor_maintainer; category; license_model
 synopsys-design-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-design-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-design-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler.html,2026-10-19,200,vendor_maintainer; category; license_model
 synopsys-formality,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-formality,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-formality,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html,2026-10-19,200,vendor_maintainer; category; license_model
 synopsys-fusion-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-fusion-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
+synopsys-fusion-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html,2026-10-19,200,vendor_maintainer; category; license_model; languages_formats
 synopsys-ic-compiler-ii,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-ic-compiler-ii,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/ic-compiler.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-ic-compiler-ii,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/ic-compiler.html,2026-10-19,200,vendor_maintainer; category; license_model
 synopsys-primesim-hspice,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-primesim-hspice,vendor_site,https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
+synopsys-primesim-hspice,vendor_site,https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html,2026-10-19,200,vendor_maintainer; category; license_model; languages_formats
 synopsys-primetime,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-primetime,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-primetime,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html,2026-10-19,200,vendor_maintainer; category; license_model
 synopsys-redhawk-sc,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-redhawk-sc,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html,2026-10-15,200,category; license_model
+synopsys-redhawk-sc,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html,2026-10-19,200,category; license_model
 synopsys-vc-formal,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-synopsys-vc-formal,vendor_site,https://www.synopsys.com/verification/static-and-formal-verification/vc-formal.html,2026-10-15,200,vendor_maintainer; category; license_model
+synopsys-vc-formal,vendor_site,https://www.synopsys.com/verification/static-and-formal-verification/vc-formal.html,2026-10-19,200,vendor_maintainer; category; license_model
 target-3001,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,category; license_model; latest_version; supported_platforms; languages_formats
 target-3001,vendor_origin,https://en.wikipedia.org/wiki/Eichenzell,2026-10-15,200,country_region
 target-3001,wikipedia_article,https://en.wikipedia.org/wiki/TARGET_3001!,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
@@ -233,7 +233,7 @@ tina-ti,wikipedia_article,https://en.wikipedia.org/wiki/TINA–TI,2026-10-15,200
 tinkercad-circuits,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model
 tinkercad-circuits,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-15,200,country_region
 tinkercad-circuits,wikipedia_article,https://en.wikipedia.org/wiki/Tinkercad,2026-10-15,200,
-tkgate,public_repository,https://api.github.com/repos/bnoordhuis/tkgate,2026-10-15,200,vendor_maintainer; category
+tkgate,public_repository,https://api.github.com/repos/bnoordhuis/tkgate,2026-10-19,200,vendor_maintainer; category
 tkgate,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 tscircuit,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-15,200,category; license_model; license; supported_platforms; languages_formats
 upverter,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-15,200,category; license_model; latest_version; supported_platforms; languages_formats
@@ -241,10 +241,10 @@ upverter,wikipedia_article,https://en.wikipedia.org/wiki/Upverter,2026-10-15,200
 vcs,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 vcs,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
 vcs,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-15,200,country_region
-vcs,vendor_site,https://www.synopsys.com/verification/simulation/vcs.html,2026-10-15,200,vendor_maintainer; category; license_model
-verible,public_repository,https://api.github.com/repos/chipsalliance/verible,2026-10-15,200,vendor_maintainer; category; latest_version
+vcs,vendor_site,https://www.synopsys.com/verification/simulation/vcs.html,2026-10-19,200,vendor_maintainer; category; license_model
+verible,public_repository,https://api.github.com/repos/chipsalliance/verible,2026-10-19,200,vendor_maintainer; category; latest_version
 verilator,documentation,https://verilator.org/guide/latest/,2026-10-15,200,languages_formats
-verilator,public_repository,https://api.github.com/repos/verilator/verilator,2026-10-15,200,vendor_maintainer; category; latest_version
+verilator,public_repository,https://api.github.com/repos/verilator/verilator,2026-10-19,200,vendor_maintainer; category; latest_version
 verilator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 verilator,wikipedia_article,https://en.wikipedia.org/wiki/Verilator,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 verilog-behavioral-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
@@ -255,15 +255,15 @@ veritak,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Prop
 veriwell,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-15,200,vendor_maintainer; category; license_model; license; languages_formats
 vivado,vendor_origin,https://en.wikipedia.org/wiki/AMD,2026-10-15,200,country_region
 vivado,wikipedia_article,https://en.wikipedia.org/wiki/Xilinx_Vivado,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
-xcircuit,public_repository,https://api.github.com/repos/rtimothyedwards/xcircuit,2026-10-15,200,vendor_maintainer; license_model; license; latest_version
+xcircuit,public_repository,https://api.github.com/repos/rtimothyedwards/xcircuit,2026-10-19,200,vendor_maintainer; license_model; license; latest_version
 xcircuit,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-15,200,category; license_model; license; supported_platforms
 xcircuit,wikipedia_article,https://en.wikipedia.org/wiki/XCircuit,2026-10-15,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 xilinx-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats
 xilinx-simulator,vendor_origin,https://en.wikipedia.org/wiki/Xilinx,2026-10-15,200,country_region
-xschem,public_repository,https://api.github.com/repos/StefanSchippers/xschem,2026-10-15,200,vendor_maintainer; category; latest_version
-xyce,public_repository,https://api.github.com/repos/Xyce/Xyce,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+xschem,public_repository,https://api.github.com/repos/StefanSchippers/xschem,2026-10-19,200,vendor_maintainer; category; latest_version
+xyce,public_repository,https://api.github.com/repos/Xyce/Xyce,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 xyce,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-15,200,vendor_maintainer; category; license_model; supported_platforms
 xyce,wikipedia_article,https://en.wikipedia.org/wiki/Sandia_National_Laboratories,2026-10-15,200,
 yosys,documentation,https://yosyshq.readthedocs.io/projects/yosys/en/latest/,2026-10-15,200,languages_formats
-yosys,public_repository,https://api.github.com/repos/YosysHQ/yosys,2026-10-15,200,vendor_maintainer; category; license_model; license; latest_version
+yosys,public_repository,https://api.github.com/repos/YosysHQ/yosys,2026-10-19,200,vendor_maintainer; category; license_model; license; latest_version
 z01x,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-15,200,vendor_maintainer; category; license_model; languages_formats

@@ -318,7 +318,7 @@ cross-tab, matplotlib `Agg` backend (no display needed).
    seed is versioned and documented. Next step: discover from more lists automatically.
 3. **Country** only when the vendor's Wikipedia article exists; individual maintainers and communities have none. Region
    counts use documented origins only (60 of 131), and the plot title says how many. Europe (5) and Asia (4) are thin:
-   Empyrean, Gowin, Efinix, Primarius, Sigasi and Defacto have no English Wikipedia HQ field.
+   Gowin, Efinix, Primarius, Sigasi and Defacto have no English Wikipedia HQ field.
    **Measurement bias to mention yourself:** open-source tools look more recently released (22 of 29 since 2024 vs 9 of 21
    commercial), partly because their dates come live from GitHub while commercial dates come from stale Wikipedia infoboxes.
 4. **Keyword rules can misclassify** (e.g. a multi-product homepage). Mitigation: the evidence text is kept in the raw
@@ -379,7 +379,7 @@ cross-tab, matplotlib `Agg` backend (no display needed).
     is a stated limitation, and the evidence is kept for audit.
 
 **Analysis**
-19. *What does the data show?* - "In the collected catalog: simulation is the biggest category (39 primary, 72 counting secondary);
+19. *What does the data show?* - "In the collected catalog: simulation is the biggest category (39 primary, 73 counting secondary);
     implementation and sign-off are small and almost all commercial, the open-source exception being OpenROAD; 51 % commercial,
     34 % open-source; of the 60 tools with a known vendor country, 49 are US, which reflects the Big Three being US-headquartered
     plus a measurement effect."

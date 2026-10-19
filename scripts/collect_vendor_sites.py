@@ -4,8 +4,9 @@ Source type: vendor_site. Input: 'website_url' entries in data/metadata/seed_too
 DISCOVERY list (tool name + URL to check) and holds no field values.
 
 Every value comes from the fetched page (robots.txt permitting, >= 1.5 s between requests):
-  vendor_maintainer  <- og:site_name, else the brand after the last '|' or ' - ' in <title>
-  category           <- keyword rules (common.CATEGORY_RULES) on <title> + meta description
+  vendor_maintainer  <- og:site_name, else the last '|' / ' - ' / '_' part of <title> that is not the product name
+  category           <- keyword rules (common.CATEGORY_RULES) on <title> + meta description; if none match,
+                        on the page's own definition sentence of the product ('<product> is a ...')
   languages_formats  <- format/language names mentioned in <title> + meta description
   license_model      <- 'commercial' only when the page shows sales evidence (contact sales, request a
                         demo/quote, pricing, buy) and states no open-source licence
@@ -21,11 +22,22 @@ SALES = re.compile(r"contact sales|talk to (an? )?(expert|sales)|request (a )?(d
                    r"get (a )?quote|buy now|pricing|how to buy|request information", re.I)
 
 
-def vendor_from(meta):
+def vendor_from(meta, tool_name):
     if len(meta["site_name"]) > 2 and meta["site_name"].lower() not in ("english", "home", "en", "us"):
         return meta["site_name"]
-    parts = re.split(r"\s+[|–—-]\s+", meta["title"])
-    return parts[-1].strip() if len(parts) > 1 and len(parts[-1]) <= 40 else ""
+    # title parts are split on ' | ', ' - ', ' – ' and '_' ('Product Portfolio_Empyrean Technology Co., Ltd');
+    # a part that names the product itself is not the vendor ('PRIMARIUS - NanoSpice' -> 'PRIMARIUS')
+    parts = [p.strip() for p in re.split(r"\s+[|–—-]\s+|_", meta["title"]) if p.strip()]
+    keys = {name_key(tool_name), name_key(tool_name.split()[-1])}
+    brands = [p for p in parts if not any(k in name_key(p) for k in keys)]
+    return brands[-1] if len(parts) > 1 and brands and len(brands[-1]) <= 40 else ""
+
+
+def definition_sentence(text, tool_name):
+    """The page's own definition of the product ('NanoSpice is a ... parallel SPICE simulator'), or ''."""
+    names = "|".join(re.escape(n) for n in {tool_name, tool_name.split()[-1]})
+    m = re.search(r"\b(?:%s)\W{0,2}\s+(?:is|are)\s+[^.;]{10,250}" % names, text, re.I)
+    return m.group(0) if m else ""
 
 
 def main():
@@ -47,15 +59,21 @@ def main():
             log_event("name_not_on_page", collector="vendor_sites", url=url, tool=t["tool_name"])
             continue
         evidence = "%s %s" % (meta["title"], meta["description"])
+        languages = detect_languages(evidence)
         # the vendor's own summary sentence first, then the title; earliest keyword = primary category
         cats = categorize(meta["description"], meta["title"], by_position=True)
+        if not cats:
+            # no keyword in the title or summary: the page's own definition sentence of the product
+            definition = definition_sentence(text, t["tool_name"])
+            cats = categorize(definition, by_position=True)
+            evidence = "%s %s" % (evidence, definition)
         model = license_model_from(meta["description"])
         if not model and SALES.search(text):
             model = "commercial"
         records.append(empty_raw_record(
-            tool_name=t["tool_name"], vendor_maintainer=vendor_from(meta),
+            tool_name=t["tool_name"], vendor_maintainer=vendor_from(meta, t["tool_name"]),
             category=cats[0] if cats else "", additional_categories=join_multi(cats[1:]),
-            license_model=model, website_url=url, languages_formats=detect_languages(evidence),
+            license_model=model, website_url=url, languages_formats=languages,
             source_url=url, source_type="vendor_site", date_collected=today(), fetch_status=status))
         records[-1]["_evidence"] = evidence[:300]
     out = raw_path("vendor_site")

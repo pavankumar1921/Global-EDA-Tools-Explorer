@@ -12,12 +12,12 @@ the workspace is locked and reproduces on an empty machine with `igny workspace 
 |---|---|
 | Tools / source records / multi-source tools | **131 / 268 / 89** |
 | Licence model | commercial **67** (51 %) · open-source **44** (34 %) · freeware **7** · unknown 13 |
-| Largest category | simulation **39** primary (72 incl. secondary) · PCB 27 · analog 22 |
+| Largest category | simulation **39** primary (73 incl. secondary) · PCB 27 · analog 23 |
 | Regions (60 tools with a documented country) | N. America **49** · Europe **5** · Asia **4** · Oceania 2 |
 | Top vendors | Cadence 15 · Synopsys 9 · Siemens 5 · Zuken 3 · YosysHQ 3 |
 | Release activity | 36 of 58 tools with a known release shipped in 2024-26; earliest first release 1973 (SPICE) |
-| Completeness | vendor 95 % · category 96 % · licence model 90 % · first release 23 % · repo 23 % |
-| Validation | **0 errors**, 5 warnings; fixture test PASS; byte-identical rebuilds |
+| Completeness | vendor 95 % · category 98 % · licence model 90 % · first release 23 % · repo 23 % |
+| Validation | **0 errors**, 2 warnings; fixture test PASS; byte-identical rebuilds |
 
 ## The 6 sources (one collector each)
 Wikipedia lists · Wikipedia tool infoboxes · developer company infoboxes (country) · vendor product pages
@@ -56,7 +56,7 @@ Resolution order: CRUCIBLE_ENV → crucible.toml → last activated → default.
 5. **Measurement bias** - open-source looks "more active" partly because GitHub dates are live and Wikipedia's commercial dates are stale.
 
 ## Limitations (say them before they ask)
-Not a census · thin Europe/Asia (no HQ data for Empyrean, Gowin, Efinix, Sigasi…) · rule-based category follows
+Not a census · thin Europe/Asia (no HQ data for Primarius, Gowin, Efinix, Sigasi…) · rule-based category follows
 marketing wording (Innovus+ → synthesis) · stale commercial release data · flaky sources (403, TLS) are logged.
 
 ## Demo (rehearsed order)

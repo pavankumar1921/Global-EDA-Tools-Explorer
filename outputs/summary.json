@@ -1,27 +1,27 @@
 {
   "by_category_any": {
-    "analog-mixed-signal": 49,
+    "analog-mixed-signal": 50,
     "fpga-toolchain": 9,
     "high-level-synthesis": 5,
-    "layout-physical-verification": 17,
+    "layout-physical-verification": 18,
     "pcb-design": 32,
     "place-and-route": 11,
-    "simulation": 72,
+    "simulation": 73,
     "synthesis": 11,
-    "timing-signoff": 4,
-    "verification": 17
+    "timing-signoff": 5,
+    "verification": 18
   },
   "by_category_primary": {
-    "analog-mixed-signal": 22,
+    "analog-mixed-signal": 23,
     "fpga-toolchain": 6,
     "high-level-synthesis": 2,
-    "layout-physical-verification": 8,
+    "layout-physical-verification": 9,
     "pcb-design": 27,
     "place-and-route": 4,
     "simulation": 39,
     "synthesis": 5,
-    "timing-signoff": 3,
-    "unknown": 5,
+    "timing-signoff": 4,
+    "unknown": 2,
     "verification": 10
   },
   "by_country": {
@@ -56,12 +56,12 @@
   "matplotlib": "3.11.2",
   "numpy": "2.5.4",
   "percent_filled": {
-    "category": 96.2,
+    "category": 98.5,
     "country_region": 45.8,
     "first_release_year": 22.9,
-    "languages_formats": 59.5,
+    "languages_formats": 60.3,
     "latest_release_year": 44.3,
-    "latest_version": 41.2,
+    "latest_version": 42.0,
     "license": 49.6,
     "license_model": 90.1,
     "repository_url": 22.9,
@@ -69,6 +69,6 @@
     "vendor_maintainer": 95.4,
     "website_url": 67.2
   },
-  "snapshot_date": "2026-10-15",
+  "snapshot_date": "2026-10-19",
   "total_tools": 131
 }
