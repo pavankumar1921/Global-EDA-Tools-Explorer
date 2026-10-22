@@ -17,8 +17,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 RAW = HERE.parent / "data" / "raw"
-COLLECT = ["collect_published_lists.py", "collect_wikipedia_articles.py", "collect_vendor_sites.py",
-           "collect_public_repositories.py", "collect_documentation.py", "collect_vendor_origin.py"]
+COLLECT = ["collect_published_lists.py", "collect_curated_lists.py", "collect_wikipedia_articles.py",
+           "collect_vendor_sites.py", "collect_public_repositories.py", "collect_github_search.py",
+           "collect_documentation.py", "collect_vendor_origin.py"]
 PROCESS = ["clean_data.py", "deduplicate_data.py", "validate_dataset.py", "run_analysis.py"]
 
 

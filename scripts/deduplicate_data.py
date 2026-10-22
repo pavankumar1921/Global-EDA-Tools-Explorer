@@ -24,17 +24,22 @@ from urllib.parse import urlparse
 from common import (CATEGORIES, FINAL_FIELDS, META, PROCESSED, clean_text, ensure_dirs, github_repo_key, join_multi,
                     name_key, read_json, region_of, slug, split_multi, wiki_key, write_json)
 
-SOURCE_RANK = ["published_list", "wikipedia_article", "vendor_site", "public_repository", "documentation",
-               "vendor_origin"]
+SOURCE_RANK = ["published_list", "wikipedia_article", "vendor_site", "curated_list", "public_repository",
+               "repository_search", "documentation", "vendor_origin"]
 FIELD_PRIORITY = {
-    "tool_name": ["wikipedia_article", "published_list", "vendor_site", "public_repository", "documentation"],
-    "vendor_maintainer": ["vendor_site", "published_list", "wikipedia_article", "public_repository"],
+    "tool_name": ["wikipedia_article", "published_list", "vendor_site", "curated_list", "public_repository",
+                  "repository_search", "documentation"],
+    "vendor_maintainer": ["vendor_site", "published_list", "wikipedia_article", "public_repository", "repository_search"],
     "country_region": ["vendor_origin"],
-    "category": ["published_list", "vendor_site", "wikipedia_article", "public_repository", "documentation"],
-    "license_model": ["wikipedia_article", "published_list", "public_repository", "vendor_site"],
-    "license": ["public_repository", "wikipedia_article", "published_list"],
-    "website_url": ["vendor_site", "wikipedia_article", "published_list", "public_repository"],
-    "repository_url": ["public_repository", "wikipedia_article", "published_list", "documentation"],
+    "category": ["published_list", "vendor_site", "wikipedia_article", "curated_list", "public_repository",
+                 "repository_search", "documentation"],
+    "license_model": ["wikipedia_article", "published_list", "public_repository", "repository_search", "vendor_site",
+                      "curated_list"],
+    "license": ["public_repository", "repository_search", "wikipedia_article", "published_list"],
+    "website_url": ["vendor_site", "wikipedia_article", "published_list", "public_repository", "repository_search",
+                    "curated_list"],
+    "repository_url": ["public_repository", "repository_search", "wikipedia_article", "published_list", "curated_list",
+                       "documentation"],
     "wikipedia_url": ["wikipedia_article", "published_list"],
     "first_release_year": ["wikipedia_article"],
 }

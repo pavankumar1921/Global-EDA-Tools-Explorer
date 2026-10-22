@@ -43,7 +43,7 @@ MULTI_FIELDS = ["additional_categories", "supported_platforms", "languages_forma
 
 # Controlled category vocabulary, ordered along the design flow (front end -> sign-off -> board).
 CATEGORIES = [
-    "high-level-synthesis", "synthesis", "simulation", "verification", "place-and-route",
+    "hdl-design-entry", "high-level-synthesis", "synthesis", "simulation", "verification", "place-and-route",
     "timing-signoff", "layout-physical-verification", "analog-mixed-signal", "pcb-design",
     "fpga-toolchain",
 ]
@@ -64,6 +64,11 @@ CATEGORY_RULES = [
     (r"\bhdl\b|logic simulat|verilog simulat|vhdl simulat|simulat", "simulation"),
     (r"\bsynthesis\b|\bsynthesi[sz]er\b", "synthesis"),
     (r"\bpcb\b|printed circuit|circuit board", "pcb-design"),  # 'schematic' alone is also analog/IC vocabulary
+    # front-end design entry: hardware languages, HDL generators/parsers, flow build systems. Last in rule order,
+    # so for headings it only becomes primary when no flow-stage keyword matched
+    (r"hardware (description|construction|design|generation) language|\bhcl\b|embedded in (python|scala|haskell)|"
+     r"transpil|\bparsers?\b|elaborat|build system|dependency manag|register (map|generator|description|code)|"
+     r"code generator|hdl generat|hardware generat|\bdsl\b|language server", "hdl-design-entry"),
 ]
 
 

@@ -54,6 +54,26 @@ def unit_checks():
     assert readme_summary("# Parallax Static Timing Analyzer\n\n[![b](x)](y)\nOpenSTA is a gate level static timing "
                           "verifier.\nAs a stand-alone\n\n* Verilog netlist") == \
         "Parallax Static Timing Analyzer. OpenSTA is a gate level static timing verifier. As a stand-alone"
+    from collect_curated_lists import parse_list
+    md = ("## Circuit Compilers\n* [abc](https://github.com/berkeley-abc/abc)\n  * System for sequential logic synthesis\n"
+          "## CPUs\n* [somecore](https://github.com/x/somecore)\n  * A RISC-V core\n"
+          "### Simulation\n\n[ghdl/ghdl](https://github.com/ghdl/ghdl) - VHDL Simulator\n")
+    assert parse_list(md, ["Circuit Compilers", "Simulation"]) == [
+        ["abc", "https://github.com/berkeley-abc/abc", "System for sequential logic synthesis", "Circuit Compilers"],
+        ["ghdl/ghdl", "https://github.com/ghdl/ghdl", "VHDL Simulator", "Simulation"]]  # CPUs section skipped
+    from collect_wikipedia_articles import category_members
+    page = ('<div id="mw-pages"><a href="/wiki/Comparison_of_EDA_software">Comparison of EDA software</a>'
+            '<a href="/wiki/KiCad">KiCad</a><a href="/wiki/Magic_(software)">Magic (software)</a>'
+            '<div class="printfooter">')
+    assert category_members(page) == [("KiCad", "https://en.wikipedia.org/wiki/KiCad"),
+                                      ("Magic", "https://en.wikipedia.org/wiki/Magic_(software)")]
+    from collect_github_search import is_tool
+    assert is_tool("VHDL compiler and simulator")
+    assert is_tool("A High-performance Timing Analysis Tool for VLSI Systems")
+    assert not is_tool("An open source library for image processing on FPGA.")
+    assert not is_tool("Automated exploratory data analysis tool for pandas")
+    assert not is_tool("RISC-V core written in Verilog")
+    assert categorize("Hardware Description Language embedded in Python")[0] == "hdl-design-entry"
     from deduplicate_data import vendors_compatible
     assert vendors_compatible("Cadence", "Cadence Design Systems")
     assert vendors_compatible("Autodesk (previously CadSoft Computer)", "Autodesk / CadSoft Computer (discontinued)")

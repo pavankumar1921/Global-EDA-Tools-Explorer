@@ -1,74 +1,62 @@
 {
   "by_category_any": {
-    "analog-mixed-signal": 50,
-    "fpga-toolchain": 9,
-    "high-level-synthesis": 5,
-    "layout-physical-verification": 18,
-    "pcb-design": 32,
-    "place-and-route": 11,
-    "simulation": 73,
-    "synthesis": 11,
-    "timing-signoff": 5,
-    "verification": 18
+    "analog-mixed-signal": 69,
+    "fpga-toolchain": 25,
+    "hdl-design-entry": 85,
+    "high-level-synthesis": 21,
+    "layout-physical-verification": 28,
+    "pcb-design": 46,
+    "place-and-route": 7,
+    "simulation": 182,
+    "synthesis": 15,
+    "timing-signoff": 2,
+    "verification": 61
   },
   "by_category_primary": {
-    "analog-mixed-signal": 23,
-    "fpga-toolchain": 6,
-    "high-level-synthesis": 2,
-    "layout-physical-verification": 9,
-    "pcb-design": 27,
-    "place-and-route": 4,
-    "simulation": 39,
-    "synthesis": 5,
-    "timing-signoff": 4,
-    "unknown": 2,
-    "verification": 10
+    "analog-mixed-signal": 36,
+    "fpga-toolchain": 22,
+    "hdl-design-entry": 43,
+    "high-level-synthesis": 15,
+    "layout-physical-verification": 21,
+    "pcb-design": 40,
+    "place-and-route": 2,
+    "simulation": 115,
+    "synthesis": 9,
+    "timing-signoff": 2,
+    "unknown": 32,
+    "verification": 40
   },
-  "by_country": {
-    "Australia": 2,
-    "China": 1,
-    "France": 1,
-    "Germany": 2,
-    "Italy": 1,
-    "Japan": 3,
-    "United Kingdom": 1,
-    "United States": 49
-  },
+  "by_country": {},
   "by_license_model": {
-    "commercial": 67,
-    "freeware": 7,
-    "open-source": 44,
-    "unknown": 13
+    "commercial": 42,
+    "freeware": 8,
+    "open-source": 39,
+    "unknown": 288
   },
-  "by_region": {
-    "Asia": 4,
-    "Europe": 5,
-    "North America": 49,
-    "Oceania": 2
-  },
+  "by_region": {},
   "dedup": {
-    "canonical_tools": 131,
-    "duplicates_merged": 17,
-    "multi_source_tools": 89,
-    "review_items": 1,
-    "source_records": 268
+    "canonical_tools": 377,
+    "duplicates_merged": 73,
+    "multi_source_tools": 68,
+    "review_items": 0,
+    "source_records": 462
   },
   "matplotlib": "3.11.2",
   "numpy": "2.5.4",
   "percent_filled": {
-    "category": 98.5,
-    "country_region": 45.8,
-    "first_release_year": 22.9,
-    "languages_formats": 60.3,
-    "latest_release_year": 44.3,
-    "latest_version": 42.0,
-    "license": 49.6,
-    "license_model": 90.1,
-    "repository_url": 22.9,
-    "supported_platforms": 37.4,
-    "vendor_maintainer": 95.4,
-    "website_url": 67.2
+    "category": 91.5,
+    "country_region": 0.0,
+    "first_release_year": 0.0,
+    "languages_formats": 36.6,
+    "latest_release_year": 9.3,
+    "latest_version": 6.1,
+    "license": 7.4,
+    "license_model": 23.6,
+    "repository_url": 75.1,
+    "supported_platforms": 11.4,
+    "vendor_maintainer": 16.4,
+    "website_url": 9.5
   },
-  "snapshot_date": "2026-10-19",
-  "total_tools": 131
+  "snapshot_date": "2026-10-22",
+  "total_tools": 377
 }

@@ -1,12 +1,1 @@
-[
-  {
-    "type": "field_conflict",
-    "tool": "SapWin",
-    "field": "license_model",
-    "values": [
-      "freeware",
-      "open-source"
-    ],
-    "chosen": "open-source"
-  }
-]
+[]

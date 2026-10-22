@@ -1,7 +1,6 @@
 platform,tools,commercial,open-source,freeware,unknown
-Windows,42,20,16,6,0
-Linux,28,11,16,1,0
-Unix,18,8,10,0,0
-macOS,18,5,11,2,0
-Cross-platform,3,0,3,0,0
-Web/Cloud,2,2,0,0,0
+Windows,37,19,11,7,0
+Linux,21,6,14,1,0
+macOS,17,4,11,2,0
+Unix,15,8,7,0,0
+Cross-platform,1,0,1,0,0

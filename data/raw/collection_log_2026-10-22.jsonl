@@ -1,0 +1,2 @@
+{"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-22T07:48:02+00:00"}
+{"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-22T07:50:38+00:00"}

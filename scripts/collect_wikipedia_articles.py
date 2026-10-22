@@ -1,7 +1,10 @@
 """Collector 2 - Wikipedia article infoboxes for individual tools.
 
 Source type: wikipedia_article. Input: every English Wikipedia article URL found by the published-list
-collector for this snapshot, plus 'wikipedia' links in data/metadata/seed_tools.json.
+collector for this snapshot, the 'wikipedia' links in data/metadata/seed_tools.json, and the member articles
+of Wikipedia's own EDA software categories (CATEGORY_PAGES; read as ordinary /wiki/ pages, which robots.txt
+allows). For a category member the category is the evidence that the article is about EDA software, so it is
+kept even without an infobox (then only its name, link and opening-sentence category are recorded).
 
 From the infobox we take only what it states: developer, initial release (-> first_release_year),
 stable release (-> latest_version, latest_release_date), operating system, licence, website, repository,
@@ -13,9 +16,18 @@ import re
 from common import (categorize, clean_text, empty_raw_record, ensure_dirs, fetch_page, join_multi,
                     license_model_from, load_seed, norm_date, norm_license, norm_platforms, norm_year,
                     raw_path, read_json, today, valid_url, wiki_key, write_json)
-from htmlparse import lead_paragraph, parse_infobox, wiki_article
+from htmlparse import lead_paragraph, links_of, parse_infobox, wiki_article
 
-ORG_LABELS = {"headquarters", "industry", "founded", "key people", "number of employees"}
+CATEGORY_PAGES = [
+    "https://en.wikipedia.org/wiki/Category:Electronic_design_automation_software",
+    "https://en.wikipedia.org/wiki/Category:Electronic_design_automation_software_for_Linux",
+    "https://en.wikipedia.org/wiki/Category:Free_electronic_design_automation_software",
+    "https://en.wikipedia.org/wiki/Category:Electronic_circuit_simulators",
+    "https://en.wikipedia.org/wiki/Category:Autorouters",
+]
+# organisations, people and file formats are not tools
+ORG_LABELS = {"headquarters", "industry", "founded", "key people", "number of employees", "born", "died",
+              "filename extension", "type of format"}
 
 
 def first(box, *labels):
@@ -33,30 +45,52 @@ def external_link(links):
     return ""
 
 
+def category_members(page_html):
+    """[(title, article_url)] listed in the 'Pages in category' block of a category page."""
+    m = re.search(r'<div id="mw-pages">(.*?)<div class="printfooter"', page_html, re.S)
+    out = []
+    for href, text in links_of(m.group(1) if m else ""):
+        url = wiki_article(href)
+        if url and text and not re.match(r"(List|Lists|Comparison|Outline) of\b", text):
+            out.append((clean_text(re.sub(r"\s*\((software|EDA|electronics|simulator|program)\)$", "", text)), url))
+    return out
+
+
 def targets():
-    """[(tool_name, article_url)] from this snapshot's published lists and the seed, de-duplicated."""
+    """[(tool_name, article_url, from_category)] from this snapshot's published lists, the seed and the EDA
+    software categories, de-duplicated (the first source of an article wins)."""
     seen, out = set(), []
     for rec in read_json(raw_path("published_list"), []) or []:
         if rec.get("wikipedia_url") and wiki_key(rec["wikipedia_url"]) not in seen:
             seen.add(wiki_key(rec["wikipedia_url"]))
-            out.append((rec["tool_name"], rec["wikipedia_url"]))
+            out.append((rec["tool_name"], rec["wikipedia_url"], False))
     for t in load_seed():
         url = wiki_article(t.get("wikipedia", ""))
         if url and wiki_key(url) not in seen:
             seen.add(wiki_key(url))
-            out.append((t["tool_name"], url))
+            out.append((t["tool_name"], url, False))
+    for cat in CATEGORY_PAGES:
+        status, body = fetch_page(cat, "wikipedia_articles")
+        if status != 200:
+            continue
+        members = category_members(body)
+        print("category %s: %d articles" % (cat.rsplit(":", 1)[-1], len(members)))
+        for name, url in members:
+            if wiki_key(url) not in seen:
+                seen.add(wiki_key(url))
+                out.append((name, url, True))
     return out
 
 
 def main():
     ensure_dirs()
     records, skipped = [], 0
-    for name, url in targets():
+    for name, url, from_category in targets():
         status, body = fetch_page(url, "wikipedia_articles")
         if status != 200:
             continue
         box = parse_infobox(body)
-        if not box or ORG_LABELS & set(box):
+        if (not box and not from_category) or ORG_LABELS & set(box):
             skipped += 1  # no infobox, or the link points to a company article rather than a tool
             continue
         dev_text, dev_links = first(box, "developer", "original author", "manufacturer")
