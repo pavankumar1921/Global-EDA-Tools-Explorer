@@ -1,62 +1,85 @@
 {
   "by_category_any": {
-    "analog-mixed-signal": 69,
-    "fpga-toolchain": 25,
-    "hdl-design-entry": 85,
-    "high-level-synthesis": 21,
-    "layout-physical-verification": 28,
-    "pcb-design": 46,
-    "place-and-route": 7,
-    "simulation": 182,
-    "synthesis": 15,
-    "timing-signoff": 2,
-    "verification": 61
+    "analog-mixed-signal": 115,
+    "fpga-toolchain": 68,
+    "hdl-design-entry": 103,
+    "high-level-synthesis": 30,
+    "layout-physical-verification": 42,
+    "pcb-design": 74,
+    "place-and-route": 25,
+    "simulation": 258,
+    "synthesis": 48,
+    "timing-signoff": 10,
+    "verification": 84
   },
   "by_category_primary": {
-    "analog-mixed-signal": 36,
-    "fpga-toolchain": 22,
-    "hdl-design-entry": 43,
-    "high-level-synthesis": 15,
-    "layout-physical-verification": 21,
-    "pcb-design": 40,
-    "place-and-route": 2,
-    "simulation": 115,
-    "synthesis": 9,
-    "timing-signoff": 2,
-    "unknown": 32,
-    "verification": 40
+    "analog-mixed-signal": 76,
+    "fpga-toolchain": 47,
+    "hdl-design-entry": 54,
+    "high-level-synthesis": 20,
+    "layout-physical-verification": 32,
+    "pcb-design": 64,
+    "place-and-route": 11,
+    "simulation": 145,
+    "synthesis": 21,
+    "timing-signoff": 8,
+    "unknown": 28,
+    "verification": 52
   },
-  "by_country": {},
+  "by_country": {
+    "Australia": 3,
+    "China": 1,
+    "France": 1,
+    "Germany": 3,
+    "Italy": 1,
+    "Japan": 3,
+    "Switzerland": 1,
+    "United Kingdom": 2,
+    "United States": 54
+  },
   "by_license_model": {
-    "commercial": 42,
-    "freeware": 8,
-    "open-source": 39,
-    "unknown": 288
+    "commercial": 76,
+    "freeware": 7,
+    "open-source": 308,
+    "unknown": 167
   },
-  "by_region": {},
+  "by_region": {
+    "Asia": 4,
+    "Europe": 8,
+    "North America": 54,
+    "Oceania": 3
+  },
+  "country_coverage_percent_by_model": {
+    "commercial": 71.1,
+    "freeware": 85.7,
+    "open-source": 0.6,
+    "unknown": 4.2
+  },
   "dedup": {
-    "canonical_tools": 377,
-    "duplicates_merged": 73,
-    "multi_source_tools": 68,
-    "review_items": 0,
-    "source_records": 462
+    "canonical_tools": 558,
+    "duplicates_merged": 86,
+    "multi_source_tools": 357,
+    "pcb_category_adjustments": 13,
+    "review_items": 10,
+    "source_records": 1045
   },
   "matplotlib": "3.11.2",
   "numpy": "2.5.4",
   "percent_filled": {
-    "category": 91.5,
-    "country_region": 0.0,
-    "first_release_year": 0.0,
-    "languages_formats": 36.6,
-    "latest_release_year": 9.3,
-    "latest_version": 6.1,
-    "license": 7.4,
-    "license_model": 23.6,
-    "repository_url": 75.1,
-    "supported_platforms": 11.4,
-    "vendor_maintainer": 16.4,
-    "website_url": 9.5
+    "category": 95.0,
+    "country_region": 12.4,
+    "first_release_year": 7.5,
+    "languages_formats": 26.0,
+    "latest_release_year": 12.4,
+    "latest_version": 12.0,
+    "license": 61.3,
+    "license_model": 70.1,
+    "repository_url": 71.3,
+    "supported_platforms": 11.5,
+    "vendor_maintainer": 88.0,
+    "website_url": 46.6
   },
   "snapshot_date": "2026-10-22",
-  "total_tools": 377
+  "top3_vendor_share_percent": 7.3,
+  "total_tools": 558
 }

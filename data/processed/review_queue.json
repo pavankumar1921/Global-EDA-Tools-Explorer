@@ -1,1 +1,84 @@
-[]
+[
+  {
+    "type": "same_name_different_vendor",
+    "name": "CVC",
+    "vendors": [
+      "Tachyon Design Automation",
+      "d-m-bailey"
+    ]
+  },
+  {
+    "type": "same_name_different_vendor",
+    "name": "Logisim-evolution",
+    "vendors": [
+      "Multiple universities",
+      "logisim-evolution"
+    ]
+  },
+  {
+    "type": "same_name_different_vendor",
+    "name": "Qucs-S",
+    "vendors": [
+      "ra3xdh",
+      "various contributors"
+    ]
+  },
+  {
+    "type": "same_name_different_vendor",
+    "name": "Qucs-S",
+    "vendors": [
+      "Michael Margraf, Stefan Jahn et al.",
+      "ra3xdh"
+    ]
+  },
+  {
+    "type": "same_name_different_vendor",
+    "name": "fault",
+    "vendors": [
+      "AUCOHL",
+      "leonardt"
+    ]
+  },
+  {
+    "type": "same_name_different_vendor",
+    "name": "OpenSTA",
+    "vendors": [
+      "The-OpenROAD-Project",
+      "parallaxsw"
+    ]
+  },
+  {
+    "type": "field_conflict",
+    "tool": "SapWin",
+    "field": "license_model",
+    "values": [
+      "freeware",
+      "open-source"
+    ],
+    "chosen": "open-source"
+  },
+  {
+    "type": "shared_website_path",
+    "url_key": "autodesk.com/products/eagle",
+    "tool_ids": [
+      "eagle",
+      "toprouter"
+    ]
+  },
+  {
+    "type": "shared_website_path",
+    "url_key": "gnu.org/software/gnucap/gnucap.html",
+    "tool_ids": [
+      "gnu-circuit-analysis-package",
+      "gnucap"
+    ]
+  },
+  {
+    "type": "shared_website_path",
+    "url_key": "xilinx-wiki.atlassian.net/wiki/spaces/a/pages/862421112/co-simulation",
+    "tool_ids": [
+      "libsystemctlm-soc",
+      "systemctlm-cosim-demo"
+    ]
+  }
+]

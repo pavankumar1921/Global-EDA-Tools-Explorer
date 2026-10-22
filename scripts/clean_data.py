@@ -13,7 +13,7 @@ from common import (CATEGORIES, PLATFORMS, PROCESSED, RAW, clean_text, ensure_di
                     snapshot_date, split_multi, valid_url, write_json)
 
 SOURCE_TYPES = ("published_list", "curated_list", "wikipedia_article", "vendor_origin", "vendor_site",
-                "public_repository", "repository_search", "documentation")
+                "public_repository", "repository_search", "documentation", "github_topics")
 
 
 def normalize(rec, issues):

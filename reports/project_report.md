@@ -1,14 +1,14 @@
 # A Worldwide EDA Tool Dataset, Built on Crucible: Project Report
 
-**Snapshot:** 2026-10-15 (vendor-site and GitHub records refreshed 2026-10-19) · **Dataset:** `data/processed/eda_tools_clean.csv` (131 tools) · **Platform:** Crucible
+**Snapshot:** 2026-10-22 · **Dataset:** `data/processed/eda_tools_clean.csv` (558 tools) · **Platform:** Crucible
 (`igny`, foundation package 3.12.10.0), environment `eda-data`, workspace `eda-data-science`.
 
 ## 1. Summary
 
 We built a reproducible pipeline that collects public information about EDA tools worldwide and produces one
 deduplicated row per tool, with a source URL and collection date on every row. The committed snapshot has
-**131 tools** (67 commercial, 44 open-source, 7 freeware, 13 not stated) from **268 source records** across
-**6 source types**. It covers **all 10 flow categories**, from high-level synthesis to sign-off, PCB and FPGA,
+**558 tools** (76 commercial, 308 open-source, 7 freeware, 167 not stated) from **1,045 source records**
+across several source types (curated lists and GitHub search were added to the original six). It covers **all 11 categories** (the 10 flow stages plus `hdl-design-entry`), from high-level synthesis to sign-off, PCB and FPGA,
 and vendors in North America, Europe, Asia and Oceania. Everything (environment, libraries, collection,
 analysis, notebook) runs through `igny`, and the workspace is locked. A fresh-machine simulation (empty
 Crucible home → `igny workspace sync` → rebuild) reproduced the dataset with 0 validation errors.
@@ -23,6 +23,7 @@ Crucible home → `igny workspace sync` → rebuild) reproduced the dataset with
 | vendor_site (`collect_vendor_sites.py`) | official product pages (36 in the seed) | 35 | commercial IC tools absent from the lists: vendor, category, sales evidence |
 | public_repository (`collect_public_repositories.py`) | GitHub REST API | 25 | SPDX licence, owner, latest release tag/date, category from repo description |
 | documentation (`collect_documentation.py`) | official documentation pages | 7 | platform and format evidence (weak), headline category |
+| github_topics (`collect_github_topics.py`) | GitHub search API over EDA topics | not in the 2026-10-15 snapshot (run it, see README) | discovery of open-source tools beyond the seed: owner, SPDX licence, category, homepage; with a token latest release and owner country |
 
 **Rules followed.** robots.txt is checked before every page, with ≥1.5 s between pages and ≥1 s between API
 calls; the User-Agent identifies the project with a contact; only public pages are read. Because of
@@ -37,7 +38,24 @@ page's title and summary name no category, the page's own definition sentence ("
 simulator") is used; when a GitHub description names none, the README's title and first paragraph are used.
 Without a token, the GitHub collector now waits for the hourly rate-limit reset instead of skipping repositories.
 The other four sources were not re-collected, so `date_collected` is 2026-10-15 for 83 rows and 2026-10-19
-for 48 rows. Each row records the date its primary source was actually read.
+for 48 rows. Each row records the date its primary source was actually read. Because the two refreshed sources
+were written into the existing `_2026-10-15` files, `data/raw/SNAPSHOT_MANIFEST.json` now fingerprints every raw
+file (SHA-256, record count, `date_collected` range): `vendor_site_2026-10-15.json` and
+`public_repository_2026-10-15.json` show 2026-10-19 as their only collection date, and an offline rebuild stops if any
+raw file no longer matches the manifest.
+
+**Discovery by GitHub topic search (added after the snapshot was built).** The seed makes the dataset's reach
+depend on a list the author wrote. `collect_github_topics.py` removes that limit for open-source tools: it searches
+GitHub for EDA topics, keeps repositories that look like tools, and records only what the API states. A repository
+is kept when it is not a fork or archived, has at least 5 stars (configurable), and its text carries an EDA anchor
+word, a tool-like word and a keyword of the project's category rules; courses, curated lists, templates and hardware
+designs (CPU cores, keyboards, boards) are rejected. Every rejection is written with its reason to
+`data/raw/github_topics_skipped_<date>.json`. Limits to keep in mind: it finds only GitHub-hosted, mostly
+open-source tools, so it widens the open-source side and does not fix the commercial and regional balance; the
+filter is a heuristic (some tools without a category keyword, such as a bare "SystemVerilog parser", are skipped,
+and a few non-tools may pass); the owner country is the owner's self-reported GitHub location and is used only when
+it names a country. The tool counts in this report describe the committed 2026-10-15 snapshot and will change
+once the collector has been run and the pipeline rebuilt.
 
 **Discovery seed.** Wikipedia's tables cover PCB, analog and HDL simulation well, but not the large
 IC-implementation tools. `data/metadata/seed_tools.json` therefore lists 61 tool names with the URLs to read
@@ -57,7 +75,16 @@ record is kept only if the page returns HTTP 200 **and** the product name appear
   Wikipedia article, or a normalised name with a compatible vendor. The vendor check runs against the whole
   group, so an empty-vendor record cannot bridge two vendors. Field values follow a per-source priority, and
   the latest version and date come together from the single record reporting the most recent release.
-  Result: **268 records → 131 tools**, 89 tools combining 2 to 6 sources, 17 same-source duplicates merged.
+  Result: **1,045 records → 558 tools**, 357 tools combining several sources, 86 same-source duplicates merged.
+- **Vendor spelling** (`vendor_canonical`): spellings with the same normalised key share the most frequent form
+  ("Cadence Design Systems" → "Cadence", "Altium (included in …)" → "Altium"). `vendor_maintainer` keeps the
+  source's wording; counts and the vendor plot use `vendor_canonical`.
+- **PCB rule** (`category_adjustments.json`): the keyword rules read "layout", "routing" and "timing" in their IC
+  sense, so 6 of the 27 PCB tools (CADSTAR, Cadence Allegro X, EAGLE, KiCad, NI Ultiboard, pcb-rnd) had received
+  place-and-route, timing-signoff or layout-physical-verification as *secondary* categories. A PCB-primary tool no
+  longer gets those three IC stages as secondary categories; each removal is logged. Primary categories are unchanged;
+  the any-category counts for the IC stages drop from 11 to 10 (place-and-route), 5 to 4 (timing sign-off) and 18 to
+  13 (layout/physical verification).
 - **Human review** (`review_queue.json`, `data/metadata/review_decisions.json`): ambiguous same-name/different-vendor
   pairs are never auto-merged. Two were confirmed with written reasons: GHDL (author vs GitHub org) and Xyce
   (Sandia vs GitHub org). One open item remains: SapWin is listed as freeware by one source and open-source by another.
@@ -72,48 +99,50 @@ record is kept only if the page returns HTTP 200 **and** the product name appear
 All numbers are from `outputs/` (generated by `scripts/run_analysis.py`) and describe **the collected
 catalog**, not every EDA tool in existence.
 
-**Tools per category** (`tools_by_category.png`). Simulation is the largest primary category (39), followed
-by PCB design (27) and analog/mixed-signal (23). Counting secondary categories, simulation appears in 73
-tools and analog/mixed-signal in 50, because most circuit and PCB tools also simulate. The implementation and
-sign-off stages are small (P&R 4, timing/power sign-off 4, HLS 2 as primary) and almost entirely commercial.
+**Tools per category** (`tools_by_category.png`). Simulation is the largest primary category (145), followed
+by analog/mixed-signal (76), PCB design (64) and `hdl-design-entry` (54); 28 tools have no category. Counting secondary categories, simulation appears in 258
+tools and analog/mixed-signal in 115, because most circuit and PCB tools also simulate. The implementation and
+sign-off stages are small (P&R 11, timing/power sign-off 8, HLS 20 as primary) and almost entirely commercial.
 The open-source exceptions are OpenROAD (P&R) and OpenSTA (static timing analysis).
 
-**Commercial vs open-source** (`license_distribution.png`). 51 % commercial, 34 % open-source, 5 % freeware,
-10 % not stated. Open-source is strongest in FPGA toolchains (4 of 6) and layout/physical verification;
+**Commercial vs open-source** (`license_distribution.png`). 14 % commercial, 55 % open-source, 1 % freeware,
+30 % not stated (the curated lists add many open-source repositories without a stated licence model). Open-source is strongest in FPGA toolchains (4 of 6) and layout/physical verification;
 commercial dominates PCB (19 of 27) and sign-off (3 of 4; OpenSTA is the open-source exception).
 
-**Tools per region** (`tools_by_region.png`). 60 of 131 tools (46 %) have a documented vendor country.
-Among them: North America 49 (United States 49), Europe 5 (Germany 2, United Kingdom, France, Italy),
-Asia 4 (Japan 3, China 1), Oceania 2 (Australia). The US share reflects real market concentration (the
+**Tools per region** (`tools_by_region.png`). 69 of 558 tools (12 %) have a documented vendor country.
+Among them: North America 54 (United States 54), Europe 8 (Germany 3, United Kingdom 2, France, Italy, Switzerland),
+Asia 4 (Japan 3, China 1), Oceania 3 (Australia). The US share reflects real market concentration (the
 three largest EDA vendors are US-headquartered: Siemens EDA's HQ is in Oregon). It is inflated by a
 measurement effect: companies have Wikipedia articles with a headquarters field, while community
-open-source projects mostly don't, so open-source tools rarely get a country.
+open-source projects mostly don't, so open-source tools rarely get a country. Quantified
+(`country_coverage.png`, `country_coverage_by_model.csv`): the vendor country is documented for 71 % of commercial
+tools (54 of 76) but only 1 % of open-source tools (2 of 308). The regional chart is therefore a chart of
+commercial vendors; it says little about where open-source EDA is built. The top three vendors (Cadence,
+Synopsys, Siemens) account for 7 % of the tools that name a vendor (the many GitHub-owner vendors dilute the share).
 
-**Release activity** (`release_activity.png`). 30 tools have a documented first release year, spanning
-1973 (Berkeley SPICE) to 2015, with a cluster in 1982 to 1993 (Magic, Micro-Cap, OrCAD, EAGLE, KiCad).
-58 tools have a documented latest release; 36 of them released in 2024 to 2026. Open-source tools look
-more active (22 of 29 since 2024) than commercial ones (9 of 21). **Caution:** open-source dates come live
+**Release activity** (`release_activity.png`). About 7.5 % of tools have a documented first release year, the earliest
+1973 (Berkeley SPICE), with a cluster in 1982 to 1993 (Magic, Micro-Cap, OrCAD, EAGLE, KiCad).
+69 tools have a documented latest release; 37 of them released in 2024 to 2026. Release dates are filled for only 12 % of tools. **Caution:** open-source dates come live
 from GitHub, while commercial dates mostly come from Wikipedia infoboxes, which are often stale. Part of
 this gap is a source effect, not a fact about the tools.
 
-**Platforms and formats** (`platform_support.png`, `languages_formats.png`). Among tools with documented
-platforms, Windows is most common (42), driven by commercial PCB/circuit tools; open-source tools lean to
-Linux/Unix/macOS. Verilog (37) is the most-mentioned design language; Gerber (26) is the most-mentioned
-manufacturing format.
+**Platforms and formats** (`platform_support.png`, `languages_formats.png`). Platforms are filled for 11.5 % of tools and
+languages/formats for 26 %; see the two plots for the current counts (they were regenerated from this snapshot).
 
-**Data completeness** (`data_completeness.png`). Vendor (95 %), category (98 %) and licence model (90 %)
-are well covered. First release year (23 %), repository URL (23 %) and platforms (37 %) are the hardest to
-find publicly, especially for commercial tools.
+**Data completeness** (`data_completeness.png`). Category (95 %), vendor (88 %), repository URL (71 %) and licence model (70 %)
+are well covered. First release year (7.5 %), platforms (11.5 %), latest version (12 %) and country (12 %) are the hardest to
+find publicly, especially for the community repositories added from curated lists.
 
 ## 5. Known gaps in coverage
 
-1. **Not a census.** 131 tools is a well-sourced sample. The Wikipedia lists over-represent PCB, analog and
+1. **Not a census.** 558 tools is a well-sourced sample. The Wikipedia lists over-represent PCB, analog and
    HDL-simulation tools. IC implementation and sign-off tools come from a 61-entry discovery seed chosen by
    the author (the choice of *which* pages to read is human; every *value* comes from the pages).
-2. **Regions are thin outside North America** (Europe 5, Asia 4). Many Asian and European vendors
+2. **Regions are thin outside North America** (Europe 8, Asia 4). Many Asian and European vendors
    (Primarius, Gowin, Efinix, Sigasi, Defacto) have no English Wikipedia article with a
    headquarters field, so their country stays empty. South America and Africa: none found.
-3. **Category** is rule-derived and can follow marketing wording. Cadence now sells *Innovus+ Synthesis and
+3. **Category** is rule-derived and can follow marketing wording (PCB tools no longer receive IC-only secondary
+   categories, §3, but the rules remain keyword matches). Cadence now sells *Innovus+ Synthesis and
    Implementation*, so Innovus's primary category is synthesis, with P&R as additional. Bambu (an HLS tool)
    is primarily `fpga-toolchain` because its description mentions FPGA first. Two tools (Defacto SoC Compiler, sv2v) state no category.
 4. **Release data**: commercial versions are often stale or missing; tag-only GitHub projects have a version
@@ -147,7 +176,29 @@ What worked well: `igny run script` reliably used Crucible's interpreter with th
 captured a log of every run; `igny run jupyter nbconvert --execute` ran the notebook headless; `igny workspace
 sync` rebuilt the environment on an empty Crucible home from the lock alone.
 
-## 7. Reproduction
+## 7. Requirements traceability
+
+How each objective and acceptance criterion of the problem statement is met, and where the evidence is.
+
+| Requirement | Status | Evidence / caveat |
+|---|---|---|
+| 1 Crucible workspace bound to its own environment | Met | `crucible.toml` (workspace `eda-data-science`, env `eda-data`) |
+| 2 Data-science stack installed through `igny` | Met | numpy, matplotlib, jupyterlab in `crucible.lock`; pandas, scipy, requests, beautifulsoup4 are not catalog tools and are not used (§6) |
+| 3 Public sources identified | Met | §2, `data/metadata/source_manifest.json` (robots.txt decisions included) |
+| 4 Collection scripts run through `igny` | Met | six `collect_*.py`, started by `pipeline.py --collect` with Crucible's interpreter |
+| 5 One cleaned dataset, duplicates merged | Met | `eda_tools_clean.csv`: 1,045 records → 558 tools; audit trail in `data/processed/` |
+| 6 Analysis with plots | Met | 9 plots, 10 tables, `findings.md`, notebook |
+| 7 Workspace locked | Met, with caveat | `crucible.lock` lists `windows-x86_64` only, no checksums (§6); Linux/macOS reproduction is untested |
+| Coverage: commercial + open-source | Met | 76 commercial, 308 open-source, 7 freeware, 167 not stated |
+| Coverage: every major flow category | Met | 11 of 11 categories |
+| Coverage: North America, Europe, Asia | Met, thin | Europe 8 and Asia 4 tools with a documented country (§5); country is known for only 12 % of tools |
+| Accept 1: clone + `igny workspace sync` | Met | fresh-machine simulation, §1 |
+| Accept 2: fresh dataset from live sources | Met | `pipeline.py -- --collect`, ≈ 10 min; blocked or flaky pages are logged, not hidden |
+| Accept 3: same plots from the committed snapshot | Met | `SNAPSHOT_MANIFEST.json` is verified before a rebuild; CSV outputs are LF on every OS; two rebuilds gave identical bytes (§8) |
+| Accept 4: trace any row to its URL | Met | `source_url` per row, every page in `provenance.csv` |
+| Accept 5: nothing installed outside Crucible | Met by design | scripts import only the standard library, numpy and matplotlib; `check_environment.py` fails if they resolve outside Crucible |
+
+## 8. Reproduction
 
 ```bash
 igny workspace sync                                      # environment from crucible.lock

@@ -1,26 +1,26 @@
-vendor_maintainer,tools
+vendor_canonical,tools
+Cadence,16
+chipsalliance,11
+Synopsys,9
+Xilinx,8
+Nic30,6
+Siemens,5
+olofk,4
+intel,4
+dalance,4
+Autodesk,3
+sgherbst,3
+NVlabs,3
+PrincetonUniversity,3
 Zuken,3
-Cadence Design Systems,3
-Autodesk,2
+pku-liang,3
+ucb-bar,3
+cuhk-eda,3
+maestro-project,3
+Minres,3
+YosysHQ,3
+OpenTimer,3
+Keysight EEsof EDA,2
+IBM,2
 Altium,2
-Tachyon Design Automation,2
-Xilinx,2
-Aldec,1
-Keysight EEsof EDA,1
-"Huada Empyrean Software Co., Ltd",1
-VMware Research,1
-Logic Design,1
-RS Components,1
-Novarm,1
-Autodesk / CadSoft Computer,1
-Edwin Naroska,1
-Tristan Gingold,1
-Pragmatic C Software,1
-Teradyne,1
-Stephen Williams,1
-Infineon Technologies,1
-"ngspice, Yosys communities and Isotel",1
-"A. Bosio, G. Di Natale",1
-Multiple universities,1
-Analog Devices,1
-Metrics Technologies,1
+amaranth-lang,2

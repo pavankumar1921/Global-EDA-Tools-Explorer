@@ -1,0 +1,94 @@
+[
+  {
+    "tool": "CADSTAR",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "place-and-route",
+      "timing-signoff"
+    ]
+  },
+  {
+    "tool": "Cadence Allegro X",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "EAGLE",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "KiCad",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "KiCad-Parasitics",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "NI Ultiboard",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "PCB",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "TopRouter",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "boardview",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "cuflow",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "fastroute",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "place-and-route"
+    ]
+  },
+  {
+    "tool": "pcb-rnd",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  },
+  {
+    "tool": "pcbflow",
+    "rule": "pcb_primary_drops_ic_stages",
+    "dropped_additional_categories": [
+      "layout-physical-verification"
+    ]
+  }
+]

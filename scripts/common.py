@@ -33,7 +33,7 @@ RAW_FIELDS = [
     "fetch_status", "vendor_wikipedia_url",
 ]
 FINAL_FIELDS = [
-    "tool_id", "tool_name", "vendor_maintainer", "country_region", "region", "category",
+    "tool_id", "tool_name", "vendor_maintainer", "vendor_canonical", "country_region", "region", "category",
     "additional_categories", "license_model", "license", "website_url", "repository_url",
     "wikipedia_url", "first_release_year", "latest_version", "latest_release_date",
     "latest_release_year", "supported_platforms", "languages_formats", "source_url", "source_types", "date_collected",
@@ -70,6 +70,12 @@ CATEGORY_RULES = [
      r"transpil|\bparsers?\b|elaborat|build system|dependency manag|register (map|generator|description|code)|"
      r"code generator|hdl generat|hardware generat|\bdsl\b|language server", "hdl-design-entry"),
 ]
+
+
+# Stages whose keywords also have a board-level meaning ('layout', 'routing', 'timing analysis' / signal
+# integrity). A tool whose PRIMARY category is pcb-design does not get these IC stages as secondary categories:
+# PCB routing is not IC place-and-route. Applied (and logged) in deduplicate_data.apply_pcb_rule.
+PCB_NOT_IC_STAGES = {"place-and-route", "timing-signoff", "layout-physical-verification"}
 
 
 def categorize(*texts, by_position=False):

@@ -1,463 +1,1046 @@
 tool_id,source_type,source_url,date_collected,fetch_status,fields_reported
 123d-circuits,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+123d-circuits,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-22,200,country_region
+123d-circuits,wikipedia_article,https://en.wikipedia.org/wiki/123D,2026-10-22,200,vendor_maintainer; license; first_release_year; latest_version; supported_platforms
 abc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 abc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+abc,repository_search,https://api.github.com/search/repositories?q=repo:berkeley-abc/abc,2026-10-22,200,vendor_maintainer; category
 act,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+act,repository_search,https://api.github.com/search/repositories?q=repo:asyncvlsi/act,2026-10-22,200,vendor_maintainer; category; license_model; license
 active-hdl-riviera-pro,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+active-hdl-riviera-pro,vendor_origin,https://en.wikipedia.org/wiki/Aldec,2026-10-22,200,country_region
 adc-eval,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+adc-eval,repository_search,https://api.github.com/search/repositories?q=repo:esynr3z/adc-eval,2026-10-22,200,vendor_maintainer
+adms,wikipedia_article,https://en.wikipedia.org/wiki/ADMS,2026-10-22,200,category
 advanced-design-system,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+advanced-design-system,vendor_origin,https://en.wikipedia.org/wiki/EEsof,2026-10-22,200,country_region
+advanced-design-system,vendor_origin,https://en.wikipedia.org/wiki/Keysight,2026-10-22,200,country_region
+advanced-design-system,vendor_origin,https://en.wikipedia.org/wiki/PathWave_Design,2026-10-22,200,country_region
+advanced-design-system,wikipedia_article,https://en.wikipedia.org/wiki/Advanced_Design_System,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; supported_platforms
 aeolus-ds,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+agamemnon,repository_search,https://api.github.com/search/repositories?q=repo:bbenchoff/AGaMEMnon,2026-10-22,200,vendor_maintainer; category; license_model; license
 ahahls,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; license_model
+ahahls,repository_search,https://api.github.com/search/repositories?q=repo:dillonhuff/ahaHLS,2026-10-22,200,vendor_maintainer; category; license_model; license
+ahkab,repository_search,https://api.github.com/search/repositories?q=repo:ahkab/ahkab,2026-10-22,200,vendor_maintainer; category; license_model; license
+aigverse,repository_search,https://api.github.com/search/repositories?q=repo:marcelwa/aigverse,2026-10-22,200,vendor_maintainer; category; license_model; license
 aihwkit,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+aihwkit,repository_search,https://api.github.com/search/repositories?q=repo:IBM/aihwkit,2026-10-22,200,vendor_maintainer; category; license_model; license
 align,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+align,repository_search,https://api.github.com/search/repositories?q=repo:ALIGN-analoglayout/ALIGN-public,2026-10-22,200,vendor_maintainer; license_model; license
+also,repository_search,https://api.github.com/search/repositories?q=repo:nbulsi/also,2026-10-22,200,vendor_maintainer; category; license_model; license
 altium-designer,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+altium-designer,vendor_origin,https://en.wikipedia.org/wiki/Altium,2026-10-22,200,country_region
+altium-designer,wikipedia_article,https://en.wikipedia.org/wiki/Altium_Designer,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 amaranth,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 amaranth,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+amaranth,repository_search,https://api.github.com/search/repositories?q=repo:amaranth-lang/amaranth,2026-10-22,200,vendor_maintainer; category; license_model; license
+amaranth-soc,repository_search,https://api.github.com/search/repositories?q=repo:amaranth-lang/amaranth-soc,2026-10-22,200,vendor_maintainer; category; license_model; license
 amf-placer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+amf-placer,repository_search,https://api.github.com/search/repositories?q=repo:zslwyuan/AMF-Placer,2026-10-22,200,vendor_maintainer; category; license_model; license
+analog-agents,repository_search,https://api.github.com/search/repositories?q=repo:Arcadia-1/analog-agents,2026-10-22,200,vendor_maintainer; category
 anasysmod,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+anasysmod,repository_search,https://api.github.com/search/repositories?q=repo:sgherbst/anasymod,2026-10-22,200,vendor_maintainer; category; license_model; license
+anise,repository_search,https://api.github.com/search/repositories?q=repo:nyx-space/anise,2026-10-22,200,vendor_maintainer; category; license_model; license
+ansys-hfss,wikipedia_article,https://en.wikipedia.org/wiki/Ansys_HFSS,2026-10-22,200,category
+apollo,repository_search,https://api.github.com/search/repositories?q=repo:greatscottgadgets/apollo,2026-10-22,200,vendor_maintainer; category; license_model; license
 arcilator,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+arcilator,repository_search,https://api.github.com/search/repositories?q=repo:circt/arc-tests,2026-10-22,200,vendor_maintainer; category
+astap,wikipedia_article,https://en.wikipedia.org/wiki/ASTAP,2026-10-22,200,category
+atalanta,repository_search,https://api.github.com/search/repositories?q=repo:hsluoyz/Atalanta,2026-10-22,200,vendor_maintainer; category
 atopile,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
 augh,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+autobridge,repository_search,https://api.github.com/search/repositories?q=repo:UCLA-VAST/AutoBridge,2026-10-22,200,vendor_maintainer; category; license_model; license
 autocc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+autocc,repository_search,https://api.github.com/search/repositories?q=repo:morenes/AutoCC,2026-10-22,200,vendor_maintainer; category
 autodmp,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+autodmp,repository_search,https://api.github.com/search/repositories?q=repo:NVlabs/AutoDMP,2026-10-22,200,vendor_maintainer; license_model; license
 autosva,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+autosva,repository_search,https://api.github.com/search/repositories?q=repo:PrincetonUniversity/AutoSVA,2026-10-22,200,vendor_maintainer; category
+autotrax,vendor_origin,https://en.wikipedia.org/wiki/Altium,2026-10-22,200,country_region
+autotrax,wikipedia_article,https://en.wikipedia.org/wiki/Autotrax,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year
+awesome-open-hardware-verification,repository_search,https://api.github.com/search/repositories?q=repo:ben-marshall/awesome-open-hardware-verification,2026-10-22,200,vendor_maintainer; category; license_model; license
 awsteriainfra,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+awsteriainfra,repository_search,https://api.github.com/search/repositories?q=repo:bluespec/AWSteria_Infra,2026-10-22,200,vendor_maintainer; category
+bacpac,wikipedia_article,https://en.wikipedia.org/wiki/BACPAC,2026-10-22,200,
 bag,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 bag,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-bambu,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+bag,repository_search,https://api.github.com/search/repositories?q=repo:ucb-art/BAG_framework,2026-10-22,200,vendor_maintainer; license_model; license
 bazelhdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+bazelhdl,repository_search,https://api.github.com/search/repositories?q=repo:hdl/bazel_rules_hdl,2026-10-22,200,vendor_maintainer; category; license_model; license
 bender,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 bender,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+bender,repository_search,https://api.github.com/search/repositories?q=repo:pulp-platform/bender,2026-10-22,200,vendor_maintainer; category; license_model; license
 bigspicy,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+bigspicy,repository_search,https://api.github.com/search/repositories?q=repo:google/bigspicy,2026-10-22,200,vendor_maintainer; license_model; license
 bitfield,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
 boardview,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+boardview,repository_search,https://api.github.com/search/repositories?q=repo:whitequark/kicad-boardview,2026-10-22,200,vendor_maintainer; category; license
 boolector,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+boolector,repository_search,https://api.github.com/search/repositories?q=repo:Boolector/boolector,2026-10-22,200,vendor_maintainer
 bsc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 bsc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+bsc,repository_search,https://api.github.com/search/repositories?q=repo:B-Lang-org/bsc,2026-10-22,200,vendor_maintainer
 byteman,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cadence-allegro-x,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-allegro-x,vendor_site,https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-design-platform.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-conformal,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-conformal,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/conformal-technologies.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-genus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-genus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/genus-synthesis-solution.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-innovus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-innovus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/innovus-plus-synthesis-implementation-system.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-jasper,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-jasper,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-pegasus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-pegasus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-spectre,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-spectre,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-stratus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-stratus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-tempus,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-tempus,vendor_site,https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/tempus-timing-signoff-solution.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-virtuoso,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-virtuoso,vendor_site,https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html,2026-10-22,200,vendor_maintainer; category; license_model
+cadence-xcelium,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+cadence-xcelium,vendor_site,https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html,2026-10-22,200,vendor_maintainer; category; license_model
 cadstar,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+cadstar,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-22,200,country_region
+cadstar,wikipedia_article,https://en.wikipedia.org/wiki/CADSTAR,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 calyx,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 calyx,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 cascade,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+catapult-c,wikipedia_article,https://en.wikipedia.org/wiki/Catapult_C,2026-10-22,200,category
+cats,wikipedia_article,https://en.wikipedia.org/wiki/CATS_(software),2026-10-22,200,
 cement,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+cement,repository_search,https://api.github.com/search/repositories?q=repo:pku-liang/Cement,2026-10-22,200,vendor_maintainer; category; license_model; license
 champsim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+champsim,repository_search,https://api.github.com/search/repositories?q=repo:ChampSim/ChampSim,2026-10-22,200,vendor_maintainer; category; license_model; license
 chipyard,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+chipyard,repository_search,https://api.github.com/search/repositories?q=repo:ucb-bar/chipyard,2026-10-22,200,vendor_maintainer; license_model; license
 chisel,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 chisel,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 chisel,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 circt,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 circt,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+circt,repository_search,https://api.github.com/search/repositories?q=repo:llvm/circt,2026-10-22,200,vendor_maintainer
+circuit-simulator,repository_search,https://api.github.com/search/repositories?q=repo:circuitsim/circuit-simulator,2026-10-22,200,vendor_maintainer; category; license_model; license
 circuitgraph,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+circuitgraph,repository_search,https://api.github.com/search/repositories?q=repo:circuitgraph/circuitgraph,2026-10-22,200,vendor_maintainer; license_model; license
+circuitjs1,repository_search,https://api.github.com/search/repositories?q=repo:SEVA77/circuitjs1,2026-10-22,200,vendor_maintainer; category; license_model; license
 circuitlogix,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+circuitlogix,wikipedia_article,https://en.wikipedia.org/wiki/CircuitLogix,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 circuitmaker,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+circuitmaker,vendor_origin,https://en.wikipedia.org/wiki/Altium,2026-10-22,200,country_region
+circuitmaker,wikipedia_article,https://en.wikipedia.org/wiki/CircuitMaker,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 circuitops,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+circuitops,repository_search,https://api.github.com/search/repositories?q=repo:NVlabs/CircuitOps,2026-10-22,200,vendor_maintainer; license_model; license
+circuitpro,repository_search,https://api.github.com/search/repositories?q=repo:CircuitProApp/CircuitPro,2026-10-22,200,vendor_maintainer; category
+circuitrf,repository_search,https://api.github.com/search/repositories?q=repo:potatobeanradio/circuitRF,2026-10-22,200,vendor_maintainer; category; license_model; license
+circuits-cloud,wikipedia_article,https://en.wikipedia.org/wiki/Circuits_Cloud,2026-10-22,200,vendor_maintainer; category; first_release_year; latest_version; supported_platforms
+circuitsim,repository_search,https://api.github.com/search/repositories?q=repo:drifter1/circuitsim,2026-10-22,200,vendor_maintainer; category; license_model; license
 clash,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 clash,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
 clash,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+clash,repository_search,https://api.github.com/search/repositories?q=repo:clash-lang/clash-compiler,2026-10-22,200,vendor_maintainer; category
 cocoon,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cocoon,repository_search,https://api.github.com/search/repositories?q=repo:pku-dasys/cocoon,2026-10-22,200,vendor_maintainer
 cocotb,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
 cocotb,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 cocotb,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+cocotb,documentation,https://docs.cocotb.org/en/stable/,2026-10-22,200,languages_formats
+cocotb,public_repository,https://api.github.com/repos/cocotb/cocotb,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
+cocotb-bus,repository_search,https://api.github.com/search/repositories?q=repo:cocotb/cocotb-bus,2026-10-22,200,vendor_maintainer; category
 cocotbext-axi,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cocotbext-axi,repository_search,https://api.github.com/search/repositories?q=repo:alexforencich/cocotbext-axi,2026-10-22,200,vendor_maintainer; license_model; license
 cocotbext-pcie,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cocotbext-pcie,repository_search,https://api.github.com/search/repositories?q=repo:alexforencich/cocotbext-pcie,2026-10-22,200,vendor_maintainer; category; license_model; license
+colorcam,wikipedia_article,https://en.wikipedia.org/wiki/ColorCAM,2026-10-22,200,category
 concat,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 constrainedrandom,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+constrainedrandom,repository_search,https://api.github.com/search/repositories?q=repo:imaginationtech/constrainedrandom,2026-10-22,200,vendor_maintainer; category; license_model; license
+coolspice,wikipedia_article,https://en.wikipedia.org/wiki/CoolSPICE,2026-10-22,200,category; license_model; license; latest_version; supported_platforms
+copper,repository_search,https://api.github.com/search/repositories?q=repo:Yatekii/copper,2026-10-22,200,vendor_maintainer; category; license_model; license
 core-v-verif,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 coreir,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+coreir,repository_search,https://api.github.com/search/repositories?q=repo:rdaly525/coreir,2026-10-22,200,vendor_maintainer; license_model; license
 coriolis,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+coriolis,repository_search,https://api.github.com/search/repositories?q=repo:lip6/coriolis,2026-10-22,200,vendor_maintainer; category; license_model; license
+cpu-sim,wikipedia_article,https://en.wikipedia.org/wiki/CPU_Sim,2026-10-22,200,vendor_maintainer; category; license; latest_version; supported_platforms
 cr-5000,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+cr-5000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-22,200,country_region
 cr-8000,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+cr-8000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-22,200,country_region
+cr-8000,vendor_origin,https://en.wikipedia.org/wiki/Zuken,2026-10-22,200,country_region
+cr-8000,vendor_site,https://www.zuken.com/en/product/cr-8000/,2026-10-22,200,vendor_maintainer; category; license_model
 crave,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+crave,repository_search,https://api.github.com/search/repositories?q=repo:antmicro/crave,2026-10-22,200,vendor_maintainer
+cu-gr,repository_search,https://api.github.com/search/repositories?q=repo:cuhk-eda/cu-gr,2026-10-22,200,vendor_maintainer; category
 cuflow,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-cvc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cuflow,repository_search,https://api.github.com/search/repositories?q=repo:jamesbowman/cuflow,2026-10-22,200,vendor_maintainer; category; license_model; license
 cvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+cvc-2,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cvc-2,repository_search,https://api.github.com/search/repositories?q=repo:d-m-bailey/cvc,2026-10-22,200,vendor_maintainer; license_model; license
 cvc5,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+cvc5,repository_search,https://api.github.com/search/repositories?q=repo:cvc5/cvc5,2026-10-22,200,vendor_maintainer
 d3-hwschematics,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 d3-hwschematics,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
+d3-hwschematics,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/d3-hwschematic,2026-10-22,200,vendor_maintainer; license_model; license
 d3wave,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 d3wave,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+d3wave,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/d3-wave,2026-10-22,200,vendor_maintainer; license_model; license
 datasheet-scrubber,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+datasheet-scrubber,repository_search,https://api.github.com/search/repositories?q=repo:idea-fasoc/datasheet-scrubber,2026-10-22,200,vendor_maintainer; license_model; license
 ddr5phy,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+ddr5phy,repository_search,https://api.github.com/search/repositories?q=repo:Shehab-Naga/ddr5_phy,2026-10-22,200,vendor_maintainer; category; license_model; license
+dds-function-generator,repository_search,https://api.github.com/search/repositories?q=repo:ts-manuel/DDS-Function-Generator,2026-10-22,200,vendor_maintainer; category; license_model; license
+deeppcb-kicad-plugin,repository_search,https://api.github.com/search/repositories?q=repo:instadeepai/deeppcb-kicad-plugin,2026-10-22,200,vendor_maintainer; category; license_model; license
+defacto-soc-compiler,vendor_site,https://defactotech.com/,2026-10-22,200,
 delaygraph,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 designspark-pcb,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+designspark-pcb,vendor_origin,https://en.wikipedia.org/wiki/RS_Components,2026-10-22,200,country_region
+designspark-pcb,wikipedia_article,https://en.wikipedia.org/wiki/DesignSpark_PCB,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 devsim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 dfhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+dfhdl,repository_search,https://api.github.com/search/repositories?q=repo:DFiantHDL/DFHDL,2026-10-22,200,vendor_maintainer; category; license_model; license
 dfiant,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+digitaljs,repository_search,https://api.github.com/search/repositories?q=repo:tilk/digitaljs,2026-10-22,200,vendor_maintainer; category; license_model; license
 diptrace,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+diptrace,wikipedia_article,https://en.wikipedia.org/wiki/DipTrace,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+dr-cu,repository_search,https://api.github.com/search/repositories?q=repo:cuhk-eda/dr-cu,2026-10-22,200,vendor_maintainer; category
 dreamplace,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+dreamplace,repository_search,https://api.github.com/search/repositories?q=repo:limbo018/DREAMPlace,2026-10-22,200,vendor_maintainer; category; license_model; license
 dreamplacefpga,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+dreamplacefpga,repository_search,https://api.github.com/search/repositories?q=repo:rachelselinar/DREAMPlaceFPGA,2026-10-22,200,vendor_maintainer; license_model; license
 dromajo,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+dromajo,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/dromajo,2026-10-22,200,vendor_maintainer; category; license_model; license
 eagle,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+eagle,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-22,200,country_region
+eagle,wikipedia_article,https://en.wikipedia.org/wiki/EAGLE_(program),2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 easyeda,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
+easyeda,wikipedia_article,https://en.wikipedia.org/wiki/EasyEDA,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+ecad-dracula,wikipedia_article,https://en.wikipedia.org/wiki/ECAD_Dracula,2026-10-22,200,category
+eda-tools,repository_search,https://api.github.com/search/repositories?q=repo:vmunoz82/eda_tools,2026-10-22,200,vendor_maintainer; category; license_model; license
 edalize,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+edalize,repository_search,https://api.github.com/search/repositories?q=repo:olofk/edalize,2026-10-22,200,vendor_maintainer; category; license_model; license
+eecircuit,repository_search,https://api.github.com/search/repositories?q=repo:eelab-dev/EEcircuit,2026-10-22,200,vendor_maintainer; category; license_model; license
 eesim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+efinix-efinity,vendor_site,https://www.efinixinc.com/products-efinity.html,2026-10-22,200,vendor_maintainer; category
 electric,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_IC_physical_synthesis_and_layout,2026-10-22,200,category; license_model; license; supported_platforms
+electric,wikipedia_article,https://en.wikipedia.org/wiki/Electric_(software),2026-10-22,200,category; license_model; license; first_release_year; latest_version; supported_platforms
+electron,repository_search,https://api.github.com/search/repositories?q=repo:electron-lang/electron,2026-10-22,200,vendor_maintainer; category
 elmer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+elmer,repository_search,https://api.github.com/search/repositories?q=repo:ElmerCSC/elmerfem,2026-10-22,200,vendor_maintainer; category
+empyrean-aether,vendor_origin,https://en.wikipedia.org/wiki/Empyrean_Technology,2026-10-22,200,country_region
+empyrean-aether,vendor_site,https://www.empyrean-tech.com/products/eda/analog-design-solution/schematic-and-layout-editor.html,2026-10-22,200,vendor_maintainer; category
+ershov-computer,wikipedia_article,https://en.wikipedia.org/wiki/Ershov_Computer,2026-10-22,200,vendor_maintainer; category; first_release_year
+espresso-heuristic-logic-minimizer,wikipedia_article,https://en.wikipedia.org/wiki/Espresso_heuristic_logic_minimizer,2026-10-22,200,
 essent,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 essent,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+essent,repository_search,https://api.github.com/search/repositories?q=repo:ucsc-vama/essent,2026-10-22,200,vendor_maintainer; category
 f4fpga,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+f4fpga,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/f4pga,2026-10-22,200,vendor_maintainer; category; license_model; license
 f4pga-arch-defs,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+f4pga-arch-defs,repository_search,https://api.github.com/search/repositories?q=repo:f4pga/f4pga-arch-defs,2026-10-22,200,vendor_maintainer; category; license_model; license
+fabrication-toolkit,repository_search,https://api.github.com/search/repositories?q=repo:bennymeg/Fabrication-Toolkit,2026-10-22,200,vendor_maintainer; category; license_model; license
+fabulous,repository_search,https://api.github.com/search/repositories?q=repo:FPGA-Research/FABulous,2026-10-22,200,vendor_maintainer; category; license_model; license
+falcon-framework,wikipedia_article,https://en.wikipedia.org/wiki/Falcon_Framework,2026-10-22,200,
+fan-atpg,repository_search,https://api.github.com/search/repositories?q=repo:NTU-LaDS-II/FAN_ATPG,2026-10-22,200,vendor_maintainer; category; license_model; license
+fasm,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/fasm,2026-10-22,200,vendor_maintainer; category; license_model; license
+fastroute,repository_search,https://api.github.com/search/repositories?q=repo:parisxmas/fastroute,2026-10-22,200,vendor_maintainer; category; license_model; license
 fault,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
-fault,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+fault,repository_search,https://api.github.com/search/repositories?q=repo:AUCOHL/Fault,2026-10-22,200,vendor_maintainer; category; license_model; license
+fault-2,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+fault-2,repository_search,https://api.github.com/search/repositories?q=repo:leonardt/fault,2026-10-22,200,vendor_maintainer; license_model; license
+fem-element,wikipedia_article,https://en.wikipedia.org/wiki/FEM_Element,2026-10-22,200,category
 femwell,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+femwell,repository_search,https://api.github.com/search/repositories?q=repo:HelgeGehring/femwell,2026-10-22,200,vendor_maintainer; category; license_model; license
 filament,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 finn,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+finn,repository_search,https://api.github.com/search/repositories?q=repo:Xilinx/finn,2026-10-22,200,vendor_maintainer; category; license_model; license
 firesim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+firesim,repository_search,https://api.github.com/search/repositories?q=repo:firesim/firesim,2026-10-22,200,vendor_maintainer; category
 firrtl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+firrtl,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/firrtl,2026-10-22,200,vendor_maintainer; license_model; license
+fletcher,repository_search,https://api.github.com/search/repositories?q=repo:abs-tudelft/fletcher,2026-10-22,200,vendor_maintainer; category; license_model; license
 flgen,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+flgen,repository_search,https://api.github.com/search/repositories?q=repo:pezy-computing/flgen,2026-10-22,200,vendor_maintainer; license_model; license
 flowtune,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 flux-ai,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; languages_formats
 foedag,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+foedag,repository_search,https://api.github.com/search/repositories?q=repo:os-fpga/FOEDAG,2026-10-22,200,vendor_maintainer
 force-riscv,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+fpga-docker,repository_search,https://api.github.com/search/repositories?q=repo:halfmanhalftaco/fpga-docker,2026-10-22,200,vendor_maintainer; category
+fpga-tool-perf,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/fpga-tool-perf,2026-10-22,200,vendor_maintainer; category; license_model; license
 frame,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+frame,repository_search,https://api.github.com/search/repositories?q=repo:maestro-project/frame,2026-10-22,200,vendor_maintainer; license_model; license
 freecad,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+freecad,repository_search,https://api.github.com/search/repositories?q=repo:FreeCAD/FreeCAD,2026-10-22,200,vendor_maintainer; license_model; license
 freehdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
 freepcb,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+freepcb,wikipedia_article,https://en.wikipedia.org/wiki/FreePCB,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 freerouting,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+freerouting,repository_search,https://api.github.com/search/repositories?q=repo:freerouting/freerouting,2026-10-22,200,vendor_maintainer; category; license_model; license
+freestyle-router,wikipedia_article,https://en.wikipedia.org/wiki/FreeStyle_Router,2026-10-22,200,category
+freestyleroute,wikipedia_article,https://en.wikipedia.org/wiki/FreeStyleRoute,2026-10-22,200,category
+fritzing,public_repository,https://api.github.com/repos/fritzing/fritzing-app,2026-10-22,200,vendor_maintainer; category; latest_version
 fritzing,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+fritzing,wikipedia_article,https://en.wikipedia.org/wiki/Fritzing,2026-10-22,200,vendor_maintainer; license_model; license; latest_version; supported_platforms
 fstdumper,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+fstdumper,repository_search,https://api.github.com/search/repositories?q=repo:semify-eda/fstdumper,2026-10-22,200,vendor_maintainer; category; license_model; license
 fusesoc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 fusesoc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+fusesoc,repository_search,https://api.github.com/search/repositories?q=repo:olofk/fusesoc,2026-10-22,200,vendor_maintainer; category; license_model; license
 gamma,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+gamma,repository_search,https://api.github.com/search/repositories?q=repo:maestro-project/gamma,2026-10-22,200,vendor_maintainer; license_model; license
 gamora,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 garnet,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+garnet,repository_search,https://api.github.com/search/repositories?q=repo:StanfordAHA/garnet,2026-10-22,200,vendor_maintainer; license_model; license
 gateforge,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+gateforge,repository_search,https://api.github.com/search/repositories?q=repo:vagran/GateForge,2026-10-22,200,vendor_maintainer; category; license_model; license
 gds3d,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+gds3d,repository_search,https://api.github.com/search/repositories?q=repo:trilomix/GDS3D,2026-10-22,200,vendor_maintainer; category; license_model; license
 gdsfactory,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+gdsfactory,repository_search,https://api.github.com/search/repositories?q=repo:gdsfactory/gdsfactory,2026-10-22,200,vendor_maintainer; category; license_model; license
 gdsiistl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+gdsiistl,repository_search,https://api.github.com/search/repositories?q=repo:dteal/gdsiistl,2026-10-22,200,vendor_maintainer; category; license_model; license
 gdspy,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+gdspy,repository_search,https://api.github.com/search/repositories?q=repo:heitzmann/gdspy,2026-10-22,200,vendor_maintainer; category; license
 gdstk,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+gdstk,repository_search,https://api.github.com/search/repositories?q=repo:heitzmann/gdstk,2026-10-22,200,vendor_maintainer; category; license
 geda,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+geda,wikipedia_article,https://en.wikipedia.org/wiki/GEDA,2026-10-22,200,vendor_maintainer; license_model; license; first_release_year; latest_version; supported_platforms
 gem5,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+gem5,repository_search,https://api.github.com/search/repositories?q=repo:gem5/gem5,2026-10-22,200,vendor_maintainer; category; license_model; license
 genregisters,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+genregisters,repository_search,https://api.github.com/search/repositories?q=repo:lsteveol/gen_registers,2026-10-22,200,vendor_maintainer; license_model; license
 ghdl,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
 ghdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 ghdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+ghdl,documentation,https://ghdl.github.io/ghdl/,2026-10-22,200,supported_platforms; languages_formats
+ghdl,public_repository,https://api.github.com/repos/ghdl/ghdl,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 ghdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
 ghdl-yosys-plugin,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+ghdl-yosys-plugin,repository_search,https://api.github.com/search/repositories?q=repo:ghdl/ghdl-yosys-plugin,2026-10-22,200,vendor_maintainer; category; license_model; license
+gmid,repository_search,https://api.github.com/search/repositories?q=repo:medwatt/gmid,2026-10-22,200,vendor_maintainer; category; license_model; license
+gnu-circuit-analysis-package,wikipedia_article,https://en.wikipedia.org/wiki/GNU_Circuit_Analysis_Package,2026-10-22,200,vendor_maintainer; category; license_model; license
 gnucap,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license; supported_platforms
 gnucap,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,category; license_model; supported_platforms; languages_formats
+gnucap,wikipedia_article,https://en.wikipedia.org/wiki/Gnucap,2026-10-22,200,vendor_maintainer; category; license_model; license
+gowin-eda,vendor_site,https://www.gowinsemi.com/en/support/home/,2026-10-22,200,vendor_maintainer; category
 gpl-cver,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+gpsim,wikipedia_article,https://en.wikipedia.org/wiki/Gpsim,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 gtkwave,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 gtkwave,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+gtkwave,repository_search,https://api.github.com/search/repositories?q=repo:gtkwave/gtkwave,2026-10-22,200,vendor_maintainer; license_model; license
 halide,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+halide,repository_search,https://api.github.com/search/repositories?q=repo:halide/Halide,2026-10-22,200,vendor_maintainer; category
 halide-to-hardware,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+halide-to-hardware,repository_search,https://api.github.com/search/repositories?q=repo:StanfordAHA/Halide-to-Hardware,2026-10-22,200,vendor_maintainer
 hammer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+hammer,repository_search,https://api.github.com/search/repositories?q=repo:ucb-bar/hammer,2026-10-22,200,vendor_maintainer; license_model; license
 hardcaml,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hardcaml,repository_search,https://api.github.com/search/repositories?q=repo:janestreet/hardcaml,2026-10-22,200,vendor_maintainer; license_model; license
+hardware-implementation-of-the-canny-edge-detection-algorithm,repository_search,https://api.github.com/search/repositories?q=repo:DOUDIU/Hardware-Implementation-of-the-Canny-Edge-Detection-Algorithm,2026-10-22,200,vendor_maintainer; category
 hastlayer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+hastlayer,repository_search,https://api.github.com/search/repositories?q=repo:Lombiq/Hastlayer-SDK,2026-10-22,200,vendor_maintainer; category; license_model; license
 hbs,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 hbs,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hbs,repository_search,https://api.github.com/search/repositories?q=repo:m-kru/hbs,2026-10-22,200,vendor_maintainer; category; license_model; license
+hdelk,repository_search,https://api.github.com/search/repositories?q=repo:davidthings/hdelk,2026-10-22,200,vendor_maintainer; category; license_model; license
+hdl-checker,repository_search,https://api.github.com/search/repositories?q=repo:suoto/hdl_checker,2026-10-22,200,vendor_maintainer; category; license_model; license
 hdl-js,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hdl-js,repository_search,https://api.github.com/search/repositories?q=repo:DmitrySoshnikov/hdl-js,2026-10-22,200,vendor_maintainer; category; license_model; license
 hdl-registers,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+hdl-registers,repository_search,https://api.github.com/search/repositories?q=repo:hdl-registers/hdl-registers,2026-10-22,200,vendor_maintainer; category; license_model; license
+hdl-tools,repository_search,https://api.github.com/search/repositories?q=repo:IBM/hdl-tools,2026-10-22,200,vendor_maintainer; category; license_model; license
 hdl21,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 hdl21,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hdl21,repository_search,https://api.github.com/search/repositories?q=repo:dan-fritchman/Hdl21,2026-10-22,200,vendor_maintainer; license_model; license
 hdl21schematics,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+hdl21schematics,repository_search,https://api.github.com/search/repositories?q=repo:Vlsir/Hdl21Schematics,2026-10-22,200,vendor_maintainer; license_model; license
 hdlconvertor,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 hdlconvertor,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+hdlconvertor,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/hdlConvertor,2026-10-22,200,vendor_maintainer; category; license_model; license
 hdlgen,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,languages_formats
+hdlgen,repository_search,https://api.github.com/search/repositories?q=repo:WilsonChen003/HDLGen,2026-10-22,200,vendor_maintainer; category
 hector,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; license_model
+hector,repository_search,https://api.github.com/search/repositories?q=repo:pku-liang/Hector,2026-10-22,200,vendor_maintainer; category; license_model; license
 hglvlsyn,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hglvlsyn,repository_search,https://api.github.com/search/repositories?q=repo:funningboy/hg_lvl_syn,2026-10-22,200,vendor_maintainer; category
 hilo,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model
 hlslibs,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 hlsrecurse,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hlsrecurse,repository_search,https://api.github.com/search/repositories?q=repo:m8pple/hls_recurse,2026-10-22,200,vendor_maintainer; category
+hobbies-electromagnetic-solver,wikipedia_article,https://en.wikipedia.org/wiki/HOBBIES_(electromagnetic_solver),2026-10-22,200,category
 holoso,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+holoso,repository_search,https://api.github.com/search/repositories?q=repo:Zubax/holoso,2026-10-22,200,vendor_maintainer; category; license_model; license
 hoodlum,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hoodlum,repository_search,https://api.github.com/search/repositories?q=repo:tcr/hoodlum,2026-10-22,200,vendor_maintainer; category; license_model; license
 hotspot,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+hotspot,repository_search,https://api.github.com/search/repositories?q=repo:uvahotspot/HotSpot,2026-10-22,200,vendor_maintainer
 hs-to-coq,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 hwt,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+hwt,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/hwt,2026-10-22,200,vendor_maintainer; category; license_model; license
 hwtbuildsystem,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-icarus,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
-icarus,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+hwtbuildsystem,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/hwtBuildsystem,2026-10-22,200,vendor_maintainer; category; license_model; license
+icap-4,wikipedia_article,https://en.wikipedia.org/wiki/ICAP/4,2026-10-22,200,category
+icarus-verilog,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
+icarus-verilog,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 icarus-verilog,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+icarus-verilog,public_repository,https://api.github.com/repos/steveicarus/iverilog,2026-10-22,200,vendor_maintainer; license_model; license; latest_version
 icarus-verilog,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+icarus-verilog,wikipedia_article,https://en.wikipedia.org/wiki/Icarus_Verilog,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
+icestick-lpc-tpm-sniffer,repository_search,https://api.github.com/search/repositories?q=repo:SySS-Research/icestick-lpc-tpm-sniffer,2026-10-22,200,vendor_maintainer; category; license_model; license
 icestudio,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+icestudio,repository_search,https://api.github.com/search/repositories?q=repo:FPGAwars/icestudio,2026-10-22,200,vendor_maintainer; category; license_model; license
 ieda,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+ieda,repository_search,https://api.github.com/search/repositories?q=repo:OSCC-Project/iEDA,2026-10-22,200,vendor_maintainer; category
 iio-oscilloscope,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+iio-oscilloscope,repository_search,https://api.github.com/search/repositories?q=repo:analogdevicesinc/iio-oscilloscope,2026-10-22,200,vendor_maintainer; license_model; license
 ilang,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+ilang,repository_search,https://api.github.com/search/repositories?q=repo:PrincetonUniversity/ILAng,2026-10-22,200,vendor_maintainer; category; license_model; license
 incisive-enterprise-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+incisive-enterprise-simulator,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+incisive-enterprise-simulator,wikipedia_article,https://en.wikipedia.org/wiki/NCSim,2026-10-22,200,vendor_maintainer; category; license_model; license; supported_platforms
 infineonspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
+infineonspice,vendor_origin,https://en.wikipedia.org/wiki/Infineon_Technologies,2026-10-22,200,country_region
+interactivehtmlbom,repository_search,https://api.github.com/search/repositories?q=repo:openscopeproject/InteractiveHtmlBom,2026-10-22,200,vendor_maintainer; category; license_model; license
 ipyxact,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+ipyxact,repository_search,https://api.github.com/search/repositories?q=repo:olofk/ipyxact,2026-10-22,200,vendor_maintainer; category; license_model; license
 irsim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+irsim,repository_search,https://api.github.com/search/repositories?q=repo:RTimothyEdwards/irsim,2026-10-22,200,vendor_maintainer; category; license_model; license
 irtl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+irtl,repository_search,https://api.github.com/search/repositories?q=repo:drom/irtl,2026-10-22,200,vendor_maintainer; license_model; license
 ise-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+ise-simulator,vendor_origin,https://en.wikipedia.org/wiki/Xilinx,2026-10-22,200,country_region
 isotel-mixed-signal-domain-simulation,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
 jhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+josim,repository_search,https://api.github.com/search/repositories?q=repo:JoeyDelp/JoSIM,2026-10-22,200,vendor_maintainer; category; license_model; license
+jsvoronoipcb,repository_search,https://api.github.com/search/repositories?q=repo:caiannello/jsVoronoiPCB,2026-10-22,200,vendor_maintainer; category; license_model; license
 julia-verilog,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+julia-verilog,repository_search,https://api.github.com/search/repositories?q=repo:interplanetary-robot/Verilog.jl,2026-10-22,200,vendor_maintainer
 kaktus2dev,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kaktus2dev,repository_search,https://api.github.com/search/repositories?q=repo:kactus2/kactus2dev,2026-10-22,200,vendor_maintainer; category; license_model; license
 kami,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kami,repository_search,https://api.github.com/search/repositories?q=repo:mit-plv/kami,2026-10-22,200,vendor_maintainer; category; license_model; license
+karuta,repository_search,https://api.github.com/search/repositories?q=repo:nlsynth/karuta,2026-10-22,200,vendor_maintainer; category
 kaze,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+kaze,repository_search,https://api.github.com/search/repositories?q=repo:yupferris/kaze,2026-10-22,200,vendor_maintainer; category; license_model; license
 kicad,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 kicad,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+kicad,repository_search,https://api.github.com/search/repositories?q=repo:KiCad/kicad-source-mirror,2026-10-22,200,vendor_maintainer; category; license_model; license
+kicad,wikipedia_article,https://en.wikipedia.org/wiki/KiCad,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 kicad-footprint-generator,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 kicad-library-utils,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kicad-parasitics,repository_search,https://api.github.com/search/repositories?q=repo:Steffen-W/KiCad-Parasitics,2026-10-22,200,vendor_maintainer; category; license_model; license
 kicad-skip,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kicad-skip,repository_search,https://api.github.com/search/repositories?q=repo:psychogenic/kicad-skip,2026-10-22,200,vendor_maintainer; category; license_model; license
+kicad-utils,repository_search,https://api.github.com/search/repositories?q=repo:cho45/kicad-utils,2026-10-22,200,vendor_maintainer; category; license_model; license
+kicadroutingtools,repository_search,https://api.github.com/search/repositories?q=repo:drandyhaas/KiCadRoutingTools,2026-10-22,200,vendor_maintainer; category; license_model; license
 kicanvas,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kicanvas,repository_search,https://api.github.com/search/repositories?q=repo:theacodes/kicanvas,2026-10-22,200,vendor_maintainer
 kikit,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kikit,repository_search,https://api.github.com/search/repositories?q=repo:yaqwsx/KiKit,2026-10-22,200,vendor_maintainer; category; license_model; license
+kipida,repository_search,https://api.github.com/search/repositories?q=repo:kbralten/KiPIDA,2026-10-22,200,vendor_maintainer; category; license_model; license
+kiutils,repository_search,https://api.github.com/search/repositories?q=repo:mvnmgrx/kiutils,2026-10-22,200,vendor_maintainer; category; license_model; license
 klayout,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 klayout,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+klayout,documentation,https://www.klayout.de/doc.html,2026-10-22,200,category
+klayout,public_repository,https://api.github.com/repos/KLayout/klayout,2026-10-22,200,vendor_maintainer; license_model; license; latest_version
 konata,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+konata,repository_search,https://api.github.com/search/repositories?q=repo:shioyadan/Konata,2026-10-22,200,vendor_maintainer; license_model; license
 ksim,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+ksim,repository_search,https://api.github.com/search/repositories?q=repo:pku-liang/ksim,2026-10-22,200,vendor_maintainer; license_model; license
 ktechlab,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license; supported_platforms
 ktechlab,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,category; license_model; supported_platforms
+ktechlab,wikipedia_article,https://en.wikipedia.org/wiki/KTechLab,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 kweb,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+kweb,repository_search,https://api.github.com/search/repositories?q=repo:gdsfactory/kweb,2026-10-22,200,vendor_maintainer; license_model; license
+lakeroad,repository_search,https://api.github.com/search/repositories?q=repo:gussmith23/lakeroad,2026-10-22,200,vendor_maintainer; category; license_model; license
+lattice-radiant,vendor_origin,https://en.wikipedia.org/wiki/Lattice_Semiconductor,2026-10-22,200,country_region
+lattice-radiant,vendor_site,https://www.latticesemi.com/LatticeRadiant,2026-10-22,200,vendor_maintainer; category; license_model
 layout21,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+layout21,repository_search,https://api.github.com/search/repositories?q=repo:dan-fritchman/Layout21,2026-10-22,200,vendor_maintainer; category; license_model; license
 lclayout,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 lctime,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 legup,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
 librepcb,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+librepcb,repository_search,https://api.github.com/search/repositories?q=repo:LibrePCB/LibrePCB,2026-10-22,200,vendor_maintainer; category; license_model; license
 libsystemctlm-soc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+libsystemctlm-soc,repository_search,https://api.github.com/search/repositories?q=repo:Xilinx/libsystemctlm-soc,2026-10-22,200,vendor_maintainer; category
 lifting,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+limbo,repository_search,https://api.github.com/search/repositories?q=repo:limbo018/Limbo,2026-10-22,200,vendor_maintainer; category; license_model; license
+littlebigplanet-3,vendor_origin,https://en.wikipedia.org/wiki/Sumo_Digital,2026-10-22,200,country_region
+littlebigplanet-3,wikipedia_article,https://en.wikipedia.org/wiki/LittleBigPlanet_3,2026-10-22,200,vendor_maintainer; first_release_year
 livehd,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+livehd,repository_search,https://api.github.com/search/repositories?q=repo:masc-ucsc/livehd,2026-10-22,200,vendor_maintainer; category
 llhd,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+llhd,repository_search,https://api.github.com/search/repositories?q=repo:fabianschuiki/llhd,2026-10-22,200,vendor_maintainer; license_model; license
 logik,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-logisim-evolution,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 logisim-evolution,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
+logisim-evolution-2,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+logisim-evolution-2,repository_search,https://api.github.com/search/repositories?q=repo:logisim-evolution/logisim-evolution,2026-10-22,200,vendor_maintainer; category; license_model; license
 lola-2,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 lsoracle,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+lsoracle,repository_search,https://api.github.com/search/repositories?q=repo:lnis-uofu/LSOracle,2026-10-22,200,vendor_maintainer; category; license_model; license
 lstools,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+lstools,repository_search,https://api.github.com/search/repositories?q=repo:lsils/lstools-showcase,2026-10-22,200,vendor_maintainer; category; license_model; license
 ltspice,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms
 ltspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms
+ltspice,vendor_origin,https://en.wikipedia.org/wiki/Analog_Devices,2026-10-22,200,country_region
+ltspice,vendor_origin,https://en.wikipedia.org/wiki/Linear_Technology,2026-10-22,200,country_region
+ltspice,wikipedia_article,https://en.wikipedia.org/wiki/LTspice,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 lwtr4sc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+lwtr4sc,repository_search,https://api.github.com/search/repositories?q=repo:Minres/LWTR4SC,2026-10-22,200,vendor_maintainer; license_model; license
 maestro,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+maestro,repository_search,https://api.github.com/search/repositories?q=repo:maestro-project/maestro,2026-10-22,200,vendor_maintainer; license_model; license
 magic,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+magic,public_repository,https://api.github.com/repos/RTimothyEdwards/magic,2026-10-22,200,vendor_maintainer; category; latest_version
 magic,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_IC_physical_synthesis_and_layout,2026-10-22,200,category; license_model; license; supported_platforms
+magic,wikipedia_article,https://en.wikipedia.org/wiki/Magic_(software),2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 magical,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+magical,repository_search,https://api.github.com/search/repositories?q=repo:magical-eda/MAGICAL,2026-10-22,200,vendor_maintainer; category; license_model; license
 magma,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 magma,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 magma,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+magma,repository_search,https://api.github.com/search/repositories?q=repo:phanrahan/magma,2026-10-22,200,vendor_maintainer
 matchclibconnections,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+matchclibconnections,repository_search,https://api.github.com/search/repositories?q=repo:hlslibs/matchlib_connections,2026-10-22,200,vendor_maintainer
 matchlib,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+matchlib,repository_search,https://api.github.com/search/repositories?q=repo:NVlabs/matchlib,2026-10-22,200,vendor_maintainer; category
+mcircuit,repository_search,https://api.github.com/search/repositories?q=repo:matijakevic/mcircuit,2026-10-22,200,vendor_maintainer; category; license_model; license
 meep,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+meep,repository_search,https://api.github.com/search/repositories?q=repo:NanoComp/meep,2026-10-22,200,vendor_maintainer; category; license_model; license
 metrics-cloud-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+metroboy,repository_search,https://api.github.com/search/repositories?q=repo:aappleby/metroboy,2026-10-22,200,vendor_maintainer; category
 mflowgen,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+mflowgen,repository_search,https://api.github.com/search/repositories?q=repo:mflowgen/mflowgen,2026-10-22,200,vendor_maintainer; category; license_model; license
 micro-cap,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
 micro-cap,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms
+micro-cap,vendor_origin,https://en.wikipedia.org/wiki/Spectrum_Software,2026-10-22,200,country_region
+micro-cap,wikipedia_article,https://en.wikipedia.org/wiki/Micro-Cap,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; supported_platforms
 midas,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+midas,repository_search,https://api.github.com/search/repositories?q=repo:ucb-bar/midas,2026-10-22,200,vendor_maintainer; category
 migen,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+migen,repository_search,https://api.github.com/search/repositories?q=repo:m-labs/migen,2026-10-22,200,vendor_maintainer
 mixedsim,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
+mixedsim,repository_search,https://api.github.com/search/repositories?q=repo:Isotel/mixedsim,2026-10-22,200,vendor_maintainer; category
 mockturtle,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+mockturtle,repository_search,https://api.github.com/search/repositories?q=repo:lsils/mockturtle,2026-10-22,200,vendor_maintainer; license_model; license
 modelsim-questa,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+modelsim-questa,vendor_origin,https://en.wikipedia.org/wiki/Mentor_Graphics,2026-10-22,200,country_region
+momentum-electromagnetic-simulator,vendor_origin,https://en.wikipedia.org/wiki/EEsof,2026-10-22,200,country_region
+momentum-electromagnetic-simulator,wikipedia_article,https://en.wikipedia.org/wiki/Momentum_(electromagnetic_simulator),2026-10-22,200,vendor_maintainer; category
 mpsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 msdsl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+msdsl,repository_search,https://api.github.com/search/repositories?q=repo:sgherbst/msdsl,2026-10-22,200,vendor_maintainer; category; license_model; license
 muchisim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+muchisim,repository_search,https://api.github.com/search/repositories?q=repo:PrincetonUniversity/muchiSim,2026-10-22,200,vendor_maintainer; category
 myhdl,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 myhdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 myhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+myhdl,repository_search,https://api.github.com/search/repositories?q=repo:myhdl/myhdl,2026-10-22,200,vendor_maintainer; license_model; license
+naivecircuitsimulator,repository_search,https://api.github.com/search/repositories?q=repo:FarahaniMehrshad/NaiveCircuitSimulator,2026-10-22,200,vendor_maintainer; category
 naja,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+neotrng,repository_search,https://api.github.com/search/repositories?q=repo:stnolting/neoTRNG,2026-10-22,200,vendor_maintainer; category; license_model; license
+nes260,repository_search,https://api.github.com/search/repositories?q=repo:zf3/nes260,2026-10-22,200,vendor_maintainer; category; license_model; license
 netgen,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+netgen,public_repository,https://api.github.com/repos/RTimothyEdwards/netgen,2026-10-22,200,vendor_maintainer; category; latest_version
 netlist-paths,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+netlist-paths,repository_search,https://api.github.com/search/repositories?q=repo:jameshanlon/netlist-paths,2026-10-22,200,vendor_maintainer; license_model; license
+netlist-viewer,repository_search,https://api.github.com/search/repositories?q=repo:f18m/netlist-viewer,2026-10-22,200,vendor_maintainer; category; license_model; license
 netlistsvg,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
+netlistsvg,repository_search,https://api.github.com/search/repositories?q=repo:nturley/netlistsvg,2026-10-22,200,vendor_maintainer; license_model; license
 nextpnr,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+nextpnr,public_repository,https://api.github.com/repos/YosysHQ/nextpnr,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 ngspice,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
 ngspice,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+ngspice,documentation,https://ngspice.sourceforge.io/docs.html,2026-10-22,200,category; languages_formats
 ngspice,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license; supported_platforms
 ngspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,category; license_model; supported_platforms
+ngspice,wikipedia_article,https://en.wikipedia.org/wiki/Ngspice,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+ni-multisim,vendor_origin,https://en.wikipedia.org/wiki/National_Instruments_Electronics_Workbench_Group,2026-10-22,200,country_region
+ni-multisim,wikipedia_article,https://en.wikipedia.org/wiki/NI_Multisim,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 ni-ultiboard,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+ni-ultiboard,vendor_origin,https://en.wikipedia.org/wiki/National_Instruments,2026-10-22,200,country_region
+ni-ultiboard,vendor_origin,https://en.wikipedia.org/wiki/National_Instruments_Electronics_Workbench_Group,2026-10-22,200,country_region
+ni-ultiboard,wikipedia_article,https://en.wikipedia.org/wiki/NI_Ultiboard,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
+nl5-circuit-simulator,wikipedia_article,https://en.wikipedia.org/wiki/NL5_circuit_simulator,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+nocgen,repository_search,https://api.github.com/search/repositories?q=repo:matutani/nocgen,2026-10-22,200,vendor_maintainer; category
 noxim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+noxim,repository_search,https://api.github.com/search/repositories?q=repo:davidepatti/noxim,2026-10-22,200,vendor_maintainer; category
 nptdms,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+nptdms,repository_search,https://api.github.com/search/repositories?q=repo:adamreeve/npTDMS,2026-10-22,200,vendor_maintainer; license_model; license
+nthu-route,repository_search,https://api.github.com/search/repositories?q=repo:luckyrantanplan/nthu-route,2026-10-22,200,vendor_maintainer; category; license_model; license
 nvc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 nvc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
 nvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+nvc,repository_search,https://api.github.com/search/repositories?q=repo:nickg/nvc,2026-10-22,200,vendor_maintainer; category; license_model; license
 oberon-2013,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+oombak,repository_search,https://api.github.com/search/repositories?q=repo:fuad1502/oombak,2026-10-22,200,vendor_maintainer; category; license_model; license
+open-fpga-verilog-tutorial,repository_search,https://api.github.com/search/repositories?q=repo:Obijuan/open-fpga-verilog-tutorial,2026-10-22,200,vendor_maintainer; category; license_model; license
 open-register-design-tool,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+open-register-design-tool,repository_search,https://api.github.com/search/repositories?q=repo:Juniper/open-register-design-tool,2026-10-22,200,vendor_maintainer; category; license_model; license
+openaccess,wikipedia_article,https://en.wikipedia.org/wiki/OpenAccess,2026-10-22,200,
+openallegroparser,repository_search,https://api.github.com/search/repositories?q=repo:Werni2A/OpenAllegroParser,2026-10-22,200,vendor_maintainer; category; license_model; license
+opencircuitx,repository_search,https://api.github.com/search/repositories?q=repo:openlab-x/OpenCircuitX,2026-10-22,200,vendor_maintainer; category; license_model; license
 openfpgaloader,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+openfpgaloader,public_repository,https://api.github.com/repos/trabucayre/openFPGALoader,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
+openparf,repository_search,https://api.github.com/search/repositories?q=repo:PKU-IDEA/OpenPARF,2026-10-22,200,vendor_maintainer; category; license_model; license
+openphysyn,repository_search,https://api.github.com/search/repositories?q=repo:scale-lab/OpenPhySyn,2026-10-22,200,vendor_maintainer; category; license_model; license
 openplceditor,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+openplceditor,repository_search,https://api.github.com/search/repositories?q=repo:thiagoralves/OpenPLC_Editor,2026-10-22,200,vendor_maintainer; license_model; license
 openplcv3,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+openplcv3,repository_search,https://api.github.com/search/repositories?q=repo:thiagoralves/OpenPLC_v3,2026-10-22,200,vendor_maintainer; license_model; license
 openram,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; license_model
+openram,repository_search,https://api.github.com/search/repositories?q=repo:VLSIDA/OpenRAM,2026-10-22,200,vendor_maintainer; category; license_model; license
 openroad,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+openroad,documentation,https://openroad.readthedocs.io/en/latest/,2026-10-22,200,supported_platforms; languages_formats
+openroad,public_repository,https://api.github.com/repos/The-OpenROAD-Project/OpenROAD,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 opensta,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 opensta,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+opensta,repository_search,https://api.github.com/search/repositories?q=repo:The-OpenROAD-Project/OpenSTA,2026-10-22,200,vendor_maintainer; license_model; license
+opensta-2,public_repository,https://api.github.com/repos/parallaxsw/OpenSTA,2026-10-22,200,vendor_maintainer; category; license_model; license
 opentimer,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 opentimer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+opentimer,repository_search,https://api.github.com/search/repositories?q=repo:OpenTimer/OpenTimer,2026-10-22,200,vendor_maintainer; category
 openvaf,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+openvaf,repository_search,https://api.github.com/search/repositories?q=repo:pascalkuthe/OpenVAF,2026-10-22,200,vendor_maintainer; license_model; license
 orbit,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+orbit,repository_search,https://api.github.com/search/repositories?q=repo:chaseruskin/orbit,2026-10-22,200,vendor_maintainer; category; license_model; license
 orcad,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
+orcad,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+orcad,wikipedia_article,https://en.wikipedia.org/wiki/OrCAD,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 oregano,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+oregano,public_repository,https://api.github.com/repos/drahnr/oregano,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 oregano,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license
+oregano,wikipedia_article,https://en.wikipedia.org/wiki/Oregano_(software),2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 oss-cvc,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
-osvvm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 osvvm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 osvvm,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
 osvvm,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; license_model; languages_formats
+osvvm,repository_search,https://api.github.com/search/repositories?q=repo:OSVVM/OsvvmLibraries,2026-10-22,200,vendor_maintainer; category
 pact,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pact,repository_search,https://api.github.com/search/repositories?q=repo:peaclab/PACT,2026-10-22,200,vendor_maintainer; category; license_model; license
 panda-bambu,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+panda-bambu,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+panda-bambu,public_repository,https://api.github.com/repos/ferrandi/PandA-bambu,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 paraview,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+paraview,repository_search,https://api.github.com/search/repositories?q=repo:Kitware/ParaView,2026-10-22,200,vendor_maintainer; license_model; license
+parser-spef,repository_search,https://api.github.com/search/repositories?q=repo:OpenTimer/Parser-SPEF,2026-10-22,200,vendor_maintainer; category; license_model; license
+parser-verilog,repository_search,https://api.github.com/search/repositories?q=repo:OpenTimer/Parser-Verilog,2026-10-22,200,vendor_maintainer; category; license_model; license
+pcb,wikipedia_article,https://en.wikipedia.org/wiki/PCB_(software),2026-10-22,200,vendor_maintainer; category; license; first_release_year; latest_version; supported_platforms
 pcb-rnd,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+pcb-rnd,wikipedia_article,https://en.wikipedia.org/wiki/Pcb-rnd,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+pcb-tools,repository_search,https://api.github.com/search/repositories?q=repo:curtacircuitos/pcb-tools,2026-10-22,200,vendor_maintainer; category; license_model; license
 pcbflow,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pcbflow,repository_search,https://api.github.com/search/repositories?q=repo:michaelgale/pcbflow,2026-10-22,200,vendor_maintainer; category; license_model; license
 pcievhost,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+pcievhost,repository_search,https://api.github.com/search/repositories?q=repo:wyvernSemi/pcievhost,2026-10-22,200,vendor_maintainer; category; license_model; license
 peakrdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 peakrdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
+peakrdl,repository_search,https://api.github.com/search/repositories?q=repo:SystemRDL/PeakRDL,2026-10-22,200,vendor_maintainer; category; license_model; license
 phidl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+phidl,repository_search,https://api.github.com/search/repositories?q=repo:amccaugh/phidl,2026-10-22,200,vendor_maintainer; category; license_model; license
+picture2pixel,repository_search,https://api.github.com/search/repositories?q=repo:gu0y1/picture2pixel,2026-10-22,200,vendor_maintainer; category; license_model; license
 pipelinec,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pipelinec,repository_search,https://api.github.com/search/repositories?q=repo:JulianKemmerer/PipelineC,2026-10-22,200,vendor_maintainer; category; license_model; license
 pipelinedsl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+pipelinedsl,repository_search,https://api.github.com/search/repositories?q=repo:p12nGH/pipelineDSL,2026-10-22,200,vendor_maintainer; license_model; license
+plecs,vendor_origin,https://en.wikipedia.org/wiki/Plexim,2026-10-22,200,country_region
+plecs,wikipedia_article,https://en.wikipedia.org/wiki/PLECS,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; supported_platforms
+polykit-x-monosynth,repository_search,https://api.github.com/search/repositories?q=repo:polykit/polykit-x-monosynth,2026-10-22,200,vendor_maintainer; category
 polyphony,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+polyphony,repository_search,https://api.github.com/search/repositories?q=repo:polyphony-dev/polyphony,2026-10-22,200,vendor_maintainer; category; license_model; license
 pono,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 potholes,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+potholes,repository_search,https://api.github.com/search/repositories?q=repo:SamuelBayliss/Potholes,2026-10-22,200,vendor_maintainer; category
+poweresim,wikipedia_article,https://en.wikipedia.org/wiki/PowerEsim,2026-10-22,200,category
+primarius-nanospice,vendor_site,https://www.primarius-tech.com/en/products/analog_design_eda/NanoSpiceen.html,2026-10-22,200,vendor_maintainer; category; languages_formats
+prjunnamed,repository_search,https://api.github.com/search/repositories?q=repo:prjunnamed/prjunnamed,2026-10-22,200,vendor_maintainer; category; license
 proteus,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+proteus,wikipedia_article,https://en.wikipedia.org/wiki/Proteus_Design_Suite,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+proxmox-manager,repository_search,https://api.github.com/search/repositories?q=repo:TimInTech/proxmox-manager,2026-10-22,200,vendor_maintainer; category; license_model; license
 pshdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+psim-software,wikipedia_article,https://en.wikipedia.org/wiki/PSIM_Software,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 pspice-for-ti,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
+pspice-for-ti,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+pspice-for-ti,wikipedia_article,https://en.wikipedia.org/wiki/PSPICE,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 pulsonix,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,vendor_maintainer; category; license_model; latest_version; supported_platforms; languages_formats
+pulsonix,wikipedia_article,https://en.wikipedia.org/wiki/Pulsonix,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 purespeed,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 pyfpga,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pyfpga,repository_search,https://api.github.com/search/repositories?q=repo:PyFPGA/pyfpga,2026-10-22,200,vendor_maintainer; category; license_model; license
 pygears,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+pygears,repository_search,https://api.github.com/search/repositories?q=repo:bogdanvuk/pygears,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyhgl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+pyhgl,repository_search,https://api.github.com/search/repositories?q=repo:PyHGL/pyhgl,2026-10-22,200,vendor_maintainer; license_model; license
 pymtl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+pymtl,repository_search,https://api.github.com/search/repositories?q=repo:cornell-brg/pymtl,2026-10-22,200,vendor_maintainer; license_model; license
 pymtl3,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,
 pymtl3,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pymtl3,repository_search,https://api.github.com/search/repositories?q=repo:pymtl/pymtl3,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyrope,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 pyrtl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 pyrtl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+pyrtl,repository_search,https://api.github.com/search/repositories?q=repo:UCSBarchlab/PyRTL,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyspice,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category; languages_formats
 pyspice,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyspice,repository_search,https://api.github.com/search/repositories?q=repo:PySpice-org/PySpice,2026-10-22,200,vendor_maintainer; category; license_model; license
 pysysc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
 pysysc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+pysysc,repository_search,https://api.github.com/search/repositories?q=repo:accellera-official/PySysC,2026-10-22,200,vendor_maintainer; license_model; license
 pyucis,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+pyucis,repository_search,https://api.github.com/search/repositories?q=repo:fvutils/pyucis,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyuvm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyuvm,repository_search,https://api.github.com/search/repositories?q=repo:pyuvm/pyuvm,2026-10-22,200,vendor_maintainer
 pyverilog,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 pyverilog,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyverilog,repository_search,https://api.github.com/search/repositories?q=repo:PyHDI/Pyverilog,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyvhdlparser,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyvhdlparser,repository_search,https://api.github.com/search/repositories?q=repo:Paebbels/pyVHDLParser,2026-10-22,200,vendor_maintainer; category
 pyvsc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyvsc,repository_search,https://api.github.com/search/repositories?q=repo:fvutils/pyvsc,2026-10-22,200,vendor_maintainer; category; license_model; license
 pyxhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+pyxhdl,repository_search,https://api.github.com/search/repositories?q=repo:davidel/pyxhdl,2026-10-22,200,vendor_maintainer; category
 qemu,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; license_model
+qemu,repository_search,https://api.github.com/search/repositories?q=repo:qemu/qemu,2026-10-22,200,vendor_maintainer; category
 qspice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
 quartus-ii-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
-qucs-s,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-qucs-s,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
+quartus-ii-simulator,vendor_origin,https://en.wikipedia.org/wiki/Altera,2026-10-22,200,country_region
+quartus-prime,wikipedia_article,https://en.wikipedia.org/wiki/Quartus_Prime,2026-10-22,200,category
+qucss,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+qucss,repository_search,https://api.github.com/search/repositories?q=repo:ra3xdh/qucs_s,2026-10-22,200,vendor_maintainer; category; license_model; license
+quite-universal-circuit-simulator,public_repository,https://api.github.com/repos/qucs/qucs,2026-10-22,200,vendor_maintainer; latest_version
 quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license; supported_platforms
 quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,category; license_model; supported_platforms; languages_formats
+quite-universal-circuit-simulator,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms; languages_formats
+quite-universal-circuit-simulator,wikipedia_article,https://en.wikipedia.org/wiki/Qucs,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+quite-universal-circuit-simulator,wikipedia_article,https://en.wikipedia.org/wiki/Qucs-S,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+quite-universal-circuit-simulator,wikipedia_article,https://en.wikipedia.org/wiki/Quite_Universal_Circuit_Simulator,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 quokka,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
 quokka,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+quokka,repository_search,https://api.github.com/search/repositories?q=repo:EvgenyMuryshkin/QuokkaEvaluation,2026-10-22,200,vendor_maintainer; category
+quokka,repository_search,https://api.github.com/search/repositories?q=repo:EvgenyMuryshkin/qusoc,2026-10-22,200,vendor_maintainer
 raft,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+raft,repository_search,https://api.github.com/search/repositories?q=repo:Xilinx/RAFT,2026-10-22,200,vendor_maintainer; category
 ramulator2,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+ramulator2,repository_search,https://api.github.com/search/repositories?q=repo:CMU-SAFARI/ramulator2,2026-10-22,200,vendor_maintainer; category; license_model; license
 renode,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; license_model
+renode,repository_search,https://api.github.com/search/repositories?q=repo:renode/renode,2026-10-22,200,vendor_maintainer; category
 reqack,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+reqack,repository_search,https://api.github.com/search/repositories?q=repo:drom/reqack,2026-10-22,200,vendor_maintainer; category; license_model; license
+revolution-eda,repository_search,https://api.github.com/search/repositories?q=repo:eskiyerli/revolution-eda,2026-10-22,200,vendor_maintainer; category
 rggen,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 rggen,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+rggen,repository_search,https://api.github.com/search/repositories?q=repo:rggen/rggen,2026-10-22,200,vendor_maintainer; category; license_model; license
 rhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+rhdl,repository_search,https://api.github.com/search/repositories?q=repo:philtomson/RHDL,2026-10-22,200,vendor_maintainer; category; license_model; license
 riscv-dv,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+riscv-dv,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/riscv-dv,2026-10-22,200,vendor_maintainer; category; license_model; license
+riscv-vhdl,repository_search,https://api.github.com/search/repositories?q=repo:sergeykhbr/riscv_vhdl,2026-10-22,200,vendor_maintainer; category; license_model; license
+rodinia,repository_search,https://api.github.com/search/repositories?q=repo:pablomarx/rodinia,2026-10-22,200,vendor_maintainer; category
 rohd,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 rohd,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+rohd,repository_search,https://api.github.com/search/repositories?q=repo:intel/rohd,2026-10-22,200,vendor_maintainer; category; license_model; license
 rohd-cosim,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+rohd-cosim,repository_search,https://api.github.com/search/repositories?q=repo:intel/rohd-cosim,2026-10-22,200,vendor_maintainer; category; license_model; license
 rohd-vf,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+rohd-vf,repository_search,https://api.github.com/search/repositories?q=repo:intel/rohd-vf,2026-10-22,200,vendor_maintainer; category; license_model; license
 rphax,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+rphax,repository_search,https://api.github.com/search/repositories?q=repo:shariethernet/RPHAX,2026-10-22,200,vendor_maintainer; license_model; license
+rsyn-x,repository_search,https://api.github.com/search/repositories?q=repo:RsynTeam/rsyn-x,2026-10-22,200,vendor_maintainer; category
+rtl-ass,repository_search,https://api.github.com/search/repositories?q=repo:liujianyu20021122/RTL-ASS,2026-10-22,200,vendor_maintainer; category; license_model; license
+rust-spice,repository_search,https://api.github.com/search/repositories?q=repo:GregoireHENRY/rust-spice,2026-10-22,200,vendor_maintainer; category; license_model; license
 rusthdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+rusthdl,repository_search,https://api.github.com/search/repositories?q=repo:VHDL-LS/rust_hdl,2026-10-22,200,vendor_maintainer; category
+saber,wikipedia_article,https://en.wikipedia.org/wiki/Saber_(software),2026-10-22,200,category
 sapwin,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms
+sapwin,vendor_origin,https://en.wikipedia.org/wiki/University_of_Florence,2026-10-22,200,country_region
+sapwin,wikipedia_article,https://en.wikipedia.org/wiki/SapWin,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 sax,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+sby,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 sby,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+sby,public_repository,https://api.github.com/repos/YosysHQ/sby,2026-10-22,200,vendor_maintainer; category; latest_version
+scalehls,repository_search,https://api.github.com/search/repositories?q=repo:UIUC-ChenLab/scalehls,2026-10-22,200,vendor_maintainer; category
 scikit-rf,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+scikit-rf,repository_search,https://api.github.com/search/repositories?q=repo:scikit-rf/scikit-rf,2026-10-22,200,vendor_maintainer; category; license_model; license
 scip,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+scip,repository_search,https://api.github.com/search/repositories?q=repo:scipopt/scip,2026-10-22,200,vendor_maintainer; license_model; license
 scopy,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+scopy,repository_search,https://api.github.com/search/repositories?q=repo:analogdevicesinc/scopy,2026-10-22,200,vendor_maintainer; license_model; license
 scviewer,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+scviewer,repository_search,https://api.github.com/search/repositories?q=repo:Minres/SCViewer,2026-10-22,200,vendor_maintainer; license_model; license
+sega-system-for-fpga,repository_search,https://api.github.com/search/repositories?q=repo:danluu/sega-system-for-fpga,2026-10-22,200,vendor_maintainer; category
 shang,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+shang,repository_search,https://api.github.com/search/repositories?q=repo:etherzhhb/Shang,2026-10-22,200,vendor_maintainer; category
 shdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+shdl,repository_search,https://api.github.com/search/repositories?q=repo:jcbuisson/shdl,2026-10-22,200,vendor_maintainer
+shuhai,repository_search,https://api.github.com/search/repositories?q=repo:RC4ML/Shuhai,2026-10-22,200,vendor_maintainer; category
+siemens-aprisa,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-22,200,country_region
+siemens-aprisa,vendor_site,https://www.siemens.com/en-us/products/ic/ic-design/aprisa/,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+siemens-calibre,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-22,200,country_region
+siemens-calibre,vendor_site,https://www.siemens.com/en-us/products/ic/calibre-design/,2026-10-22,200,vendor_maintainer; category
+siemens-catapult,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-22,200,country_region
+siemens-catapult,vendor_site,https://www.siemens.com/en-us/products/ic/catapult-high-level-synthesis/,2026-10-22,200,vendor_maintainer; category
+siemens-questa,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-22,200,country_region
+siemens-questa,vendor_site,https://www.siemens.com/en-us/products/ic/questa-one/,2026-10-22,200,vendor_maintainer; category
+siemens-xpedition,vendor_origin,https://en.wikipedia.org/wiki/Siemens_EDA,2026-10-22,200,country_region
+siemens-xpedition,vendor_site,https://www.siemens.com/en-us/products/pcb/xpedition/enterprise/,2026-10-22,200,vendor_maintainer; category
+sigasi,vendor_site,https://www.sigasi.com/,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+signex,repository_search,https://api.github.com/search/repositories?q=repo:alplabai/signex,2026-10-22,200,vendor_maintainer; category; license_model; license
 sigrok,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+sigrok,wikipedia_article,https://en.wikipedia.org/wiki/Sigrok,2026-10-22,200,vendor_maintainer; license_model; license; latest_version; supported_platforms
 silice,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+silice,repository_search,https://api.github.com/search/repositories?q=repo:sylefeb/Silice,2026-10-22,200,vendor_maintainer; category
 siliconcompiler,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+siliconcompiler,public_repository,https://api.github.com/repos/siliconcompiler/siliconcompiler,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 silos,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+silos,vendor_origin,https://en.wikipedia.org/wiki/Silvaco,2026-10-22,200,country_region
 simeng,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+simeng,repository_search,https://api.github.com/search/repositories?q=repo:UoB-HPC/SimEng,2026-10-22,200,vendor_maintainer; category; license_model; license
 simili-vhdl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 simulide,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+simulide,repository_search,https://api.github.com/search/repositories?q=repo:SimulIDE/SimulIDE,2026-10-22,200,vendor_maintainer; category; license_model; license
 simview,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+simview,repository_search,https://api.github.com/search/repositories?q=repo:pieter3d/simview,2026-10-22,200,vendor_maintainer; license_model; license
 skidl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+skidl,repository_search,https://api.github.com/search/repositories?q=repo:devbisme/skidl,2026-10-22,200,vendor_maintainer; license_model; license
 slang,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 slang,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+slang,repository_search,https://api.github.com/search/repositories?q=repo:MikePopoloski/slang,2026-10-22,200,vendor_maintainer; license_model; license
+slang-server,repository_search,https://api.github.com/search/repositories?q=repo:hudson-trading/slang-server,2026-10-22,200,vendor_maintainer; category; license_model; license
+smartspice,vendor_origin,https://en.wikipedia.org/wiki/Silvaco,2026-10-22,200,country_region
+smartspice,vendor_site,https://silvaco.com/,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+smartspice,wikipedia_article,https://en.wikipedia.org/wiki/SmartSpice,2026-10-22,200,category
 smash,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+smash,vendor_origin,https://en.wikipedia.org/wiki/Dolphin_Integration,2026-10-22,200,country_region
 soc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+soc,repository_search,https://api.github.com/search/repositories?q=repo:combinatorylogic/soc,2026-10-22,200,vendor_maintainer; license_model; license
 socmake,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+socmake,repository_search,https://api.github.com/search/repositories?q=repo:HEP-SoC/SoCMake,2026-10-22,200,vendor_maintainer; category; license_model; license
 sodaopt,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+sodaopt,repository_search,https://api.github.com/search/repositories?q=repo:pnnl/soda-opt,2026-10-22,200,vendor_maintainer
 sootty,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+sootty,repository_search,https://api.github.com/search/repositories?q=repo:Ben1152000/sootty,2026-10-22,200,vendor_maintainer; license_model; license
 spade,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+sparkle,repository_search,https://api.github.com/search/repositories?q=repo:Verilean/sparkle,2026-10-22,200,vendor_maintainer; category; license_model; license
+specctra,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
+specctra,wikipedia_article,https://en.wikipedia.org/wiki/Specctra,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+spectre-circuit-simulator,wikipedia_article,https://en.wikipedia.org/wiki/Spectre_Circuit_Simulator,2026-10-22,200,category
+spectre-rf-option,wikipedia_article,https://en.wikipedia.org/wiki/Spectre_RF_Option,2026-10-22,200,category
 speedsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+speedsim,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
 sphinx-hwt,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
+sphinx-hwt,repository_search,https://api.github.com/search/repositories?q=repo:Nic30/sphinx-hwt,2026-10-22,200,vendor_maintainer; license_model; license
 spice,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model
+spice,vendor_origin,"https://en.wikipedia.org/wiki/University_of_California,_Berkeley",2026-10-22,200,country_region
+spice,wikipedia_article,https://en.wikipedia.org/wiki/SPICE,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year
+spice-jl,repository_search,https://api.github.com/search/repositories?q=repo:JuliaAstro/SPICE.jl,2026-10-22,200,vendor_maintainer; category; license_model; license
+spice-opus,wikipedia_article,https://en.wikipedia.org/wiki/SPICE_OPUS,2026-10-22,200,vendor_maintainer; category; license; first_release_year; supported_platforms
+spicelib,repository_search,https://api.github.com/search/repositories?q=repo:nunobrum/spicelib,2026-10-22,200,vendor_maintainer; category; license_model; license
+spicepy,repository_search,https://api.github.com/search/repositories?q=repo:giaccone/SpicePy,2026-10-22,200,vendor_maintainer; category; license_model; license
+spicesharp,repository_search,https://api.github.com/search/repositories?q=repo:SpiceSharp/SpiceSharp,2026-10-22,200,vendor_maintainer; category; license_model; license
+spiceypy,repository_search,https://api.github.com/search/repositories?q=repo:AndrewAnnex/SpiceyPy,2026-10-22,200,vendor_maintainer; category; license_model; license
 spinalhdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 spinalhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+spinalhdl,repository_search,https://api.github.com/search/repositories?q=repo:SpinalHDL/SpinalHDL,2026-10-22,200,vendor_maintainer; category
 spyci,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+spyci,repository_search,https://api.github.com/search/repositories?q=repo:gmagno/spyci,2026-10-22,200,vendor_maintainer; category; license_model; license
 spydrnet,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+spydrnet,repository_search,https://api.github.com/search/repositories?q=repo:byuccl/spydrnet,2026-10-22,200,vendor_maintainer; category; license_model; license
 sst,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+sst,repository_search,https://api.github.com/search/repositories?q=repo:sstsimulator/sst-core,2026-10-22,200,vendor_maintainer; category
 super-finsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 surelog,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 surelog,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+surelog,public_repository,https://api.github.com/repos/chipsalliance/Surelog,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 sv-parser,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 sv-parser,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+sv-parser,repository_search,https://api.github.com/search/repositories?q=repo:dalance/sv-parser,2026-10-22,200,vendor_maintainer; category
 sv-tests,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,languages_formats
 sv2v,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
 sv2v,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+sv2v,public_repository,https://api.github.com/repos/zachjs/sv2v,2026-10-22,200,vendor_maintainer; license_model; license; latest_version
 svlint,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 svlint,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+svlint,repository_search,https://api.github.com/search/repositories?q=repo:dalance/svlint,2026-10-22,200,vendor_maintainer; category; license_model; license
 svlint-action,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+svlint-action,repository_search,https://api.github.com/search/repositories?q=repo:dalance/svlint-action,2026-10-22,200,vendor_maintainer; license_model; license
+svls,repository_search,https://api.github.com/search/repositories?q=repo:dalance/svls,2026-10-22,200,vendor_maintainer; category; license_model; license
 svreal,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+svreal,repository_search,https://api.github.com/search/repositories?q=repo:sgherbst/svreal,2026-10-22,200,vendor_maintainer; category; license_model; license
 svwaveterm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+svwaveterm,repository_search,https://api.github.com/search/repositories?q=repo:PeterMonsson/sv_waveterm,2026-10-22,200,vendor_maintainer; license_model; license
 switchboard,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
-symbiyosys,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
+switchboard,repository_search,https://api.github.com/search/repositories?q=repo:zeroasiccorp/switchboard,2026-10-22,200,vendor_maintainer; category; license_model; license
+symbolator,repository_search,https://api.github.com/search/repositories?q=repo:kevinpt/symbolator,2026-10-22,200,vendor_maintainer; category; license_model; license
 synlig,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+synlig,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/synlig,2026-10-22,200,vendor_maintainer; category; license_model; license
+synopsys-custom-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-custom-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html,2026-10-22,200,vendor_maintainer; category; license_model
+synopsys-design-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-design-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler.html,2026-10-22,200,vendor_maintainer; category; license_model
+synopsys-formality,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-formality,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html,2026-10-22,200,vendor_maintainer; category; license_model
+synopsys-fusion-compiler,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-fusion-compiler,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+synopsys-ic-compiler-ii,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-ic-compiler-ii,vendor_site,https://www.synopsys.com/implementation-and-signoff/physical-implementation/ic-compiler.html,2026-10-22,200,vendor_maintainer; category; license_model
+synopsys-primesim-hspice,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-primesim-hspice,vendor_site,https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+synopsys-primetime,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-primetime,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html,2026-10-22,200,vendor_maintainer; category; license_model
+synopsys-redhawk-sc,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-redhawk-sc,vendor_site,https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html,2026-10-22,200,category; license_model
+synopsys-vc-formal,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+synopsys-vc-formal,vendor_site,https://www.synopsys.com/verification/static-and-formal-verification/vc-formal.html,2026-10-22,200,vendor_maintainer; category; license_model
 systemc,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 systemc,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+systemc,repository_search,https://api.github.com/search/repositories?q=repo:accellera-official/systemc,2026-10-22,200,vendor_maintainer; license_model; license
 systemc-compiler,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+systemc-compiler,repository_search,https://api.github.com/search/repositories?q=repo:intel/systemc-compiler,2026-10-22,200,vendor_maintainer; category
 systemc-components,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+systemc-components,repository_search,https://api.github.com/search/repositories?q=repo:Minres/SystemC-Components,2026-10-22,200,vendor_maintainer; license_model; license
 systemctlm-cosim-demo,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+systemctlm-cosim-demo,repository_search,https://api.github.com/search/repositories?q=repo:Xilinx/systemctlm-cosim-demo,2026-10-22,200,vendor_maintainer; category
 systemrdl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+systemrdl,repository_search,https://api.github.com/search/repositories?q=repo:SystemRDL/systemrdl-compiler,2026-10-22,200,vendor_maintainer; category; license_model; license
 tapasco,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+tapasco,repository_search,https://api.github.com/search/repositories?q=repo:esa-tu-darmstadt/tapasco,2026-10-22,200,vendor_maintainer; category; license_model; license
 target-3001,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
+target-3001,vendor_origin,https://en.wikipedia.org/wiki/Eichenzell,2026-10-22,200,country_region
+target-3001,wikipedia_article,https://en.wikipedia.org/wiki/TARGET_3001!,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+target-cad-software,vendor_origin,https://en.wikipedia.org/wiki/Eichenzell,2026-10-22,200,country_region
+target-cad-software,wikipedia_article,https://en.wikipedia.org/wiki/TARGET_(CAD_software),2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+tatum,repository_search,https://api.github.com/search/repositories?q=repo:verilog-to-routing/tatum,2026-10-22,200,vendor_maintainer; category; license_model; license
 tbengy,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+tbengy,repository_search,https://api.github.com/search/repositories?q=repo:prasadp4009/tbengy,2026-10-22,200,vendor_maintainer; category; license_model; license
 tce,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 tegas-texsim,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model
 tina,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
+tina,wikipedia_article,https://en.wikipedia.org/wiki/TINA_(software),2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 tina-ti,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Proprietary_software_for_electrical_simulation_(analog/mixed-signal/electromagnetic),2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
 tina-ti,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms
+tina-ti,vendor_origin,https://en.wikipedia.org/wiki/Texas_Instruments,2026-10-22,200,country_region
+tina-ti,wikipedia_article,https://en.wikipedia.org/wiki/TINA-TI,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+tina-ti,wikipedia_article,https://en.wikipedia.org/wiki/TINA–TI,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
 tinkercad-circuits,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model
+tinkercad-circuits,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-22,200,country_region
+tinkercad-circuits,wikipedia_article,https://en.wikipedia.org/wiki/Tinkercad,2026-10-22,200,
 tiny-five,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+tiny-five,repository_search,https://api.github.com/search/repositories?q=repo:OpenMachine-ai/tinyfive,2026-10-22,200,vendor_maintainer; category; license_model; license
+tkgate,public_repository,https://api.github.com/repos/bnoordhuis/tkgate,2026-10-22,200,vendor_maintainer; category
 tkgate,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+topor,wikipedia_article,https://en.wikipedia.org/wiki/TopoR,2026-10-22,200,category
+toporouter,wikipedia_article,https://en.wikipedia.org/wiki/Toporouter,2026-10-22,200,category
+toprouter,vendor_origin,https://en.wikipedia.org/wiki/Autodesk,2026-10-22,200,country_region
+toprouter,wikipedia_article,https://en.wikipedia.org/wiki/TopRouter,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+trace-public,repository_search,https://api.github.com/search/repositories?q=repo:buildwithtrace/trace-public,2026-10-22,200,vendor_maintainer; category; license_model; license
 treadle,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+treadle,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/treadle,2026-10-22,200,vendor_maintainer; license_model; license
 tscircuit,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_PCB_design,2026-10-22,200,category; license_model; license; supported_platforms; languages_formats
+tscircuit-autorouter,repository_search,https://api.github.com/search/repositories?q=repo:tscircuit/tscircuit-autorouter,2026-10-22,200,vendor_maintainer; category; license_model; license
 uhdm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,languages_formats
+uhdm,repository_search,https://api.github.com/search/repositories?q=repo:chipsalliance/UHDM,2026-10-22,200,vendor_maintainer; category; license_model; license
 upverter,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Comparison_of_proprietary_software_for_PCB_design,2026-10-22,200,category; license_model; latest_version; supported_platforms; languages_formats
+upverter,wikipedia_article,https://en.wikipedia.org/wiki/Upverter,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; supported_platforms
+uvvm,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+uvvm,repository_search,https://api.github.com/search/repositories?q=repo:UVVM/UVVM,2026-10-22,200,vendor_maintainer; category; license_model; license
 v2k-top,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+v2k-top,repository_search,https://api.github.com/search/repositories?q=repo:kev-cam/v2k-top,2026-10-22,200,vendor_maintainer; category
 vcs,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+vcs,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+vcs,vendor_origin,https://en.wikipedia.org/wiki/Synopsys,2026-10-22,200,country_region
+vcs,vendor_site,https://www.synopsys.com/verification/simulation/vcs.html,2026-10-22,200,vendor_maintainer; category; license_model
 verible,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 verible,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 verible,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+verible,public_repository,https://api.github.com/repos/chipsalliance/verible,2026-10-22,200,vendor_maintainer; category; latest_version
+veridian,repository_search,https://api.github.com/search/repositories?q=repo:vivekmalneedi/veridian,2026-10-22,200,vendor_maintainer; category; license_model; license
 verik,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 verik,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+verik,repository_search,https://api.github.com/search/repositories?q=repo:frwang96/verik,2026-10-22,200,vendor_maintainer; license_model; license
 verilator,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 verilator,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 verilator,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+verilator,documentation,https://verilator.org/guide/latest/,2026-10-22,200,languages_formats
+verilator,public_repository,https://api.github.com/repos/verilator/verilator,2026-10-22,200,vendor_maintainer; category; latest_version
 verilator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
+verilator,wikipedia_article,https://en.wikipedia.org/wiki/Verilator,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version; supported_platforms
 verilog-behavioral-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
 verilog-vcd-parser,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+verilog-vcd-parser,repository_search,https://api.github.com/search/repositories?q=repo:ben-marshall/verilog-vcd-parser,2026-10-22,200,vendor_maintainer; category; license_model; license
 verilog-xl,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+verilog-xl,vendor_origin,https://en.wikipedia.org/wiki/Cadence_Design_Systems,2026-10-22,200,country_region
 veriloggen,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
 veriloggen,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+veriloggen,repository_search,https://api.github.com/search/repositories?q=repo:PyHDI/veriloggen,2026-10-22,200,vendor_maintainer; category; license_model; license
 verilogger-extreme-pro,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+verismith,repository_search,https://api.github.com/search/repositories?q=repo:ymherklotz/verismith,2026-10-22,200,vendor_maintainer; category; license_model; license
 veritak,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 veriwell,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Verilog_simulators,2026-10-22,200,vendor_maintainer; category; license_model; license; languages_formats
 veryl,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
 veryl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category; languages_formats
+veryl,repository_search,https://api.github.com/search/repositories?q=repo:veryl-lang/veryl,2026-10-22,200,vendor_maintainer; category; license_model; license
+vgasim,repository_search,https://api.github.com/search/repositories?q=repo:ZipCPU/vgasim,2026-10-22,200,vendor_maintainer; category
 vidbo,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+vidbo,repository_search,https://api.github.com/search/repositories?q=repo:olofk/vidbo,2026-10-22,200,vendor_maintainer; license_model; license
 visual-debug,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 visualhdl,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 vitis,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+vitis,repository_search,https://api.github.com/search/repositories?q=repo:Xilinx/HLS,2026-10-22,200,vendor_maintainer; category
+vivado,vendor_origin,https://en.wikipedia.org/wiki/AMD,2026-10-22,200,country_region
+vivado,wikipedia_article,https://en.wikipedia.org/wiki/Vivado,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+vivado,wikipedia_article,https://en.wikipedia.org/wiki/Xilinx_Vivado,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+vlsi-asic-design-flow,repository_search,https://api.github.com/search/repositories?q=repo:VardhanSuroshi/VLSI-ASIC-Design-Flow,2026-10-22,200,vendor_maintainer; category
 vlsir,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,
+vlsir,repository_search,https://api.github.com/search/repositories?q=repo:Vlsir/Vlsir,2026-10-22,200,vendor_maintainer; license_model; license
+vna,repository_search,https://api.github.com/search/repositories?q=repo:loxodes/vna,2026-10-22,200,vendor_maintainer; category
+vscode-teroshdl,repository_search,https://api.github.com/search/repositories?q=repo:TerosTechnology/vscode-terosHDL,2026-10-22,200,vendor_maintainer; category; license_model; license
 vsrtl,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
+vsrtl,repository_search,https://api.github.com/search/repositories?q=repo:mortbopet/VSRTL,2026-10-22,200,vendor_maintainer; category; license_model; license
 vtr,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 vtr,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+vtr,repository_search,https://api.github.com/search/repositories?q=repo:verilog-to-routing/vtr-verilog-to-routing,2026-10-22,200,vendor_maintainer; category
 vunit,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+vunit,repository_search,https://api.github.com/search/repositories?q=repo:VUnit/vunit,2026-10-22,200,vendor_maintainer; category
 wavebin,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+wavebin,repository_search,https://api.github.com/search/repositories?q=repo:sam210723/wavebin,2026-10-22,200,vendor_maintainer; license_model; license
 wavedrom,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 wavedrom,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,
+wavedrom,repository_search,https://api.github.com/search/repositories?q=repo:wavedrom/wavedrom,2026-10-22,200,vendor_maintainer; license_model; license
 waveforms-live,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+waveforms-live,repository_search,https://api.github.com/search/repositories?q=repo:Digilent/waveforms-live,2026-10-22,200,vendor_maintainer; license_model; license
+workcraft,repository_search,https://api.github.com/search/repositories?q=repo:workcraft/workcraft,2026-10-22,200,vendor_maintainer; category; license_model; license
+xcircuit,public_repository,https://api.github.com/repos/rtimothyedwards/xcircuit,2026-10-22,200,vendor_maintainer; license_model; license; latest_version
 xcircuit,published_list,https://en.wikipedia.org/wiki/Comparison_of_EDA_software#Open_source_software_for_schematic_editing_and_analog/mixed-signal_simulation,2026-10-22,200,category; license_model; license; supported_platforms
+xcircuit,wikipedia_article,https://en.wikipedia.org/wiki/XCircuit,2026-10-22,200,vendor_maintainer; category; license_model; license; first_release_year; latest_version; supported_platforms
+xfdtd,wikipedia_article,https://en.wikipedia.org/wiki/XFdtd,2026-10-22,200,category
 xictools,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+xictools,repository_search,https://api.github.com/search/repositories?q=repo:wrcad/xictools,2026-10-22,200,vendor_maintainer; category
+xilinx-ise,vendor_origin,https://en.wikipedia.org/wiki/Xilinx,2026-10-22,200,country_region
+xilinx-ise,wikipedia_article,https://en.wikipedia.org/wiki/Xilinx_ISE,2026-10-22,200,vendor_maintainer; category; license_model; license; supported_platforms
 xilinx-simulator,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
+xilinx-simulator,vendor_origin,https://en.wikipedia.org/wiki/Xilinx,2026-10-22,200,country_region
 xls,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 xls,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+xls,repository_search,https://api.github.com/search/repositories?q=repo:google/xls,2026-10-22,200,vendor_maintainer; category; license_model; license
+xplace,repository_search,https://api.github.com/search/repositories?q=repo:cuhk-eda/Xplace,2026-10-22,200,vendor_maintainer; category; license_model; license
 xronos,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+xronos,repository_search,https://api.github.com/search/repositories?q=repo:endrix/xronos,2026-10-22,200,vendor_maintainer; category
 xschem,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+xschem,public_repository,https://api.github.com/repos/StefanSchippers/xschem,2026-10-22,200,vendor_maintainer; category; latest_version
 xyce,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category; languages_formats
+xyce,public_repository,https://api.github.com/repos/Xyce/Xyce,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 xyce,published_list,https://en.wikipedia.org/wiki/List_of_free_electronics_circuit_simulators,2026-10-22,200,vendor_maintainer; category; license_model; supported_platforms
+xyce,wikipedia_article,https://en.wikipedia.org/wiki/Sandia_National_Laboratories,2026-10-22,200,
 yosys,curated_list,https://raw.githubusercontent.com/TM90/awesome-hwd-tools/HEAD/README.md,2026-10-22,200,category
 yosys,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
 yosys,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
 yosys,curated_list,https://raw.githubusercontent.com/drom/awesome-hdl/HEAD/README.md,2026-10-22,200,category
+yosys,documentation,https://yosyshq.readthedocs.io/projects/yosys/en/latest/,2026-10-22,200,languages_formats
+yosys,public_repository,https://api.github.com/repos/YosysHQ/yosys,2026-10-22,200,vendor_maintainer; category; license_model; license; latest_version
 z01x,published_list,https://en.wikipedia.org/wiki/List_of_HDL_simulators#Proprietary_simulators,2026-10-22,200,vendor_maintainer; category; license_model; languages_formats
 z3,curated_list,https://raw.githubusercontent.com/aolofsson/awesome-opensource-hardware/HEAD/README.md,2026-10-22,200,category
+z3,repository_search,https://api.github.com/search/repositories?q=repo:Z3Prover/z3,2026-10-22,200,vendor_maintainer

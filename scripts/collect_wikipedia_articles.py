@@ -8,8 +8,13 @@ kept even without an infobox (then only its name, link and opening-sentence cate
 
 From the infobox we take only what it states: developer, initial release (-> first_release_year),
 stable release (-> latest_version, latest_release_date), operating system, licence, website, repository,
-and the 'Type'/'Genre' text, or else the article's opening sentence (-> category via common.CATEGORY_RULES). Articles whose infobox describes an
-organisation (has 'Headquarters' / 'Industry') are not treated as tools.
+and the 'Type'/'Genre' text, or else the article's opening sentence (-> category via common.CATEGORY_RULES).
+Articles whose infobox describes an organisation (has 'Headquarters' / 'Industry') are not treated as tools.
+
+Category members without an infobox are kept only if their title does not name an ALGORITHM or technique
+(NOT_SOFTWARE_TITLE: 'Maze router', 'Lee router', 'Grid-based autorouter' ...): the category 'Autorouters'
+holds those next to real products, and a technique is not a tool. Every rejected title is written to
+data/raw/wikipedia_article_rejected_<date>.json so the rule can be audited.
 """
 import re
 
@@ -28,6 +33,13 @@ CATEGORY_PAGES = [
 # organisations, people and file formats are not tools
 ORG_LABELS = {"headquarters", "industry", "founded", "key people", "number of employees", "born", "died",
               "filename extension", "type of format"}
+# titles that name a technique / algorithm / generic concept rather than a software product
+NOT_SOFTWARE_TITLE = re.compile(
+    r"\b(router|routing|autorouter|channel|algorithm|heuristic|minimi[sz]er|framework)\b$|"
+    r"^(routing|autorouter)\b", re.I)
+# ... except these category members, which are products whose title merely contains such a word
+SOFTWARE_TITLE_OK = {"freestyle router", "freestyleroute", "toporouter", "topor", "toprouter",
+                     "falcon framework", "espresso heuristic logic minimizer"}
 
 
 def first(box, *labels):
@@ -54,6 +66,10 @@ def category_members(page_html):
         if url and text and not re.match(r"(List|Lists|Comparison|Outline) of\b", text):
             out.append((clean_text(re.sub(r"\s*\((software|EDA|electronics|simulator|program)\)$", "", text)), url))
     return out
+
+
+def is_software_title(name):
+    return name.lower() in SOFTWARE_TITLE_OK or not NOT_SOFTWARE_TITLE.search(name)
 
 
 def targets():
@@ -84,8 +100,11 @@ def targets():
 
 def main():
     ensure_dirs()
-    records, skipped = [], 0
+    records, skipped, rejected = [], 0, []
     for name, url, from_category in targets():
+        if from_category and not is_software_title(name):
+            rejected.append({"title": name, "url": url, "reason": "title names an algorithm or technique, not a product"})
+            continue
         status, body = fetch_page(url, "wikipedia_articles")
         if status != 200:
             continue
@@ -120,8 +139,9 @@ def main():
         records.append(rec)
     out = raw_path("wikipedia_article")
     write_json(out, records)
-    print("wikipedia articles: %d tool records (%d non-tool/no-infobox pages skipped) -> %s"
-          % (len(records), skipped, out))
+    write_json(raw_path("wikipedia_article_rejected"), rejected)
+    print("wikipedia articles: %d tool records (%d non-tool/no-infobox pages skipped, %d algorithm titles rejected) -> %s"
+          % (len(records), skipped, len(rejected), out))
 
 
 if __name__ == "__main__":

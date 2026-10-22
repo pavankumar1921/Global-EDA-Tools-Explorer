@@ -1,2 +1,7 @@
 {"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-22T07:48:02+00:00"}
 {"collector": "vendor_sites", "url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html", "status": 403, "error": "HTTP 403", "kind": "fetch_failed", "time": "2026-10-22T07:50:38+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Laurence_W._Nagel", "headquarters": "", "kind": "no_country", "time": "2026-10-22T08:26:43+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Laurence_W._Nagel", "headquarters": "", "kind": "no_country", "time": "2026-10-22T08:27:39+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Ngspice", "headquarters": "", "kind": "no_country", "time": "2026-10-22T08:27:50+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Novarm", "headquarters": "", "kind": "no_country", "time": "2026-10-22T08:27:53+00:00"}
+{"collector": "vendor_origin", "url": "https://en.wikipedia.org/wiki/Qorvo", "headquarters": "Greensboro", "kind": "no_country", "time": "2026-10-22T08:28:00+00:00"}
