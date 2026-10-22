@@ -22,9 +22,7 @@ RAW = HERE.parent / "data" / "raw"
 COLLECT = ["collect_published_lists.py", "collect_curated_lists.py", "collect_wikipedia_articles.py",
            "collect_vendor_sites.py", "collect_public_repositories.py", "collect_github_topics.py",
            "collect_github_search.py", "collect_documentation.py", "collect_vendor_origin.py"]
-PROCESS = ["clean_data.py", "deduplicate_data.py", "validate_dataset.py", "run_analysis.py"]
-
-
+PROCESS = ["clean_data.py", "deduplicate_data.py", "validate_dataset.py", "run_analysis.py", "make_dashboard.py"]
 def latest_snapshot():
     dates = sorted(p.stem.rsplit("_", 1)[-1] for p in RAW.glob("published_list_*.json"))
     return dates[-1] if dates else ""

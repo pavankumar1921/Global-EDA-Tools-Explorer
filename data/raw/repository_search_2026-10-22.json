@@ -335,7 +335,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "A complete open-source design-for-testing (DFT) Solution",
     "_discovered_by": "curated_list",
-    "_stars": 208
+    "_stars": 209
   },
   {
     "tool_name": "pygears",
@@ -1557,7 +1557,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "_discovered_by": "curated_list",
-    "_stars": 34643
+    "_stars": 34650
   },
   {
     "tool_name": "freerouting",
@@ -1583,7 +1583,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Advanced PCB auto-router",
     "_discovered_by": "curated_list",
-    "_stars": 2123
+    "_stars": 2125
   },
   {
     "tool_name": "icestudio",
@@ -2727,7 +2727,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Digital logic design tool and simulator",
     "_discovered_by": "curated_list",
-    "_stars": 7808
+    "_stars": 7809
   },
   {
     "tool_name": "librepcb",
@@ -4651,7 +4651,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are disabled. Please only use release tarballs from the QEMU website.",
     "_discovered_by": "curated_list",
-    "_stars": 13896
+    "_stars": 13897
   },
   {
     "tool_name": "renode",
@@ -6523,7 +6523,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Full featured, cross-platform RF circuit + electromagnetic simulator.  DC, S-parameters, harmonic balance, loadpull. Also supports 2D and 3D layout and design and electromagnetic MoM, FEM, FDTD + thermal FEM.",
     "_discovered_by": "topic:eda stars>=50",
-    "_stars": 236
+    "_stars": 237
   },
   {
     "tool_name": "signex",
@@ -6757,7 +6757,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Fast open-source PCB autorouter for KiCad and Specctra DSN — a Rust port of Freerouting with bug fixes, length matching, controlled impedance and differential pairs",
     "_discovered_by": "topic:eda stars>=50",
-    "_stars": 109
+    "_stars": 110
   },
   {
     "tool_name": "coriolis",
@@ -8187,7 +8187,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "A type-safe, formally verifiable HDL compiler in Lean 4. Inspired by Clash, built for high-assurance hardware synthesis.",
     "_discovered_by": "topic:hdl stars>=50",
-    "_stars": 156
+    "_stars": 157
   },
   {
     "tool_name": "EEcircuit",
@@ -8265,7 +8265,7 @@
     "vendor_wikipedia_url": "",
     "_evidence": "Interactive HTML BOM generation plugin for KiCad, EasyEDA, Eagle, Fusion360 and Allegro PCB designer",
     "_discovered_by": "topic:pcb stars>=50",
-    "_stars": 4613
+    "_stars": 4614
   },
   {
     "tool_name": "CircuitPro",

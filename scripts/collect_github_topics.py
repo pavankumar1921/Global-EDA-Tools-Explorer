@@ -133,6 +133,13 @@ class Api:
                 log_event("rate_limit_wait", collector="github_topics", url=url, seconds=wait)
                 time.sleep(wait)
                 continue
+            if status == 200:
+                try:
+                    json.loads(body)
+                except ValueError:  # cut-off or corrupt response: wait and try this page again
+                    log_event("bad_json", collector="github_topics", url=url)
+                    time.sleep(5)
+                    continue
             return status, body, err
         return 0, "", "rate limit not cleared"
 

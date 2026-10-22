@@ -53,7 +53,7 @@ skipped repository, with its reason, to `data/raw/github_topics_skipped_<date>.j
 (rules in the script header). Settings are environment variables because `igny` may not forward `-- --flags`.
 
 ```powershell
-$env:EDA_SNAPSHOT_DATE = "2026-10-15"     # join the committed snapshot (without it the new file would be ignored)
+$env:EDA_SNAPSHOT_DATE = "2026-10-22"     # join the committed snapshot (without it the new file would be ignored)
 $env:GITHUB_TOKEN = "<token>"             # recommended, never commit it: 30 instead of 10 searches/min, and it
                                           # enables the latest-release and owner-country lookups
 $env:EDA_GITHUB_MIN_STARS = "5"           # optional: lower (e.g. 2) = more, noisier results
@@ -99,12 +99,14 @@ seed_tools.json (discovery URLs only)      Wikipedia list pages
 | Collector (one per source type) | Source | Gives |
 |---|---|---|
 | `collect_published_lists.py` | Wikipedia: Comparison of EDA software, List of HDL simulators, List of free electronics circuit simulators | discovery, developer, platform, licence, latest release, formats, category from the page's own grouping |
-| `collect_wikipedia_articles.py` | each tool's Wikipedia infobox | first release year, stable release, OS, licence, website, repository |
+| `collect_wikipedia_articles.py` | each tool's Wikipedia infobox, plus members of Wikipedia's EDA software categories (algorithm titles such as "Maze router" are rejected and logged) | first release year, stable release, OS, licence, website, repository |
 | `collect_vendor_origin.py` | each developer company's Wikipedia infobox | country of origin (Headquarters) |
 | `collect_vendor_sites.py` | official product pages (seed) | commercial IC tools missing from the lists: vendor, category, sales evidence |
 | `collect_public_repositories.py` | GitHub REST API | SPDX licence, owner, latest release tag + date |
 | `collect_documentation.py` | official docs pages (seed) | platform / language mentions (weak evidence) |
 | `collect_github_topics.py` | GitHub search API over EDA topics (discovery, no seed) | open-source tools nobody listed in advance: owner, SPDX licence, category, homepage; with a token also latest release and owner country |
+| `collect_curated_lists.py` | three community "awesome" lists (aolofsson/awesome-opensource-hardware, TM90/awesome-hwd-tools, drom/awesome-hdl), read as raw README text | open-source tools: name, repository or website, one-line description, category from the list's own section |
+| `collect_github_search.py` | GitHub search API: metadata for the repositories the curated lists name, plus strict topic discovery (>= 50 stars) | SPDX licence, owner, homepage, description for listed repositories; tools found by topic whose own description names a tool |
 
 ## Repository layout
 
@@ -138,7 +140,7 @@ joined with `"; "`.
 | `tool_name`, `vendor_maintainer` | as stated by the sources (priority order in `deduplicate_data.py`) |
 | `vendor_canonical` | one spelling per vendor for counting and grouping (`Cadence` = `Cadence Design Systems`; parenthetical notes dropped). `vendor_maintainer` keeps the source's wording |
 | `country_region`, `region` | country of the vendor's headquarters (from its Wikipedia infobox) and its continent |
-| `category`, `additional_categories` | controlled vocabulary along the flow: `high-level-synthesis`, `synthesis`, `simulation`, `verification`, `place-and-route`, `timing-signoff`, `layout-physical-verification`, `analog-mixed-signal`, `pcb-design`, `fpga-toolchain` |
+| `category`, `additional_categories` | controlled vocabulary along the flow: `hdl-design-entry` (HDL languages, generators, parsers, build systems), `high-level-synthesis`, `synthesis`, `simulation`, `verification`, `place-and-route`, `timing-signoff`, `layout-physical-verification`, `analog-mixed-signal`, `pcb-design`, `fpga-toolchain` |
 | `license_model` | `commercial` / `open-source` / `freeware`, derived by documented rules from the licence text or the source's own grouping |
 | `license` | licence as stated (SPDX id from GitHub where available) |
 | `website_url`, `repository_url`, `wikipedia_url` | canonical public links |
